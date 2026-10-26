@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Treknrakstā";
 "HighlightMatchItalic" = "Slīprakstā";
 "HighlightMatchUnderline" = "Pasvītrojot";
-"HighlightMatchesTooltip" = "Mainiet meklēšanas atbilstību iezīmēšanas stilu.\nNoklusējums: treknraksts.";
+"HighlightMatchesTooltip" = "Mainiet meklēšanas atbilstību iezīmēšanas stilu.\nNoklusējums: Marker.";
 "ShowSpecialSymbols" = "Rādīt īpašus simbolus";
 "ShowSpecialSymbolsTooltip" = "Rādīt jaunas līnijas, cilnes, sākuma un beigu atstarpes, izmantojot īpašus simbolus.";
 "ShowMenuIcon" = "Rādīt izvēlnes ikonu";

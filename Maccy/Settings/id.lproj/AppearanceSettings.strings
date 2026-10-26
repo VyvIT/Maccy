@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Tebal";
 "HighlightMatchItalic" = "Miring";
 "HighlightMatchUnderline" = "Garis bawah";
-"HighlightMatchesTooltip" = "Mengubah gaya sorot untuk hasil pencarian.\nBawaan: Tebal.";
+"HighlightMatchesTooltip" = "Mengubah gaya sorot untuk hasil pencarian.\nBawaan: Marker.";
 "ShowSpecialSymbols" = "Tampilkan simbol khusus";
 "ShowSpecialSymbolsTooltip" = "Menampilkan baris baru, tab, spasi awal, dan spasi akhir dengan simbol khusus.";
 "ShowMenuIcon" = "Tampilkan ikon menu";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Жирный";
 "HighlightMatchItalic" = "Курсив";
 "HighlightMatchUnderline" = "Подчеркнутый";
-"HighlightMatchesTooltip" = "Измените стиль выделения для совпадений при поиске.\nПо умолчанию: Жирный.";
+"HighlightMatchesTooltip" = "Измените стиль выделения для совпадений при поиске.\nПо умолчанию: Marker.";
 "ShowSpecialSymbols" = "Показывать специальные символы";
 "ShowSpecialSymbolsTooltip" = "Показывать символы новой строки, табуляции, начальные и конечные пробелы с помощью специальных символов.";
 "ShowMenuIcon" = "Показывать иконку в меню";

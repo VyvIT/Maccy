@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "粗体";
 "HighlightMatchItalic" = "斜体";
 "HighlightMatchUnderline" = "强调";
-"HighlightMatchesTooltip" = "更改搜索匹配项的突出显示样式。\n默认：粗体。";
+"HighlightMatchesTooltip" = "更改搜索匹配项的突出显示样式。\n默认：Marker。";
 "ShowSpecialSymbols" = "显示特殊符号";
 "ShowSpecialSymbolsTooltip" = "通过特殊符号显示换行符、制表符、前导和尾随空格。";
 "ShowMenuIcon" = "显示菜单栏图标";

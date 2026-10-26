@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "عريض";
 "HighlightMatchItalic" = "مائل";
 "HighlightMatchUnderline" = "تسطير";
-"HighlightMatchesTooltip" = "تغيير نمط التميز للبحث عن المطابقات.\nالافتراضي: عريض.";
+"HighlightMatchesTooltip" = "تغيير نمط التميز للبحث عن المطابقات.\nالافتراضي: Marker.";
 "ShowSpecialSymbols" = "إظهار الرموز الخاصة";
 "ShowSpecialSymbolsTooltip" = "إظهار الأسطر الجديدة، علامات التبويب، المسافات الأمامية والخلفية عبر الرموز الخاصة.";
 "ShowMenuIcon" = "إظهار أيقونة القائمة";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Negrito";
 "HighlightMatchItalic" = "Itálico";
 "HighlightMatchUnderline" = "Sublinhado";
-"HighlightMatchesTooltip" = "Mude o estilo de destaque para resultados da procura.\nPadrão: Negrito.";
+"HighlightMatchesTooltip" = "Mude o estilo de destaque para resultados da procura.\nPadrão: Marker.";
 "ShowSpecialSymbols" = "Mostrar símbolos especiais";
 "ShowSpecialSymbolsTooltip" = "Mostrar novas linhas, tabulações e espaços iniciais e finais através de símbolos especiais.";
 "ShowMenuIcon" = "Mostrar ícone de menu";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Aldin (bold)";
 "HighlightMatchItalic" = "Italic";
 "HighlightMatchUnderline" = "Subliniat";
-"HighlightMatchesTooltip" = "Schimbă stilul de evidențiere pentru potrivirile din căutare.\nImplicit: Aldin (bold).";
+"HighlightMatchesTooltip" = "Schimbă stilul de evidențiere pentru potrivirile din căutare.\nImplicit: Marker.";
 "ShowSpecialSymbols" = "Afișează simboluri speciale";
 "ShowSpecialSymbolsTooltip" = "Afișează caractere speciale pentru linie nouă, tabulator, spațiile de la început și de la sfârșit.";
 "ShowMenuIcon" = "Afișează iconița meniului";

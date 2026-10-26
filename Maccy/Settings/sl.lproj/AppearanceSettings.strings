@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Krepko";
 "HighlightMatchItalic" = "Poševno";
 "HighlightMatchUnderline" = "Podčrtaj";
-"HighlightMatchesTooltip" = "Spremenite slog označevanja za iskana ujemanja.\nPrivzeto: Krepko.";
+"HighlightMatchesTooltip" = "Spremenite slog označevanja za iskana ujemanja.\nPrivzeto: Marker.";
 "ShowSpecialSymbols" = "Prikaži posebne simbole";
 "ShowSpecialSymbolsTooltip" = "Prikaži nove vrstice, zavihke, presledke na začetku in na koncu s posebnimi simboli.";
 "ShowMenuIcon" = "Prikaži ikono menija";

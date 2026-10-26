@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Fett";
 "HighlightMatchItalic" = "Kursiv";
 "HighlightMatchUnderline" = "Unterstreichen";
-"HighlightMatchesTooltip" = "Ändern Sie den Hervorhebungsstil für Suchtreffer.\nStandard: Fett.";
+"HighlightMatchesTooltip" = "Ändern Sie den Hervorhebungsstil für Suchtreffer.\nStandard: Marker.";
 "ShowSpecialSymbols" = "Sondersymbole anzeigen";
 "ShowSpecialSymbolsTooltip" = "Zeigen Sie Zeilenumbrüche, Tabulatoren sowie führende und nachgestellte Leerzeichen über spezielle Symbole an.";
 "ShowMenuIcon" = "In Menüleiste anzeigen";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Negrita";
 "HighlightMatchItalic" = "Cursiva";
 "HighlightMatchUnderline" = "Subrayar";
-"HighlightMatchesTooltip" = "Cambie el estilo de resaltado para las coincidencias de búsqueda.\nPredeterminado: Negrita.";
+"HighlightMatchesTooltip" = "Cambie el estilo de resaltado para las coincidencias de búsqueda.\nPredeterminado: Marker.";
 "ShowSpecialSymbols" = "Mostrar símbolos especiales";
 "ShowSpecialSymbolsTooltip" = "Muestre nuevas líneas, tabulaciones y espacios iniciales y finales mediante símbolos especiales.";
 "ShowMenuIcon" = "Mostrar icono en la barra de menús";

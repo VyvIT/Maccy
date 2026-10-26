@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Pogrubione";
 "HighlightMatchItalic" = "Kursywa";
 "HighlightMatchUnderline" = "Podkreślone";
-"HighlightMatchesTooltip" = "Zmień styl podkreślenia dla dopasowanych wyników wyszukiwania.\nDomyślnie: pogrubiony.";
+"HighlightMatchesTooltip" = "Zmień styl podkreślenia dla dopasowanych wyników wyszukiwania.\nDomyślnie: Marker.";
 "ShowSpecialSymbols" = "Pokaż symbole specjalne";
 "ShowSpecialSymbolsTooltip" = "Pokaż znaki końca lini, tabulatory i końcowe spacje jako symbole specjalne.";
 "ShowMenuIcon" = "Pokaż ikonę menu";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Grassetto";
 "HighlightMatchItalic" = "Corsiva";
 "HighlightMatchUnderline" = "Sottolineare";
-"HighlightMatchesTooltip" = "Modifica lo stile di evidenziazione per le corrispondenze di ricerca.\nPredefinito: Grassetto.";
+"HighlightMatchesTooltip" = "Modifica lo stile di evidenziazione per le corrispondenze di ricerca.\nPredefinito: Marker.";
 "ShowSpecialSymbols" = "Mostra simboli speciali";
 "ShowSpecialSymbolsTooltip" = "Mostra fine riga, tabulazioni, spazi iniziali e finali tramite simboli speciali.";
 "ShowMenuIcon" = "Mostra icona menù";

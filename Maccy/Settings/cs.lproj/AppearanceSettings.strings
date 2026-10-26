@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Tučně";
 "HighlightMatchItalic" = "Kurzívou";
 "HighlightMatchUnderline" = "Podtržením";
-"HighlightMatchesTooltip" = "Změnit styl zvýraznění výsledků hledání.\nVýchozí: Tučně.";
+"HighlightMatchesTooltip" = "Změnit styl zvýraznění výsledků hledání.\nVýchozí: Marker.";
 "ShowSpecialSymbols" = "Zobrazovat speciální znaky";
 "ShowSpecialSymbolsTooltip" = "Zobrazovat nové řádky, tabulátory, úvodní a koncové mezery pomocí speciálních znaků.";
 "ShowMenuIcon" = "Zobrazovat menu ikonu";

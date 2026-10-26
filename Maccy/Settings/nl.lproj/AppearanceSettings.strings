@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Vetgedrukt";
 "HighlightMatchItalic" = "Cursief";
 "HighlightMatchUnderline" = "Onderstreep";
-"HighlightMatchesTooltip" = "Wijzig de markeerstijl voor zoekresultaten.\nStandaard: Bold.";
+"HighlightMatchesTooltip" = "Wijzig de markeerstijl voor zoekresultaten.\nStandaard: Marker.";
 "ShowSpecialSymbols" = "Toon speciale symbolen";
 "ShowSpecialSymbolsTooltip" = "Toon nieuwe regels, tabs, voorloop- en volgspaties via speciale symbolen.";
 "ShowMenuIcon" = "Toon menu-icoon";

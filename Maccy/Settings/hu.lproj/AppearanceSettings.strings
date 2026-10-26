@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Vastag";
 "HighlightMatchItalic" = "Dőlt";
 "HighlightMatchUnderline" = "Aláhúzott";
-"HighlightMatchesTooltip" = "Változtasd meg a keresési találatok kiemelésének a stílusát.\nAlapértelmezett: Vastag.";
+"HighlightMatchesTooltip" = "Változtasd meg a keresési találatok kiemelésének a stílusát.\nAlapértelmezett: Marker.";
 "ShowSpecialSymbols" = "Speciális karakterek megjelenítése";
 "ShowSpecialSymbolsTooltip" = "Az újsorok, tabulátorok, kezdő és záró szóközök megjelenítése speciális szimbólumokkal.";
 "ShowMenuIcon" = "Menü ikon megjelenítése";

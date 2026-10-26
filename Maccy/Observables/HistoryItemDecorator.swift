@@ -230,6 +230,9 @@ class HistoryItemDecorator: Identifiable, Hashable, HasVisibility {
           attributedString[lowerBound..<upperBound].font = .italic(.body)()
         case .underline:
           attributedString[lowerBound..<upperBound].underlineStyle = .single
+        case .marker:
+          // Translucent so that the text stays readable on selected rows and in dark mode.
+          attributedString[lowerBound..<upperBound].backgroundColor = NSColor.systemYellow.withAlphaComponent(0.4)
         default:
           attributedString[lowerBound..<upperBound].backgroundColor = .findHighlightColor
           attributedString[lowerBound..<upperBound].foregroundColor = .black

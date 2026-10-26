@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "מודגש";
 "HighlightMatchItalic" = "נטוי";
 "HighlightMatchUnderline" = "קו תחתי";
-"HighlightMatchesTooltip" = "החלפת סגנון ההדגשה לתוצאות החיפוש.\nברירת המחדל: מודגש.";
+"HighlightMatchesTooltip" = "החלפת סגנון ההדגשה לתוצאות החיפוש.\nברירת המחדל: Marker.";
 "ShowSpecialSymbols" = "הצגת סימנים מיוחדים";
 "ShowSpecialSymbolsTooltip" = "הצגת שורות חדשות, טאבים, רווחים פותחים וסוגרים דרך סימנים מיוחדים.";
 "ShowMenuIcon" = "הצגת סמל תפריט";

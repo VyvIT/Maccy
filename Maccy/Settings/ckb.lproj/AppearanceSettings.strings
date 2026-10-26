@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "تۆخ";
 "HighlightMatchItalic" = "لار";
 "HighlightMatchUnderline" = "ژێرهێڵ";
-"HighlightMatchesTooltip" = "شێوازی دیاریکردنی ئەنجامە هاوشێوەکانی گەڕان بگۆڕە.\nبنەڕەت: تۆخ.";
+"HighlightMatchesTooltip" = "شێوازی دیاریکردنی ئەنجامە هاوشێوەکانی گەڕان بگۆڕە.\nبنەڕەت: Marker.";
 "ShowSpecialSymbols" = "پیشاندانی هێما تایبەتەکان";
 "ShowSpecialSymbolsTooltip" = "پیشاندانی دێڕی نوێ، تاب، و بۆشاییە سەرەتا و کۆتاییەکان لەرێگەی هێمای تایبەتەوە.";
 "ShowMenuIcon" = "پیشاندانی ئایکۆنی مێنو";

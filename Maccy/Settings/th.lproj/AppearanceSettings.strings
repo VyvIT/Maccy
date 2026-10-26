@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "ตัวหนา";
 "HighlightMatchItalic" = "ตัวเอียง";
 "HighlightMatchUnderline" = "ขีดเส้นใต้";
-"HighlightMatchesTooltip" = "เปลี่ยนรูปแบบการไฮไลต์สำหรับการค้นหาที่ตรงกัน\nค่าเริ่มต้น: ตัวหนา";
+"HighlightMatchesTooltip" = "เปลี่ยนรูปแบบการไฮไลต์สำหรับการค้นหาที่ตรงกัน\nค่าเริ่มต้น: Marker";
 "ShowSpecialSymbols" = "แสดงสัญลักษณ์พิเศษ";
 "ShowSpecialSymbolsTooltip" = "แสดงการขึ้นบรรทัดใหม่ แท็บ ช่องว่างนำหน้าและต่อท้ายด้วยสัญลักษณ์พิเศษ";
 "ShowMenuIcon" = "แสดงเมนูไอคอน";

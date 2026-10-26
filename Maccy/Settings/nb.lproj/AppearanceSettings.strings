@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Fet";
 "HighlightMatchItalic" = "Kursiv";
 "HighlightMatchUnderline" = "Understreke";
-"HighlightMatchesTooltip" = "Endre uthevingsstilen for søketreff.\nStandard: Fet.";
+"HighlightMatchesTooltip" = "Endre uthevingsstilen for søketreff.\nStandard: Marker.";
 "ShowSpecialSymbols" = "Vis spesielle symboler";
 "ShowSpecialSymbolsTooltip" = "Vis nylinjer, tabulatorer, innledende og etterfølgende mellomrom via spesielle symboler.";
 "ShowMenuIcon" = "Vis meny ikon";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "In đậm";
 "HighlightMatchItalic" = "In nghiêng";
 "HighlightMatchUnderline" = "Gạch chân";
-"HighlightMatchesTooltip" = "Thay đổi kiểu đánh dấu cho kết quả tìm kiếm.\nMặc định: In đậm.";
+"HighlightMatchesTooltip" = "Thay đổi kiểu đánh dấu cho kết quả tìm kiếm.\nMặc định: Marker.";
 "ShowSpecialSymbols" = "Hiển thị các ký tự đặc biệt";
 "ShowSpecialSymbolsTooltip" = "Hiển thị các ký tự xuống dòng, tab, khoảng trắng đầu và cuối bằng các ký hiệu đặc biệt.";
 "ShowMenuIcon" = "Hiển thị biểu tượng menu";

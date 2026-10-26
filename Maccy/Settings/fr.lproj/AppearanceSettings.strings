@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Gras";
 "HighlightMatchItalic" = "Italique";
 "HighlightMatchUnderline" = "Souligner";
-"HighlightMatchesTooltip" = "Modifiez le style de surbrillance des correspondances de recherche.\nPar défaut : Gras.";
+"HighlightMatchesTooltip" = "Modifiez le style de surbrillance des correspondances de recherche.\nPar défaut : Marker.";
 "ShowSpecialSymbols" = "Afficher les symboles spéciaux";
 "ShowSpecialSymbolsTooltip" = "Afficher les nouvelles lignes, les tabulations, les espaces de début et de fin via des symboles spéciaux.";
 "ShowMenuIcon" = "Afficher l’icône du menu";

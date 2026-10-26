@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Kalın";
 "HighlightMatchItalic" = "Italik";
 "HighlightMatchUnderline" = "Altını çizmek";
-"HighlightMatchesTooltip" = "Arama eşleşmeleri için vurgulama stilini değiştirin.\nSaptanmış: Kalın.";
+"HighlightMatchesTooltip" = "Arama eşleşmeleri için vurgulama stilini değiştirin.\nSaptanmış: Marker.";
 "ShowSpecialSymbols" = "Özel sembolleri göster";
 "ShowSpecialSymbolsTooltip" = "Yeni satırları, sekmeleri, baştaki ve sondaki boşlukları özel sembollerle gösterin.";
 "ShowMenuIcon" = "Menü simgesini göster";

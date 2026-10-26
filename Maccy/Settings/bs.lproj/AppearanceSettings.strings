@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Podebljano";
 "HighlightMatchItalic" = "Kurziv";
 "HighlightMatchUnderline" = "Podvući";
-"HighlightMatchesTooltip" = "Promijenite stil isticanja za podudaranja pretraživanja.\nZadano: Podebljano.";
+"HighlightMatchesTooltip" = "Promijenite stil isticanja za podudaranja pretraživanja.\nZadano: Marker.";
 "ShowSpecialSymbols" = "Prikaži posebne simbole";
 "ShowSpecialSymbolsTooltip" = "Prikaži nove redove, tabulatore, početne i zadnje razmake pomoću posebnih simbola.";
 "ShowMenuIcon" = "Prikaži meni ikonu";

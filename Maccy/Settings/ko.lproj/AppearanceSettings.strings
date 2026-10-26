@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "굵게";
 "HighlightMatchItalic" = "이탤릭체";
 "HighlightMatchUnderline" = "밑줄";
-"HighlightMatchesTooltip" = "검색 일치 항목의 강조 스타일을 변경합니다.\n기본값: 굵게.";
+"HighlightMatchesTooltip" = "검색 일치 항목의 강조 스타일을 변경합니다.\n기본값: Marker.";
 "ShowSpecialSymbols" = "특수 기호 표시";
 "ShowSpecialSymbolsTooltip" = "특수 기호를 통해 개행, 탭, 선행 및 후행 공백을 표시합니다.";
 "ShowMenuIcon" = "메뉴 아이콘 표시";
