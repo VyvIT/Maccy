@@ -17,6 +17,8 @@ nonisolated extension NSPasteboard.PasteboardType: Defaults.Serializable {
 
   // Marks that copy was made from Maccy.
   static let fromMaccy = NSPasteboard.PasteboardType(rawValue: "org.p0deje.Maccy")
+  // Snippet copied in the snippets editor. Not stored in the history, as it is not a text type.
+  static let snippet = NSPasteboard.PasteboardType(rawValue: "org.p0deje.Maccy.snippet")
 
   // Types that indicate Microsoft Word bookmarks (links).
   static let microsoftObjectLink = NSPasteboard.PasteboardType(rawValue: "com.microsoft.ObjectLink")

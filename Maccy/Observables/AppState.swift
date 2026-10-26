@@ -132,6 +132,12 @@ class AppState: Sendable {
   }
 
   @MainActor
+  func openSnippetsEditor() {
+    popup.close()
+    SnippetsEditorWindowController.shared.show()
+  }
+
+  @MainActor
   func openPreferences() { // swiftlint:disable:this function_body_length
     if settingsWindowController == nil {
       let generalTitle = NSLocalizedString("Title", tableName: "GeneralSettings", comment: "")

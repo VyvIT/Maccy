@@ -159,7 +159,9 @@
 		DAE8F5D42C43262B00851CA9 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8F5D32C43262B00851CA9 /* Popup.swift */; };
 		C0FFEE00000000000000011E /* SnippetsSubmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */; };
 		C0FFEE000000000000000116 /* SnippetPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000117 /* SnippetPreviewView.swift */; };
+		C0FFEE000000000000000114 /* SnippetsEditorWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000115 /* SnippetsEditorWindowController.swift */; };
 		C0FFEE000000000000000112 /* SnippetFolderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000113 /* SnippetFolderItemView.swift */; };
+		C0FFEE000000000000000110 /* SnippetsEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000111 /* SnippetsEditorView.swift */; };
 		C0FFEE000000000000000100 /* Snippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000101 /* Snippet.swift */; };
 		C0FFEE000000000000000102 /* SnippetsSubmenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000103 /* SnippetsSubmenu.swift */; };
 		C0FFEE000000000000000109 /* SnippetsXMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000010A /* SnippetsXMLTests.swift */; };
@@ -272,7 +274,9 @@
 		C0FFEE000000000000000004 /* ShortenedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenedTests.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsSubmenuView.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000117 /* SnippetPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetPreviewView.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000115 /* SnippetsEditorWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsEditorWindowController.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000113 /* SnippetFolderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetFolderItemView.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000111 /* SnippetsEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsEditorView.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000101 /* Snippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippet.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000103 /* SnippetsSubmenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsSubmenu.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000010A /* SnippetsXMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsXMLTests.swift; sourceTree = "<group>"; };
@@ -753,6 +757,7 @@
 				C0FFEE000000000000000113 /* SnippetFolderItemView.swift */,
 				C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */,
 				C0FFEE000000000000000117 /* SnippetPreviewView.swift */,
+				C0FFEE000000000000000111 /* SnippetsEditorView.swift */,
 				DA1969192C3F369800258481 /* HeaderView.swift */,
 				2F0EC7782E7727E3003E2EA9 /* HeightReaderModifier.swift */,
 				DA1969112C3F0DD200258481 /* HistoryItemView.swift */,
@@ -930,6 +935,7 @@
 				DA696BCD240177E800DE80CF /* Sorter.swift */,
 				DA243D132C2F66DD0012A27F /* Storage.swift */,
 				C0FFEE000000000000000103 /* SnippetsSubmenu.swift */,
+				C0FFEE000000000000000115 /* SnippetsEditorWindowController.swift */,
 				DA81D673252A056B009977BC /* Throttler.swift */,
 				B21DCA6C3D17E48D33D6E608 /* VoiceOver.swift */,
 			);
@@ -1204,7 +1210,9 @@
 				DAE8F5D42C43262B00851CA9 /* Popup.swift in Sources */,
 				C0FFEE00000000000000011E /* SnippetsSubmenuView.swift in Sources */,
 				C0FFEE000000000000000116 /* SnippetPreviewView.swift in Sources */,
+				C0FFEE000000000000000114 /* SnippetsEditorWindowController.swift in Sources */,
 				C0FFEE000000000000000112 /* SnippetFolderItemView.swift in Sources */,
+				C0FFEE000000000000000110 /* SnippetsEditorView.swift in Sources */,
 				C0FFEE000000000000000100 /* Snippet.swift in Sources */,
 				C0FFEE000000000000000102 /* SnippetsSubmenu.swift in Sources */,
 				DA13D7DA2C1A223E00FA9E23 /* Clear.swift in Sources */,

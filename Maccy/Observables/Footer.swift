@@ -69,6 +69,14 @@ class Footer: ItemsContainer {
         }
       },
       FooterItem(
+        title: "edit_snippets",
+        help: "edit_snippets_tooltip"
+      ) {
+        Task { @MainActor in
+          AppState.shared.openSnippetsEditor()
+        }
+      },
+      FooterItem(
         title: "preferences",
         shortcuts: [KeyShortcut(key: .comma)]
       ) {
