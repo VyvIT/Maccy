@@ -5,7 +5,7 @@
 "ShowMenuIcon" = "Menyu belgisini ko'rsatish";
 "HighlightMatchUnderline" = "Tagchiziq";
 "SearchVisibilityAlways" = "Har doim";
-"PreviewDelayTooltip" = "Oldindan ko'rish qalqib chiquvchi oyna paydo bo'lguncha millisekundlarda kechiktiring.\nStandart: 1500.";
+"PreviewDelayTooltip" = "Oldindan ko'rish qalqib chiquvchi oyna paydo bo'lguncha millisekundlarda kechiktiring.\nStandart: 500.";
 "PopupAt" = "Qalqib chiquvchi oyna:";
 "PopupAtCursor" = "Kursor";
 "PopupAtMenuBarIcon" = "Menyu rasmi";

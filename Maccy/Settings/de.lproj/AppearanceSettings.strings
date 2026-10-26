@@ -18,7 +18,7 @@
 "ImageHeightTooltip" = "Maximale Höhe für Bildvorschau in Pixel.\nStandard: 40.\nHinweis: Wähle 16, wenn das Bild gleich groß dargestellt werden soll, wie Text.";
 "OpenPreviewAutomatically" = "Vorschau automatisch öffnen";
 "PreviewDelay" = "Vorschauverzögerung:";
-"PreviewDelayTooltip" = "Verzögerung in Millisekunden, bis ein Vorschau-Popup angezeigt wird.\nStandard: 1500.";
+"PreviewDelayTooltip" = "Verzögerung in Millisekunden, bis ein Vorschau-Popup angezeigt wird.\nStandard: 500.";
 "HighlightMatches" = "Übereinstimmungen hervorheben:";
 "HighlightMatchColor" = "Farbe";
 "HighlightMatchBold" = "Fett";

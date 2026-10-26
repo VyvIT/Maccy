@@ -18,7 +18,7 @@
 "ImageHeightTooltip" = "Maximální výška náhledu obrázku.\nVýchozí: 40.\nTip: Zvol 16 pro stejnou podobu jako textové položky.";
 "OpenPreviewAutomatically" = "Automaticky otevřít náhled";
 "PreviewDelay" = "Zpoždení náhledu:";
-"PreviewDelayTooltip" = "Zpoždění v milisekundách před zobrazením popup okna.\nVýchozí: 1500.";
+"PreviewDelayTooltip" = "Zpoždění v milisekundách před zobrazením popup okna.\nVýchozí: 500.";
 "HighlightMatches" = "Zvýraznit shody:";
 "HighlightMatchColor" = "Barva";
 "HighlightMatchBold" = "Tučně";

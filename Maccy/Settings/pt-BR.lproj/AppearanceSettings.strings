@@ -18,7 +18,7 @@
 "ImageHeightTooltip" = "Altura máxima da pré-visualização de imagem.\nPadrão: 40.\nDica: Defina 16 para parecer itens de texto.";
 "OpenPreviewAutomatically" = "Abrir pré-visualização automaticamente";
 "PreviewDelay" = "Atraso de pré-visualização:";
-"PreviewDelayTooltip" = "Atraso em milissegundos até que um popup de pré-visualização seja mostrado.\nPadrão: 1500.";
+"PreviewDelayTooltip" = "Atraso em milissegundos até que um popup de pré-visualização seja mostrado.\nPadrão: 500.";
 "HighlightMatches" = "Destacar resultados:";
 "HighlightMatchColor" = "Cor";
 "HighlightMatchBold" = "Negrito";

@@ -20,7 +20,7 @@
 "PreviewDelay" = "Preview delay:";
 "SnippetPreviewDelay" = "Snippet preview delay:";
 "SnippetPreviewDelayTooltip" = "Delay in milliseconds until a snippet preview is shown next to the snippets menu.\nDefault: 300.";
-"PreviewDelayTooltip" = "Delay in milliseconds until a preview popup is shown.\nDefault: 1500.";
+"PreviewDelayTooltip" = "Delay in milliseconds until a preview popup is shown.\nDefault: 500.";
 "HighlightMatches" = "Highlight matches:";
 "HighlightMatchColor" = "Color";
 "HighlightMatchBold" = "Bold";

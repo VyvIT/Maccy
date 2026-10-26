@@ -20,7 +20,7 @@
 "ImageHeightTooltip" = "";
 "OpenPreviewAutomatically" = "Malfermi antaŭrigardon aŭtomate";
 "PreviewDelay" = "Antaŭrigarda prokrasto:";
-"PreviewDelayTooltip" = "Prokrasto en milisekundoj ĝis la antaŭrigarda ŝprucfenestro montriĝas.\nDefaŭlto: 1500.";
+"PreviewDelayTooltip" = "Prokrasto en milisekundoj ĝis la antaŭrigarda ŝprucfenestro montriĝas.\nDefaŭlto: 500.";
 "HighlightMatches" = "";
 "HighlightMatchBold" = "Grasa";
 "HighlightMatchItalic" = "Kursiva";

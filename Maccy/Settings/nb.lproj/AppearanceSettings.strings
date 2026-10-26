@@ -18,7 +18,7 @@
 "ImageHeightTooltip" = "Maximal bildehøyde forhåndsvisning.\nStandard: 40.\nTips: Satt til 16 for å se ut som tekst elementer.";
 "OpenPreviewAutomatically" = "Åpne forhåndsvisning automatisk";
 "PreviewDelay" = "Forsinkelse for forhåndsvisning:";
-"PreviewDelayTooltip" = "Utsett i millisekunder til en forhåndsvisningspopup vises.\nStandard: 1500.";
+"PreviewDelayTooltip" = "Utsett i millisekunder til en forhåndsvisningspopup vises.\nStandard: 500.";
 "HighlightMatches" = "Fremhev kamper:";
 "HighlightMatchColor" = "Farge";
 "HighlightMatchBold" = "Fet";

@@ -18,7 +18,7 @@
 "ImageHeightTooltip" = "圖片預覽最高。\n預設：40\n提示：設定 16 可符合文字項目大小。";
 "OpenPreviewAutomatically" = "自動開啟預覽";
 "PreviewDelay" = "預覽延遲:";
-"PreviewDelayTooltip" = "顯示預覽彈出視窗的延遲，單位為毫秒。\n預設：1500。";
+"PreviewDelayTooltip" = "顯示預覽彈出視窗的延遲，單位為毫秒。\n預設：500。";
 "HighlightMatches" = "凸顯相符項目：";
 "HighlightMatchColor" = "顏色";
 "HighlightMatchBold" = "粗體";

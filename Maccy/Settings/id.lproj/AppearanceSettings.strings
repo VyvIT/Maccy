@@ -18,7 +18,7 @@
 "PinToTooltip" = "Mengubah tempat item tersemat.\nDefault: Atas.";
 "OpenPreviewAutomatically" = "Buka pratinjau secara otomatis";
 "PreviewDelay" = "Jeda pratinjau:";
-"PreviewDelayTooltip" = "Jeda (dalam milidetik) sampai pop-up pratinjau ditampilkan.\nDefault: 1500.";
+"PreviewDelayTooltip" = "Jeda (dalam milidetik) sampai pop-up pratinjau ditampilkan.\nDefault: 500.";
 "HighlightMatches" = "Sorot hasil pencarian:";
 "HighlightMatchColor" = "Warna";
 "HighlightMatchBold" = "Tebal";

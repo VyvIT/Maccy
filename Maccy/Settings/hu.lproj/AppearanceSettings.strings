@@ -18,7 +18,7 @@
 "ImageHeightTooltip" = "Az előnézeti kép maximum magassága.\nAlapértelmezett: 40.\nTipp: Allítsd 16-ra, hogy akkora legyen, mint a szövegek.";
 "OpenPreviewAutomatically" = "Előnézet automatikus megnyitása";
 "PreviewDelay" = "Előnézet késleltetése:";
-"PreviewDelayTooltip" = "A késleltetés milliszekundumokban mielőtt a felugró előnézet megjelenik.\nAlapértelmezett: 1500.";
+"PreviewDelayTooltip" = "A késleltetés milliszekundumokban mielőtt a felugró előnézet megjelenik.\nAlapértelmezett: 500.";
 "HighlightMatches" = "Egyezések kiemelése:";
 "HighlightMatchColor" = "Szín";
 "HighlightMatchBold" = "Vastag";

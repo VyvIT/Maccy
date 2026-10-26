@@ -10,7 +10,7 @@
 "PinToBottom" = "ខាងក្រោម";
 "ShowSpecialSymbols" = "បង្ហាញនិមិត្តសញ្ញាពិសេស";
 "PopupAtCursor" = "ទស្សន៍ទ្រនិច";
-"PreviewDelayTooltip" = "ពន្យារពេលគិតជា មិល្លីវិនាទី(milliseconds ) រហូតដល់បង្ហាញ ផ្ទាំងផុស ឡើងមើលមុន។\nលំនាំដើម: 1500។";
+"PreviewDelayTooltip" = "ពន្យារពេលគិតជា មិល្លីវិនាទី(milliseconds ) រហូតដល់បង្ហាញ ផ្ទាំងផុស ឡើងមើលមុន។\nលំនាំដើម: 500។";
 "ShowSpecialSymbolsTooltip" = "បង្ហាញការចុះបន្ទាត់ ថេប ចន្លោះខាងដើម និងចន្លោះខាងចុង ដោយប្រើនិមិត្តសញ្ញាពិសេស។";
 "ShowSearchField" = "បង្ហាញប្រអប់ស្វែងរក";
 "ActiveScreen" = "អេក្រង់សកម្ម";

@@ -18,7 +18,7 @@
 "ImageHeightTooltip" = "Maksimalna visina pregleda slike.\nZadano: 40.\nSavjet: Postavite na 16 da izgledaju kao tekstualne stavke.";
 "OpenPreviewAutomatically" = "Automatski otvori pregled";
 "PreviewDelay" = "Kašnjenje pregleda:";
-"PreviewDelayTooltip" = "Kašnjenje u milisekundama dok se ne prikaže skočni prozor za pregled.\nZadano: 1500.";
+"PreviewDelayTooltip" = "Kašnjenje u milisekundama dok se ne prikaže skočni prozor za pregled.\nZadano: 500.";
 "HighlightMatches" = "Istaknite utakmice:";
 "HighlightMatchColor" = "Boja";
 "HighlightMatchBold" = "Podebljano";
