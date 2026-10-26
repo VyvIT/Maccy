@@ -1,4 +1,5 @@
 import AppKit
+import Defaults
 import KeyboardShortcuts
 import SwiftUI
 
@@ -51,6 +52,19 @@ struct PreviewItemView: View {
                 .frame(alignment: .center)
             }
           }
+        }
+      } else if item.isPassword && Defaults[.maskPasswords] {
+        HStack(alignment: .firstTextBaseline) {
+          if item.isRevealed {
+            Text(item.previewText.string)
+              .font(.body)
+              .textSelection(.enabled)
+          } else {
+            MaskedPasswordView(text: item.previewText.string)
+              .font(.body)
+          }
+          Spacer()
+          PasswordRevealButton(isRevealed: Bindable(item).isRevealed)
         }
       } else {
         if item.previewText.byteCount >= Self.largeTextThreshold {

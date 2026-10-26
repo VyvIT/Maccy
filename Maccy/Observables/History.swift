@@ -188,8 +188,10 @@ class History: ItemsContainer { // swiftlint:disable:this type_body_length
       }
       deleteFromStorage(existingHistoryItem)
     } else {
+      // Read the item now, as it can be deleted before the task runs.
+      let notificationBody = item.safeTitle
       Task {
-        Notifier.notify(body: item.title, sound: .write)
+        Notifier.notify(body: notificationBody, sound: .write)
       }
     }
 

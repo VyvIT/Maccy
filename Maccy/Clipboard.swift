@@ -113,8 +113,10 @@ class Clipboard {
     pasteboard.setString(item.application ?? "", forType: .source)
     sync()
 
+    // Read the item now, as it can be deleted before the task runs.
+    let notificationBody = item.safeTitle
     Task {
-      Notifier.notify(body: item.title, sound: .knock)
+      Notifier.notify(body: notificationBody, sound: .knock)
       checkForChangesInPasteboard()
     }
   }

@@ -37,6 +37,10 @@
 "ShowHexColorSwatch" = "Show hex color swatch";
 "ShowHexColorSwatchTooltip" = "Show color swatch next to hex color codes.";
 "ShowFooter" = "Show footer";
+"MaskPasswords" = "Hide passwords";
+"MaskPasswordsShowLength" = "Show password length";
+"MaskPasswordsShowLengthTooltip" = "Show one dot for each hidden character instead of always showing 8, which reveals the password length.";
+"MaskPasswordsTooltip" = "Show only the first and last characters of copied text that looks like a password. Hover the eye button to reveal it.";
 "ShowSnippets" = "Show snippets";
 "ShowSnippetsTooltip" = "Show snippet folders above the footer. Edit snippets with Edit Snippets… in the footer.";
 "OpenPreferencesWarning" = "⚠️ Press ⌘, (command+comma) to open preferences when footer is hidden.";

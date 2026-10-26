@@ -20,6 +20,17 @@ class HistoryItemDecorator: Identifiable, Hashable, HasVisibility {
   var title: String = ""
   var attributedTitle: AttributedString?
 
+  // Passwords are hidden unless revealed with the eye button.
+  private(set) var isPassword = false
+  var isRevealed = false
+  var isMasked: Bool {
+    isPassword && !isRevealed && Defaults[.maskPasswords]
+  }
+  // Title safe to show outside the list, e.g. in the menu bar or notifications.
+  var safeTitle: String {
+    isPassword && Defaults[.maskPasswords] ? PasswordDetector.masked(title) : title
+  }
+
   var isVisible: Bool = true
   var selectionIndex: Int = -1
   var isSelected: Bool {
@@ -92,6 +103,8 @@ class HistoryItemDecorator: Identifiable, Hashable, HasVisibility {
           Int(size.height)
         )
       )
+    } else if isPassword && Defaults[.maskPasswords] {
+      parts.append(NSLocalizedString("history_item_password_accessibility_label", comment: ""))
     } else {
       parts.append(title)
     }
@@ -118,6 +131,7 @@ class HistoryItemDecorator: Identifiable, Hashable, HasVisibility {
     self.shortcuts = shortcuts
     self.title = item.title
     self.applicationImage = ApplicationImageCache.shared.getImage(item: item)
+    self.isPassword = item.isLikelyPassword
 
     synchronizeItemPin()
     synchronizeItemTitle()
@@ -249,6 +263,7 @@ class HistoryItemDecorator: Identifiable, Hashable, HasVisibility {
       DispatchQueue.main.async {
         guard let self else { return }
         self.title = self.item.title
+        self.isPassword = self.item.isLikelyPassword
         self.synchronizeItemTitle()
       }
     }

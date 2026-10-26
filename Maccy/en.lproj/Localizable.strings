@@ -9,6 +9,8 @@
 "quit" = "Quit";
 "preferences" = "Preferences…";
 "snippets" = "Snippets";
+"history_item_password_accessibility_label" = "Hidden password";
+"password_reveal" = "Hover to show the password, click to keep it shown.";
 "edit_snippets" = "Edit Snippets…";
 "edit_snippets_tooltip" = "Create, edit, import and export snippets.";
 "clear_alert_message" = "Are you sure you want to clear the history?";

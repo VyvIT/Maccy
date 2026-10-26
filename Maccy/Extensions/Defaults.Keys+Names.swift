@@ -50,6 +50,8 @@ nonisolated extension Defaults.Keys {
   static let imageMaxHeight = Key<Int>("imageMaxHeight", default: 40, suite: preferencesSuite)
   static let lastReviewRequestedAt = Key<Date>("lastReviewRequestedAt", default: Date.now, suite: preferencesSuite)
   static let menuIcon = Key<MenuIcon>("menuIcon", default: .maccy, suite: preferencesSuite)
+  static let maskPasswords = Key<Bool>("maskPasswords", default: true, suite: preferencesSuite)
+  static let maskPasswordsShowLength = Key<Bool>("maskPasswordsShowLength", default: false, suite: preferencesSuite)
   static let migrations = Key<[String: Bool]>("migrations", default: [:], suite: preferencesSuite)
   static let numberOfUsages = Key<Int>("numberOfUsages", default: 0, suite: preferencesSuite)
   static let pasteByDefault = Key<Bool>("pasteByDefault", default: false, suite: preferencesSuite)

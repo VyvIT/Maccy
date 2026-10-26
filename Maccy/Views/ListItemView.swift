@@ -40,6 +40,8 @@ struct ListItemView<Title: View, ID: Hashable>: View {
   var selectionIndex: Int?
   var help: LocalizedStringKey?
   var selectionAppearance: SelectionAppearance = .none
+  // Control shown before the shortcuts, e.g. the password reveal button.
+  var trailingAccessory: AnyView?
   // Complete description used when the row's visual content is hidden from accessibility.
   var accessibilityLabel: String = ""
   @ViewBuilder var title: () -> Title
@@ -91,6 +93,10 @@ struct ListItemView<Title: View, ID: Hashable>: View {
       Spacer()
 
       HStack(spacing: 5) {
+        if let trailingAccessory {
+          trailingAccessory
+        }
+
         if let displaySelectionIndex {
           Text(displaySelectionIndex)
             .font(.caption)

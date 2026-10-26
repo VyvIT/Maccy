@@ -23,6 +23,7 @@ struct HistoryItemView: View {
   }
 
   @Default(.showHexColorSwatch) private var showHexColorSwatch
+  @Default(.maskPasswords) private var maskPasswords
   @Environment(AppState.self) private var appState
 
   private var colorSwatchImage: NSImage? {
@@ -48,14 +49,22 @@ struct HistoryItemView: View {
       appIcon: item.applicationImage,
       image: item.thumbnailImage,
       accessoryImage: item.thumbnailImage != nil ? nil : colorSwatchImage,
-      attributedTitle: item.attributedTitle,
+      // Search highlighting would show the hidden password.
+      attributedTitle: item.isMasked ? nil : item.attributedTitle,
       shortcuts: item.shortcuts,
       isSelected: item.isSelected,
       selectionIndex: item.multiSelectionIndex,
       selectionAppearance: selectionAppearance,
+      trailingAccessory: maskPasswords && item.isPassword
+        ? AnyView(PasswordRevealButton(isRevealed: $item.isRevealed))
+        : nil,
       accessibilityLabel: item.accessibilityLabel
     ) {
-      Text(verbatim: item.title)
+      if maskPasswords && item.isMasked {
+        MaskedPasswordView(text: item.title)
+      } else {
+        Text(verbatim: item.title)
+      }
     }
     .accessibilityIdentifier("copy-history-item")
     .buttonAction(performSelect)

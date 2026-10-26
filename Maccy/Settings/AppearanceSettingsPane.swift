@@ -19,6 +19,7 @@ struct AppearanceSettingsPane: View {
   @Default(.showFooter) private var showFooter
   @Default(.windowPosition) private var windowPosition
   @Default(.showApplicationIcons) private var showApplicationIcons
+  @Default(.maskPasswords) private var maskPasswords
 
   @State private var screens = NSScreen.screens
 
@@ -208,6 +209,16 @@ struct AppearanceSettingsPane: View {
         Defaults.Toggle(key: .showApplicationIcons) {
           Text("ShowApplicationIcons", tableName: "AppearanceSettings")
         }
+        Defaults.Toggle(key: .maskPasswords) {
+          Text("MaskPasswords", tableName: "AppearanceSettings")
+        }
+        .help(Text("MaskPasswordsTooltip", tableName: "AppearanceSettings"))
+        Defaults.Toggle(key: .maskPasswordsShowLength) {
+          Text("MaskPasswordsShowLength", tableName: "AppearanceSettings")
+        }
+        .help(Text("MaskPasswordsShowLengthTooltip", tableName: "AppearanceSettings"))
+        .disabled(!maskPasswords)
+        .padding(.leading, 20)
         Defaults.Toggle(key: .showHexColorSwatch) {
           Text("ShowHexColorSwatch", tableName: "AppearanceSettings")
         }
