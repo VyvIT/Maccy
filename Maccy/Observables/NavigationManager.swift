@@ -202,6 +202,13 @@ class NavigationManager { // swiftlint:disable:this type_body_length
   }
 
   private func selectInFooter(_ item: FooterItem) {
+    // Footer items have nothing to preview. Closing as auto-open
+    // lets the preview come back when returning to the history.
+    let preview = AppState.shared.preview
+    if preview.state.isOpen {
+      preview.togglePreview(trigger: .autoOpen)
+    }
+
     leadHistoryItem = nil
     if !isMultiSelectInProgress {
       selection = .init()
