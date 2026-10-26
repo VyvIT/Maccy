@@ -1,3 +1,4 @@
+import Carbon.HIToolbox
 import Sauce
 import Defaults
 import SwiftUI
@@ -26,6 +27,10 @@ struct KeyHandlingView<Content: View>: View {
              inputClient.hasMarkedText() {
             return .ignored
           }
+        }
+
+        if let event = NSApp.currentEvent, handleSnippetsSubmenu(event) {
+          return .handled
         }
 
         switch KeyChord(NSApp.currentEvent) {
@@ -173,5 +178,58 @@ struct KeyHandlingView<Content: View>: View {
 
         return .ignored
       }
+  }
+
+  // Snippet folder submenu takes arrow keys, Return and number keys once entered with →,
+  // and gives them back to the popup when left with ← or Escape.
+  @MainActor
+  private func handleSnippetsSubmenu(_ event: NSEvent) -> Bool {
+    let submenu = SnippetsSubmenu.shared
+    let modifierFlags = event.modifierFlags
+      .intersection(.deviceIndependentFlagsMask)
+      .subtracting([.function, .numericPad])
+
+    guard submenu.isActive else {
+      guard let item = appState.footer.selectedItem,
+            item.snippetFolderID != nil,
+            modifierFlags.isEmpty,
+            [.rightArrow, .carriageReturn, .enter].contains(event.specialKey) else { return false }
+
+      submenu.activate(item)
+      return true
+    }
+
+    switch event.specialKey {
+    case .upArrow:
+      submenu.moveHighlight(by: -1)
+      return true
+    case .downArrow:
+      submenu.moveHighlight(by: 1)
+      return true
+    case .leftArrow:
+      submenu.close()
+      return true
+    case .carriageReturn, .enter:
+      submenu.chooseHighlighted(modifierFlags: modifierFlags)
+      return true
+    default:
+      break
+    }
+
+    if Int(event.keyCode) == kVK_Escape {
+      submenu.close()
+      return true
+    }
+
+    if modifierFlags.isEmpty,
+       let characters = event.charactersIgnoringModifiers,
+       let index = SnippetsSubmenu.numberKeys.firstIndex(of: characters) {
+      submenu.choose(index, modifierFlags: modifierFlags)
+      return true
+    }
+
+    // Any other key, e.g. typing a search, goes back to the popup.
+    submenu.close()
+    return false
   }
 }

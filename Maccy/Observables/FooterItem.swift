@@ -25,6 +25,11 @@ class FooterItem: Equatable, Identifiable, HasVisibility {
   var isVisible: Bool = true
   var action: () -> Void
 
+  // Snippet folder rows open their snippets as a submenu
+  // next to the row, so they keep the row's position on screen.
+  var snippetFolderID: UUID?
+  var windowFrame: CGRect = .zero
+
   init(
     title: String,
     shortcuts: [KeyShortcut] = [],

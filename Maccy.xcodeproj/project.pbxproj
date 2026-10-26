@@ -157,7 +157,11 @@
 		DAE28500232257D20080E394 /* ColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE284FF232257D20080E394 /* ColorImage.swift */; };
 		DAE2850223225BD90080E394 /* ColorImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2850123225BD90080E394 /* ColorImageTests.swift */; };
 		DAE8F5D42C43262B00851CA9 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8F5D32C43262B00851CA9 /* Popup.swift */; };
+		C0FFEE00000000000000011E /* SnippetsSubmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */; };
+		C0FFEE000000000000000116 /* SnippetPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000117 /* SnippetPreviewView.swift */; };
+		C0FFEE000000000000000112 /* SnippetFolderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000113 /* SnippetFolderItemView.swift */; };
 		C0FFEE000000000000000100 /* Snippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000101 /* Snippet.swift */; };
+		C0FFEE000000000000000102 /* SnippetsSubmenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000103 /* SnippetsSubmenu.swift */; };
 		C0FFEE000000000000000109 /* SnippetsXMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000010A /* SnippetsXMLTests.swift */; };
 		DAEE38471E3DBEB100DD2966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE38461E3DBEB100DD2966 /* AppDelegate.swift */; };
 		DAFE2DDA268A521B00990986 /* String+Shortened.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE2DD9268A521A00990986 /* String+Shortened.swift */; };
@@ -266,7 +270,11 @@
 		BBCCA6C3F9374C9C91414E3A /* LargeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTextView.swift; sourceTree = "<group>"; };
 		BC59C5474269463B8A32BCEF /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppearanceSettings.strings; sourceTree = "<group>"; };
 		C0FFEE000000000000000004 /* ShortenedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenedTests.swift; sourceTree = "<group>"; };
+		C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsSubmenuView.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000117 /* SnippetPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetPreviewView.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000113 /* SnippetFolderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetFolderItemView.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000101 /* Snippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippet.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000103 /* SnippetsSubmenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsSubmenu.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000010A /* SnippetsXMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsXMLTests.swift; sourceTree = "<group>"; };
 		C2BC0DBD627544668E9BE9C1 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/StorageSettings.strings; sourceTree = "<group>"; };
 		CA110ED10000000000000002 /* CollectionSurroundingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSurroundingTests.swift; sourceTree = "<group>"; };
@@ -742,6 +750,9 @@
 				DA243D112C2F64820012A27F /* ContentView.swift */,
 				DAA072DC2C41C61F006DDFD2 /* FooterItemView.swift */,
 				DAA072E02C41C6E8006DDFD2 /* FooterView.swift */,
+				C0FFEE000000000000000113 /* SnippetFolderItemView.swift */,
+				C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */,
+				C0FFEE000000000000000117 /* SnippetPreviewView.swift */,
 				DA1969192C3F369800258481 /* HeaderView.swift */,
 				2F0EC7782E7727E3003E2EA9 /* HeightReaderModifier.swift */,
 				DA1969112C3F0DD200258481 /* HistoryItemView.swift */,
@@ -918,6 +929,7 @@
 				DAA5ACC92C1BEE8A00B58513 /* SoftwareUpdater.swift */,
 				DA696BCD240177E800DE80CF /* Sorter.swift */,
 				DA243D132C2F66DD0012A27F /* Storage.swift */,
+				C0FFEE000000000000000103 /* SnippetsSubmenu.swift */,
 				DA81D673252A056B009977BC /* Throttler.swift */,
 				B21DCA6C3D17E48D33D6E608 /* VoiceOver.swift */,
 			);
@@ -1190,7 +1202,11 @@
 				2FF2E94E2E774B5B0093D72C /* NavigationManager.swift in Sources */,
 				DA1969182C3F327500258481 /* SearchFieldView.swift in Sources */,
 				DAE8F5D42C43262B00851CA9 /* Popup.swift in Sources */,
+				C0FFEE00000000000000011E /* SnippetsSubmenuView.swift in Sources */,
+				C0FFEE000000000000000116 /* SnippetPreviewView.swift in Sources */,
+				C0FFEE000000000000000112 /* SnippetFolderItemView.swift in Sources */,
 				C0FFEE000000000000000100 /* Snippet.swift in Sources */,
+				C0FFEE000000000000000102 /* SnippetsSubmenu.swift in Sources */,
 				DA13D7DA2C1A223E00FA9E23 /* Clear.swift in Sources */,
 				DA13D7DB2C1A223E00FA9E23 /* Delete.swift in Sources */,
 				DA19691F2C3F5F0600258481 /* KeyHandlingView.swift in Sources */,

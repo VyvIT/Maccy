@@ -3,12 +3,22 @@ import SwiftUI
 
 @Observable
 class Footer: ItemsContainer {
-  var items: [FooterItem] = []
+  // Snippet folders are listed before the actions,
+  // so that keyboard navigation goes through them.
+  var items: [FooterItem] { snippetItems + actionItems }
+  var actionItems: [FooterItem] = []
+  var snippetItems: [FooterItem] = []
 
   var selectedItem: FooterItem? {
     willSet {
       selectedItem?.isSelected = false
       newValue?.isSelected = true
+    }
+    didSet {
+      guard oldValue !== selectedItem else { return }
+      MainActor.assumeIsolated {
+        SnippetsSubmenu.shared.selectionChanged(to: selectedItem)
+      }
     }
   }
 
@@ -25,7 +35,7 @@ class Footer: ItemsContainer {
   }
 
   init() { // swiftlint:disable:this function_body_length
-    items = [
+    actionItems = [
       FooterItem(
         title: "clear",
         shortcuts: [KeyShortcut(key: .delete, modifierFlags: [.command, .option])],
@@ -80,5 +90,33 @@ class Footer: ItemsContainer {
         AppState.shared.quit()
       }
     ]
+
+    Task { @MainActor in
+      for await _ in Defaults.updates([.snippetFolders, .showSnippets]) {
+        reloadSnippets()
+      }
+    }
+  }
+
+  @MainActor
+  private func reloadSnippets() {
+    guard Defaults[.showSnippets] else {
+      snippetItems = []
+      return
+    }
+
+    snippetItems = Defaults[.snippetFolders]
+      .filter(\.isVisibleInPopup)
+      .map { folder in
+        let item = FooterItem(title: folder.title) {}
+        item.snippetFolderID = folder.id
+        item.action = { [weak item] in
+          guard let item else { return }
+          Task { @MainActor in
+            SnippetsSubmenu.shared.activate(item)
+          }
+        }
+        return item
+      }
   }
 }

@@ -111,6 +111,27 @@ class AppState: Sendable {
   }
 
   @MainActor
+  func pasteSnippet(_ content: String, modifierFlags: NSEvent.ModifierFlags) {
+    popup.close()
+    Clipboard.shared.copyInMaccy(content)
+    if SnippetsSubmenu.shouldPaste(modifierFlags) {
+      Clipboard.shared.paste()
+    }
+  }
+
+  @MainActor
+  func screenFrame(of item: FooterItem, in window: NSWindow) -> NSRect? {
+    guard let contentView = window.contentView, item.windowFrame != .zero else { return nil }
+
+    // SwiftUI global frames are flipped relative to the window.
+    let origin = window.convertPoint(toScreen: NSPoint(
+      x: item.windowFrame.minX,
+      y: contentView.bounds.height - item.windowFrame.maxY
+    ))
+    return NSRect(origin: origin, size: item.windowFrame.size)
+  }
+
+  @MainActor
   func openPreferences() { // swiftlint:disable:this function_body_length
     if settingsWindowController == nil {
       let generalTitle = NSLocalizedString("Title", tableName: "GeneralSettings", comment: "")

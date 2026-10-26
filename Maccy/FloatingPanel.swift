@@ -218,6 +218,7 @@ class FloatingPanel<Content: View>: NSPanel, NSWindowDelegate {
   override func close() {
     super.close()
     let appState = AppState.shared
+    SnippetsSubmenu.shared.close()
     appState.preview.state = .closed
     appState.isEditingItem = false
     appState.navigator.isDragAndDropInProgress = false

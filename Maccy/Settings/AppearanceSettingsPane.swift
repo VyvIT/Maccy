@@ -10,6 +10,7 @@ struct AppearanceSettingsPane: View {
   @Default(.imageMaxHeight) private var imageHeight
   @Default(.openPreviewAutomatically) private var openPreviewAutomatically
   @Default(.previewDelay) private var previewDelay
+  @Default(.snippetPreviewDelay) private var snippetPreviewDelay
   @Default(.highlightMatch) private var highlightMatch
   @Default(.menuIcon) private var menuIcon
   @Default(.showInStatusBar) private var showInStatusBar
@@ -45,6 +46,13 @@ struct AppearanceSettingsPane: View {
   private let previewDelayFormatter: NumberFormatter = {
     let formatter = NumberFormatter()
     formatter.minimum = 200
+    formatter.maximum = 100_000
+    return formatter
+  }()
+
+  private let snippetPreviewDelayFormatter: NumberFormatter = {
+    let formatter = NumberFormatter()
+    formatter.minimum = 0
     formatter.maximum = 100_000
     return formatter
   }()
@@ -124,6 +132,19 @@ struct AppearanceSettingsPane: View {
         .disabled(!openPreviewAutomatically)
       }
 
+      Settings.Section(label: { Text("SnippetPreviewDelay", tableName: "AppearanceSettings") }) {
+        HStack {
+          TextField("", value: $snippetPreviewDelay, formatter: snippetPreviewDelayFormatter)
+            .frame(width: 120)
+            .help(Text("SnippetPreviewDelayTooltip", tableName: "AppearanceSettings"))
+            .accessibilityLabel(Text("SnippetPreviewDelay", tableName: "AppearanceSettings"))
+          Stepper("", value: $snippetPreviewDelay, in: 0...100_000, step: 100)
+            .labelsHidden()
+            .accessibilityLabel(Text("SnippetPreviewDelay", tableName: "AppearanceSettings"))
+        }
+        .disabled(!openPreviewAutomatically)
+      }
+
       Settings.Section(
         bottomDivider: true,
         label: { Text("HighlightMatches", tableName: "AppearanceSettings") }
@@ -195,6 +216,11 @@ struct AppearanceSettingsPane: View {
         Defaults.Toggle(key: .showFooter) {
           Text("ShowFooter", tableName: "AppearanceSettings")
         }
+        Defaults.Toggle(key: .showSnippets) {
+          Text("ShowSnippets", tableName: "AppearanceSettings")
+        }
+        .help(Text("ShowSnippetsTooltip", tableName: "AppearanceSettings"))
+        .disabled(!showFooter)
         // Settings.Section offers its content the full container width even though the content
         // starts after the label column, so cap the width to make long translations wrap.
         Text("OpenPreferencesWarning", tableName: "AppearanceSettings")
