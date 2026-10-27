@@ -6,6 +6,20 @@
     <description>Releases of the VyvIT fork of Maccy. Updated by scripts/release-fork.sh.</description>
     <language>en</language>
     <item>
+      <title>2.8.0-vv2</title>
+      <description><![CDATA[<p>Second release of the VyvIT fork of Maccy 2.8.0. Fixes 2.8.0-vv1 quitting at launch.</p><ul><li>Added snippets: reusable text in folders, listed above the footer. Hover a folder or press → to open it, then choose a snippet with Return, a click or keys 1–9 and 0.</li><li>Added a preview of snippets next to the snippet menu, with its own delay setting.</li><li>Added the snippets editor (Edit Snippets… in the footer) with drag and drop, search, renaming with a double click, enabling and disabling, and copying with ⌘C, ⌘V and ⌘D.</li><li>Added importing and exporting snippets in the Clipy format.</li><li>Added hiding passwords in the history: only the first and last characters are shown until you hover the eye button. Can be turned off in Appearance settings.</li><li>Added the Marker highlight style for search matches and made it the default.</li><li>Changed the default preview delay to 500 ms.</li><li>Fixed an empty preview when moving from the history to the footer with the keyboard.</li></ul>]]></description>
+      <pubDate>Tue, 27 Oct 2026 02:39:11 +0200</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/VyvIT/Maccy/releases/tag/2.8.0-vv2</sparkle:releaseNotesLink>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/VyvIT/Maccy/releases/download/2.8.0-vv2/Maccy.app.zip"
+        sparkle:version="1002"
+        sparkle:shortVersionString="2.8.0-vv2"
+        sparkle:edSignature="lN36Zvb7qay1y2i7TCE4NVEXNijT/UXi8bmK6tjMT8pbso1k29oW1p82X+5HqzAWczdYYf6HbS3CYhkxsRJ1DQ==" length="7983722"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>2.8.0-vv1</title>
       <description><![CDATA[<p>First release of the VyvIT fork of Maccy 2.8.0. Updates now come from this fork.</p><ul><li>Added snippets: reusable text in folders, listed above the footer. Hover a folder or press → to open it, then choose a snippet with Return, a click or keys 1–9 and 0.</li><li>Added a preview of snippets next to the snippet menu, with its own delay setting.</li><li>Added the snippets editor (Edit Snippets… in the footer) with drag and drop, search, renaming with a double click, enabling and disabling, and copying with ⌘C, ⌘V and ⌘D.</li><li>Added importing and exporting snippets in the Clipy format.</li><li>Added hiding passwords in the history: only the first and last characters are shown until you hover the eye button. Can be turned off in Appearance settings.</li><li>Added the Marker highlight style for search matches and made it the default.</li><li>Changed the default preview delay to 500 ms.</li><li>Fixed an empty preview when moving from the history to the footer with the keyboard.</li></ul>]]></description>
       <pubDate>Tue, 27 Oct 2026 02:29:05 +0200</pubDate>
