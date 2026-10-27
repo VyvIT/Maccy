@@ -68,7 +68,7 @@ struct FooterView: View {
         }
       }
 
-      ForEach(footer.actionItems.suffix(from: 2)) { item in
+      ForEach(footer.actionItems.suffix(from: 2).filter(\.isVisible)) { item in
         FooterItemView(item: item)
       }
     }

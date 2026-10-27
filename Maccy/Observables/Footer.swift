@@ -108,6 +108,9 @@ class Footer: ItemsContainer {
 
   @MainActor
   private func reloadSnippets() {
+    // Editing snippets is hidden along with them.
+    actionItems.first { $0.title == "edit_snippets" }?.isVisible = Defaults[.showSnippets]
+
     guard Defaults[.showSnippets] else {
       snippetItems = []
       return

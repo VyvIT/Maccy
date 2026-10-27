@@ -43,5 +43,5 @@
 "MaskPasswordsShowLengthTooltip" = "Show one dot for each hidden character instead of always showing 8, which reveals the password length.";
 "MaskPasswordsTooltip" = "Show only the first and last characters of copied text that looks like a password. Hover the eye button to reveal it.";
 "ShowSnippets" = "Show snippets";
-"ShowSnippetsTooltip" = "Show snippet folders above the footer. Edit snippets with Edit Snippets… in the footer.";
+"ShowSnippetsTooltip" = "Show snippet folders and Edit Snippets… in the popup footer.";
 "OpenPreferencesWarning" = "⚠️ Press ⌘, (command+comma) to open preferences when footer is hidden.";

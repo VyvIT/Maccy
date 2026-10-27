@@ -157,6 +157,7 @@
 		DAE28500232257D20080E394 /* ColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE284FF232257D20080E394 /* ColorImage.swift */; };
 		DAE2850223225BD90080E394 /* ColorImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2850123225BD90080E394 /* ColorImageTests.swift */; };
 		DAE8F5D42C43262B00851CA9 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8F5D32C43262B00851CA9 /* Popup.swift */; };
+		C0FFEE000000000000000120 /* FooterSnippetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000121 /* FooterSnippetsTests.swift */; };
 		C0FFEE00000000000000011E /* SnippetsSubmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */; };
 		C0FFEE00000000000000011C /* PasswordDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011D /* PasswordDetectorTests.swift */; };
 		C0FFEE00000000000000011A /* PasswordViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011B /* PasswordViews.swift */; };
@@ -275,6 +276,7 @@
 		BBCCA6C3F9374C9C91414E3A /* LargeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTextView.swift; sourceTree = "<group>"; };
 		BC59C5474269463B8A32BCEF /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppearanceSettings.strings; sourceTree = "<group>"; };
 		C0FFEE000000000000000004 /* ShortenedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenedTests.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000121 /* FooterSnippetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSnippetsTests.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsSubmenuView.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000011D /* PasswordDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetectorTests.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000011B /* PasswordViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViews.swift; sourceTree = "<group>"; };
@@ -812,6 +814,7 @@
 				CA110ED10000000000000002 /* CollectionSurroundingTests.swift */,
 				C0FFEE000000000000000004 /* ShortenedTests.swift */,
 				C0FFEE00000000000000010A /* SnippetsXMLTests.swift */,
+				C0FFEE000000000000000121 /* FooterSnippetsTests.swift */,
 				C0FFEE00000000000000011D /* PasswordDetectorTests.swift */,
 				FFFC00000000000000000004 /* UnsafeForTitleLayoutTests.swift */,
 				DAE2850123225BD90080E394 /* ColorImageTests.swift */,
@@ -1175,6 +1178,7 @@
 				CA110ED10000000000000001 /* CollectionSurroundingTests.swift in Sources */,
 				C0FFEE000000000000000003 /* ShortenedTests.swift in Sources */,
 				C0FFEE000000000000000109 /* SnippetsXMLTests.swift in Sources */,
+				C0FFEE000000000000000120 /* FooterSnippetsTests.swift in Sources */,
 				C0FFEE00000000000000011C /* PasswordDetectorTests.swift in Sources */,
 				FFFC00000000000000000003 /* UnsafeForTitleLayoutTests.swift in Sources */,
 				DA360DB31E3DF137005C6F6B /* HistoryTests.swift in Sources */,
