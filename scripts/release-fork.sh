@@ -3,9 +3,12 @@
 # with Sparkle from appcast-vyvit.xml on the fork's master branch.
 #
 # Usage: scripts/release-fork.sh <version> [release-notes.md]
+#        scripts/release-fork.sh --build-only
 #
 # Release notes are a Markdown file. Lines starting with "- " become list items.
 # Everything is built and committed locally first, publishing asks for confirmation.
+# --build-only builds and signs the current version into build/release to try it
+# before releasing, without changing the version or committing anything.
 #
 # Environment:
 #   FORK_REPO         GitHub repository to publish to (default: VyvIT/Maccy)
@@ -16,8 +19,12 @@
 #   SPARKLE_ACCOUNT   Keychain account of the Sparkle EdDSA key (default: VyvIT-Maccy)
 set -euo pipefail
 
-VERSION=${1:?Usage: $0 <version> [release-notes.md]}
+VERSION=${1:?Usage: $0 <version> [release-notes.md] | --build-only}
 NOTES_FILE=${2:-}
+BUILD_ONLY=0
+if [ "$VERSION" = "--build-only" ]; then
+  BUILD_ONLY=1
+fi
 FORK_REPO=${FORK_REPO:-VyvIT/Maccy}
 FORK_REMOTE=${FORK_REMOTE:-fork}
 FORK_BRANCH=${FORK_BRANCH:-master}
@@ -33,6 +40,56 @@ ZIP=$BUILD/Maccy.app.zip
 SPARKLE_BIN=$BUILD/DerivedData/SourcePackages/artifacts/sparkle/Sparkle/bin
 cd "$ROOT"
 
+# A self-signed certificate keeps the signature the same between releases,
+# so that macOS keeps the Accessibility permission needed for pasting.
+if security find-identity -p codesigning | grep -qF "\"$SIGNING_IDENTITY\""; then
+  IDENTITY=$SIGNING_IDENTITY
+else
+  echo "warning: code signing certificate \"$SIGNING_IDENTITY\" not found, signing ad-hoc." >&2
+  echo "warning: macOS will ask to grant Accessibility permission again after updating." >&2
+  IDENTITY=-
+fi
+
+build_app() {
+  rm -rf "$BUILD"
+  mkdir -p "$BUILD"
+
+  # Without a Developer ID team, the hardened runtime refuses to load the embedded
+  # Sparkle framework unless library validation is disabled.
+  cp Maccy/Maccy.entitlements "$BUILD/Maccy.entitlements"
+  /usr/libexec/PlistBuddy -c "Add :com.apple.security.cs.disable-library-validation bool true" "$BUILD/Maccy.entitlements"
+
+  xcodebuild \
+    -project Maccy.xcodeproj \
+    -scheme Maccy \
+    -configuration Release \
+    -destination 'generic/platform=macOS' \
+    -derivedDataPath "$BUILD/DerivedData" \
+    CODE_SIGN_STYLE=Manual \
+    CODE_SIGN_IDENTITY="$IDENTITY" \
+    CODE_SIGN_ENTITLEMENTS="$BUILD/Maccy.entitlements" \
+    DEVELOPMENT_TEAM= \
+    build > "$BUILD/build.log" 2>&1 || { tail -30 "$BUILD/build.log"; echo "Build failed, see $BUILD/build.log" >&2; exit 1; }
+
+  # Sparkle helpers are copied ad-hoc signed. Sign them with the same identity,
+  # inside out, as described in https://sparkle-project.org/documentation/sandboxing/.
+  local sparkle=$APP/Contents/Frameworks/Sparkle.framework
+  codesign -f -s "$IDENTITY" -o runtime "$sparkle/Versions/B/XPCServices/Installer.xpc"
+  codesign -f -s "$IDENTITY" -o runtime --preserve-metadata=entitlements "$sparkle/Versions/B/XPCServices/Downloader.xpc"
+  codesign -f -s "$IDENTITY" -o runtime "$sparkle/Versions/B/Autoupdate"
+  codesign -f -s "$IDENTITY" -o runtime "$sparkle/Versions/B/Updater.app"
+  codesign -f -s "$IDENTITY" -o runtime "$sparkle"
+  codesign -f -s "$IDENTITY" -o runtime --preserve-metadata=entitlements "$APP"
+  codesign --verify --deep --strict "$APP"
+}
+
+if [ "$BUILD_ONLY" = 1 ]; then
+  echo "Building Maccy signed with ${IDENTITY}…"
+  build_app
+  echo "Built $APP"
+  exit 0
+fi
+
 if [ -n "$(git status --porcelain)" ]; then
   echo "Commit or stash your changes first." >&2
   exit 1
@@ -44,16 +101,6 @@ fi
 if [ -n "$NOTES_FILE" ] && [ ! -f "$NOTES_FILE" ]; then
   echo "Release notes file $NOTES_FILE not found." >&2
   exit 1
-fi
-
-# A self-signed certificate keeps the signature the same between releases,
-# so that macOS keeps the Accessibility permission needed for pasting.
-if security find-identity -p codesigning | grep -qF "\"$SIGNING_IDENTITY\""; then
-  IDENTITY=$SIGNING_IDENTITY
-else
-  echo "warning: code signing certificate \"$SIGNING_IDENTITY\" not found, signing ad-hoc." >&2
-  echo "warning: macOS will ask to grant Accessibility permission again after updating." >&2
-  IDENTITY=-
 fi
 
 # Undo the version bump and the feed entry when anything fails before the release commit.
@@ -69,19 +116,7 @@ sed -i '' -E \
   "$PROJECT"
 
 echo "Building Maccy $VERSION ($BUILD_NUMBER) signed with ${IDENTITY}…"
-rm -rf "$BUILD"
-mkdir -p "$BUILD"
-xcodebuild \
-  -project Maccy.xcodeproj \
-  -scheme Maccy \
-  -configuration Release \
-  -destination 'generic/platform=macOS' \
-  -derivedDataPath "$BUILD/DerivedData" \
-  CODE_SIGN_STYLE=Manual \
-  CODE_SIGN_IDENTITY="$IDENTITY" \
-  DEVELOPMENT_TEAM= \
-  build > "$BUILD/build.log" 2>&1 || { tail -30 "$BUILD/build.log"; echo "Build failed, see $BUILD/build.log" >&2; exit 1; }
-codesign --verify --deep --strict "$APP"
+build_app
 
 ditto -c -k --sequesterRsrc --keepParent "$APP" "$ZIP"
 # Prints sparkle:edSignature="…" length="…" for the appcast enclosure.
