@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ 푸터가 숨겨져 있을 때 설정을 열려면 ⌘, (command+comma)를 누르세요.";
 "ShowHexColorSwatch" = "16진수 색상 견본 표시";
 "ShowHexColorSwatchTooltip" = "16진수 색상 코드 옆에 색상 견본을 표시합니다.";
+"SnippetPreviewDelay" = "스니펫 미리보기 지연:";
+"SnippetPreviewDelayTooltip" = "스니펫 메뉴 옆에 스니펫 미리보기가 표시될 때까지의 지연 시간(밀리초)입니다.\n기본값: 300.";
+"HighlightMatchMarker" = "형광펜";
+"MaskPasswords" = "암호 숨기기";
+"MaskPasswordsShowLength" = "암호 길이 표시";
+"MaskPasswordsShowLengthTooltip" = "항상 8개 대신 숨겨진 문자마다 점을 하나씩 표시하므로 암호 길이가 드러납니다.";
+"MaskPasswordsTooltip" = "암호처럼 보이는 복사된 텍스트는 첫 글자와 마지막 글자만 표시합니다. 눈 모양 버튼에 포인터를 올리면 표시됩니다.";
+"ShowSnippets" = "스니펫 표시";
+"ShowSnippetsTooltip" = "스니펫 폴더와 ‘스니펫 편집…’을 팝업 푸터에 표시합니다.";

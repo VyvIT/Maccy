@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Presionar ⌘, (command+comma) para abrir las preferencias cuando el footer esté oculto.";
 "ShowHexColorSwatch" = "Mostrar muestra de color hexadecimal";
 "ShowHexColorSwatchTooltip" = "Mostrar muestra de color junto a los códigos de color hexadecimales.";
+"SnippetPreviewDelay" = "Retraso de vista previa de fragmentos:";
+"SnippetPreviewDelayTooltip" = "Retraso en milisegundos hasta que se muestra la vista previa de un fragmento junto al menú de fragmentos.\nPor defecto: 300.";
+"HighlightMatchMarker" = "Rotulador";
+"MaskPasswords" = "Ocultar contraseñas";
+"MaskPasswordsShowLength" = "Mostrar la longitud de la contraseña";
+"MaskPasswordsShowLengthTooltip" = "Mostrar un punto por cada carácter oculto en lugar de siempre 8, lo que revela la longitud de la contraseña.";
+"MaskPasswordsTooltip" = "Mostrar solo el primer y el último carácter del texto copiado que parezca una contraseña. Pasa el cursor sobre el botón del ojo para mostrarla.";
+"ShowSnippets" = "Mostrar fragmentos";
+"ShowSnippetsTooltip" = "Mostrar las carpetas de fragmentos y «Editar fragmentos…» en la parte inferior de la ventana emergente.";

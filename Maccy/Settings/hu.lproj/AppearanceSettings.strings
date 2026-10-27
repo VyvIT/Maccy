@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Nyomd meg a ⌘, (command+comma) gombot a Preferenciák megnyitásához, ha a lábléc el van rejtve.";
 "ShowHexColorSwatch" = "Hex színminta megjelenítése";
 "ShowHexColorSwatchTooltip" = "Színminta megjelenítése a hex színkódok mellett.";
+"SnippetPreviewDelay" = "Szövegrészlet-előnézet késleltetése:";
+"SnippetPreviewDelayTooltip" = "Késleltetés ezredmásodpercben, mielőtt a szövegrészlet előnézete megjelenik a szövegrészletek menüje mellett.\nAlapértelmezett: 300.";
+"HighlightMatchMarker" = "Szövegkiemelő";
+"MaskPasswords" = "Jelszavak elrejtése";
+"MaskPasswordsShowLength" = "Jelszó hosszának megjelenítése";
+"MaskPasswordsShowLengthTooltip" = "Minden rejtett karakterhez egy pont jelenjen meg a mindig 8 helyett, ami felfedi a jelszó hosszát.";
+"MaskPasswordsTooltip" = "A jelszónak tűnő másolt szövegből csak az első és az utolsó karakter jelenjen meg. A megjelenítéshez vidd a mutatót a szem gomb fölé.";
+"ShowSnippets" = "Szövegrészletek megjelenítése";
+"ShowSnippetsTooltip" = "Szövegrészlet-mappák és a „Szövegrészletek szerkesztése…” megjelenítése a felugró ablak láblécében.";

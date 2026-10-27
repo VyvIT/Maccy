@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Stiskni ⌘, (command+comma) pro otevření předvoleb, když je skrytá patička.";
 "ShowHexColorSwatch" = "Zobrazit vzorek hex barvy";
 "ShowHexColorSwatchTooltip" = "Zobrazit barevný vzorek vedle hex kódů barev.";
+"SnippetPreviewDelay" = "Zpoždění náhledu úryvku:";
+"SnippetPreviewDelayTooltip" = "Zpoždění v milisekundách, než se vedle nabídky úryvků zobrazí náhled úryvku.\nVýchozí: 300.";
+"HighlightMatchMarker" = "Zvýrazňovač";
+"MaskPasswords" = "Skrývat hesla";
+"MaskPasswordsShowLength" = "Zobrazovat délku hesla";
+"MaskPasswordsShowLengthTooltip" = "Zobrazovat jednu tečku za každý skrytý znak místo vždy 8, což prozradí délku hesla.";
+"MaskPasswordsTooltip" = "U zkopírovaného textu, který vypadá jako heslo, zobrazovat jen první a poslední znak. Najetím ukazatelem na tlačítko s okem ho zobrazíte.";
+"ShowSnippets" = "Zobrazovat úryvky";
+"ShowSnippetsTooltip" = "Zobrazovat složky úryvků a „Upravit úryvky…“ v patičce vyskakovacího okna.";

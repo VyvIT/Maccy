@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Apasă ⌘, (command+comma) pentru a deschide preferințele atunci când subsolul este ascuns.";
 "ShowHexColorSwatch" = "Afișare mostră de culoare hexazecimală";
 "ShowHexColorSwatchTooltip" = "Afișare mostră de culoare lângă codurile de culoare hexazecimale.";
+"SnippetPreviewDelay" = "Temporizare previzualizare fragment:";
+"SnippetPreviewDelayTooltip" = "Întârziere în milisecunde până la afișarea previzualizării unui fragment lângă meniul de fragmente.\nImplicit: 300.";
+"HighlightMatchMarker" = "Marker";
+"MaskPasswords" = "Ascunde parolele";
+"MaskPasswordsShowLength" = "Afișează lungimea parolei";
+"MaskPasswordsShowLengthTooltip" = "Afișează câte un punct pentru fiecare caracter ascuns în loc de mereu 8, ceea ce dezvăluie lungimea parolei.";
+"MaskPasswordsTooltip" = "Afișează doar primul și ultimul caracter al textului copiat care pare a fi o parolă. Treci cu cursorul peste butonul cu ochi pentru a o afișa.";
+"ShowSnippets" = "Afișează fragmentele";
+"ShowSnippetsTooltip" = "Afișează dosarele de fragmente și „Editează fragmentele…” în subsolul popup-ului.";

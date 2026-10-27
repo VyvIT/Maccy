@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Altbilgi gizliyken ayarları açmak için ⌘, (command+comma)'a basın.";
 "ShowHexColorSwatch" = "Hex renk örneğini göster";
 "ShowHexColorSwatchTooltip" = "Hex renk kodlarının yanında renk örneği göster.";
+"SnippetPreviewDelay" = "Parçacık önizleme gecikmesi:";
+"SnippetPreviewDelayTooltip" = "Parçacıklar menüsünün yanında bir parçacık önizlemesi gösterilene kadar geçen milisaniye cinsinden gecikme.\nSaptanmış: 300.";
+"HighlightMatchMarker" = "İşaretleyici";
+"MaskPasswords" = "Parolaları gizle";
+"MaskPasswordsShowLength" = "Parola uzunluğunu göster";
+"MaskPasswordsShowLengthTooltip" = "Her zaman 8 yerine gizlenen her karakter için bir nokta göster; bu, parolanın uzunluğunu ortaya çıkarır.";
+"MaskPasswordsTooltip" = "Parolaya benzeyen kopyalanmış metnin yalnızca ilk ve son karakterini göster. Göstermek için imleci göz düğmesinin üzerine getirin.";
+"ShowSnippets" = "Parçacıkları göster";
+"ShowSnippetsTooltip" = "Parçacık klasörlerini ve “Parçacıkları düzenle…” öğesini açılır pencerenin altbilgisinde göster.";

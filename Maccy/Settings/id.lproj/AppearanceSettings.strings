@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Tekan ⌘, (cmd + koma) untuk membuka preferensi ketika footer tersembunyi.";
 "ShowHexColorSwatch" = "Tampilkan contoh warna hex";
 "ShowHexColorSwatchTooltip" = "Tampilkan contoh warna di samping kode warna hex.";
+"SnippetPreviewDelay" = "Jeda pratinjau cuplikan:";
+"SnippetPreviewDelayTooltip" = "Jeda dalam milidetik hingga pratinjau cuplikan ditampilkan di samping menu cuplikan.\nBawaan: 300.";
+"HighlightMatchMarker" = "Stabilo";
+"MaskPasswords" = "Sembunyikan kata sandi";
+"MaskPasswordsShowLength" = "Tampilkan panjang kata sandi";
+"MaskPasswordsShowLengthTooltip" = "Tampilkan satu titik untuk setiap karakter tersembunyi alih-alih selalu 8, sehingga panjang kata sandi terlihat.";
+"MaskPasswordsTooltip" = "Tampilkan hanya karakter pertama dan terakhir dari teks salinan yang tampak seperti kata sandi. Arahkan penunjuk ke tombol mata untuk menampilkannya.";
+"ShowSnippets" = "Tampilkan cuplikan";
+"ShowSnippetsTooltip" = "Tampilkan folder cuplikan dan “Edit Cuplikan…” di footer popup.";

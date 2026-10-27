@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Nhấn phím ⌘, (command+comma) để mở cài đặt khi phần chân trang bị ẩn.";
 "ShowHexColorSwatch" = "Hiển thị mẫu màu hex";
 "ShowHexColorSwatchTooltip" = "Hiển thị mẫu màu bên cạnh mã màu hex.";
+"SnippetPreviewDelay" = "Trì hoãn xem trước đoạn mẫu:";
+"SnippetPreviewDelayTooltip" = "Thời gian trễ tính bằng mili giây trước khi bản xem trước của đoạn mẫu hiện bên cạnh menu đoạn mẫu.\nMặc định: 300.";
+"HighlightMatchMarker" = "Bút dạ quang";
+"MaskPasswords" = "Ẩn mật khẩu";
+"MaskPasswordsShowLength" = "Hiện độ dài mật khẩu";
+"MaskPasswordsShowLengthTooltip" = "Hiện một dấu chấm cho mỗi ký tự bị ẩn thay vì luôn là 8, điều này làm lộ độ dài mật khẩu.";
+"MaskPasswordsTooltip" = "Chỉ hiện ký tự đầu và cuối của văn bản đã sao chép trông giống mật khẩu. Di chuột lên nút hình con mắt để hiện mật khẩu.";
+"ShowSnippets" = "Hiện đoạn mẫu";
+"ShowSnippetsTooltip" = "Hiện các thư mục đoạn mẫu và “Sửa đoạn mẫu…” ở phần chân trang của cửa sổ popup.";

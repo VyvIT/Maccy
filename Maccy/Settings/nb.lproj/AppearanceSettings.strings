@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Trykk ⌘, (command+comma) for å åpne valg når bunntekst er skjult.";
 "ShowHexColorSwatch" = "Vis heksadesimal fargeprøve";
 "ShowHexColorSwatchTooltip" = "Vis fargeprøve ved siden av heksadesimale fargekoder.";
+"SnippetPreviewDelay" = "Forsinkelse for forhåndsvisning av tekstbit:";
+"SnippetPreviewDelayTooltip" = "Forsinkelse i millisekunder før en forhåndsvisning av en tekstbit vises ved siden av tekstbitmenyen.\nStandard: 300.";
+"HighlightMatchMarker" = "Merkepenn";
+"MaskPasswords" = "Skjul passord";
+"MaskPasswordsShowLength" = "Vis passordlengde";
+"MaskPasswordsShowLengthTooltip" = "Vis ett punkt for hvert skjulte tegn i stedet for alltid 8, noe som avslører passordlengden.";
+"MaskPasswordsTooltip" = "Vis bare første og siste tegn i kopiert tekst som ser ut som et passord. Hold pekeren over øyeknappen for å vise det.";
+"ShowSnippets" = "Vis tekstbiter";
+"ShowSnippetsTooltip" = "Vis tekstbitmapper og «Rediger tekstbiter…» i bunnteksten i popupen.";

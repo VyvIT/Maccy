@@ -36,3 +36,12 @@
 "ShowApplicationIcons" = "הצג סמלי יישומים";
 "ShowHexColorSwatch" = "הצג דוגמית צבע הקסדצימלי";
 "ShowHexColorSwatchTooltip" = "הצג דוגמית צבע ליד קודי צבע הקסדצימליים.";
+"SnippetPreviewDelay" = "השהיית תצוגה מקדימה של קטע:";
+"SnippetPreviewDelayTooltip" = "השהיה באלפיות שנייה עד להצגת תצוגה מקדימה של קטע לצד תפריט הקטעים.\nברירת מחדל: 300.";
+"HighlightMatchMarker" = "מרקר";
+"MaskPasswords" = "הסתרת סיסמאות";
+"MaskPasswordsShowLength" = "הצגת אורך הסיסמה";
+"MaskPasswordsShowLengthTooltip" = "הצגת נקודה אחת לכל תו מוסתר במקום 8 תמיד, מה שחושף את אורך הסיסמה.";
+"MaskPasswordsTooltip" = "הצגת התו הראשון והאחרון בלבד של טקסט מועתק שנראה כמו סיסמה. יש להעביר את הסמן מעל כפתור העין כדי להציג אותה.";
+"ShowSnippets" = "הצגת קטעים";
+"ShowSnippetsTooltip" = "הצגת תיקיות הקטעים ו„עריכת קטעים…” בכותרת התחתונה של החלונית.";

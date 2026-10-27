@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ 隐藏底部菜单时仍可按 ⌘, (command+comma) 打开偏好设置。";
 "ShowHexColorSwatch" = "显示十六进制颜色色块";
 "ShowHexColorSwatchTooltip" = "在十六进制颜色代码旁边显示颜色色块。";
+"SnippetPreviewDelay" = "片段预览延迟：";
+"SnippetPreviewDelayTooltip" = "在片段菜单旁显示片段预览前的延迟（毫秒）。\n默认：300。";
+"HighlightMatchMarker" = "荧光笔";
+"MaskPasswords" = "隐藏密码";
+"MaskPasswordsShowLength" = "显示密码长度";
+"MaskPasswordsShowLengthTooltip" = "为每个隐藏的字符显示一个圆点，而非始终显示 8 个，这会暴露密码长度。";
+"MaskPasswordsTooltip" = "对看起来像密码的拷贝文本，仅显示首尾字符。将指针悬停在眼睛按钮上以显示。";
+"ShowSnippets" = "显示片段";
+"ShowSnippetsTooltip" = "在弹窗底部显示片段文件夹和“编辑片段…”。";

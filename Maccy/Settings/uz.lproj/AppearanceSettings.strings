@@ -36,3 +36,12 @@
 "PinToTop" = "Yuqorida";
 "ShowHexColorSwatch" = "Hex rang namunasini koʻrsatish";
 "ShowHexColorSwatchTooltip" = "Hex rang kodlari yonida rang namunasini koʻrsatish.";
+"SnippetPreviewDelay" = "Parcha ko‘rish kechikishi:";
+"SnippetPreviewDelayTooltip" = "Parchalar menyusi yonida parcha ko‘rinishi paydo bo‘lgunga qadar millisekundlardagi kechikish.\nStandart: 300.";
+"HighlightMatchMarker" = "Marker";
+"MaskPasswords" = "Parollarni yashirish";
+"MaskPasswordsShowLength" = "Parol uzunligini ko‘rsatish";
+"MaskPasswordsShowLengthTooltip" = "Har doim 8 ta o‘rniga har bir yashirin belgi uchun bitta nuqta ko‘rsatish; bu parol uzunligini oshkor qiladi.";
+"MaskPasswordsTooltip" = "Parolga o‘xshash nusxalangan matnning faqat birinchi va oxirgi belgilarini ko‘rsatish. Ko‘rish uchun kursorni ko‘z tugmasi ustiga olib boring.";
+"ShowSnippets" = "Parchalarni ko‘rsatish";
+"ShowSnippetsTooltip" = "Parcha jildlari va “Parchalarni tahrirlash…” bandini qalqib chiquvchi oynaning pastki qismida ko‘rsatish.";

@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Pressez ⌘, (command+comma) pour ouvrir les préférences quand le bas de l’application est caché.";
 "ShowHexColorSwatch" = "Afficher l'échantillon de couleur hexadécimale";
 "ShowHexColorSwatchTooltip" = "Afficher un échantillon de couleur à côté des codes couleur hexadécimaux.";
+"SnippetPreviewDelay" = "Délai de prévisualisation des extraits :";
+"SnippetPreviewDelayTooltip" = "Délai en millisecondes avant l’affichage de l’aperçu d’un extrait à côté du menu des extraits.\nPar défaut : 300.";
+"HighlightMatchMarker" = "Surligneur";
+"MaskPasswords" = "Masquer les mots de passe";
+"MaskPasswordsShowLength" = "Afficher la longueur du mot de passe";
+"MaskPasswordsShowLengthTooltip" = "Afficher un point par caractère masqué au lieu de toujours 8, ce qui révèle la longueur du mot de passe.";
+"MaskPasswordsTooltip" = "N’afficher que le premier et le dernier caractère d’un texte copié qui ressemble à un mot de passe. Survolez le bouton en forme d’œil pour l’afficher.";
+"ShowSnippets" = "Afficher les extraits";
+"ShowSnippetsTooltip" = "Afficher les dossiers d’extraits et « Modifier les extraits… » en bas du popup.";

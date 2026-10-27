@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Nospiediet taustiņu ⌘, (command+comma) lai atvērtu preferences, ja kājene ir paslēpta.";
 "ShowHexColorSwatch" = "Rādīt heksadecimālās krāsas paraugu";
 "ShowHexColorSwatchTooltip" = "Rādīt krāsas paraugu blakus heksadecimālajiem krāsu kodiem.";
+"SnippetPreviewDelay" = "Fragmenta priekšskatījuma aizkave:";
+"SnippetPreviewDelayTooltip" = "Aizkave milisekundēs, līdz blakus fragmentu izvēlnei tiek parādīts fragmenta priekšskatījums.\nNoklusējums: 300.";
+"HighlightMatchMarker" = "Marķieris";
+"MaskPasswords" = "Slēpt paroles";
+"MaskPasswordsShowLength" = "Rādīt paroles garumu";
+"MaskPasswordsShowLengthTooltip" = "Rādīt vienu punktu par katru slēpto rakstzīmi, nevis vienmēr 8, tādējādi atklājot paroles garumu.";
+"MaskPasswordsTooltip" = "Kopētam tekstam, kas izskatās pēc paroles, rādīt tikai pirmo un pēdējo rakstzīmi. Lai to parādītu, novietojiet kursoru uz acs pogas.";
+"ShowSnippets" = "Rādīt fragmentus";
+"ShowSnippetsTooltip" = "Rādīt fragmentu mapes un “Rediģēt fragmentus…” uznirstošā loga kājenē.";

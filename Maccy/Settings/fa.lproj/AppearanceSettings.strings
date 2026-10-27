@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "";
 "ShowHexColorSwatch" = "نمایش نمونه رنگ هگزادسیمال";
 "ShowHexColorSwatchTooltip" = "نمایش نمونه رنگ در کنار کدهای رنگ هگزادسیمال.";
+"SnippetPreviewDelay" = "تأخیر پیش‌نمایش قطعه‌متن:";
+"SnippetPreviewDelayTooltip" = "تأخیر بر حسب میلی‌ثانیه تا نمایش پیش‌نمایش قطعه‌متن در کنار منوی قطعه‌متن‌ها.\nپیش‌فرض: 300.";
+"HighlightMatchMarker" = "ماژیک";
+"MaskPasswords" = "پنهان کردن گذرواژه‌ها";
+"MaskPasswordsShowLength" = "نمایش طول گذرواژه";
+"MaskPasswordsShowLengthTooltip" = "به‌جای همیشه ۸ نقطه، برای هر نویسهٔ پنهان یک نقطه نمایش داده شود که طول گذرواژه را آشکار می‌کند.";
+"MaskPasswordsTooltip" = "از متن رونوشت‌شده‌ای که شبیه گذرواژه است، فقط نخستین و واپسین نویسه نمایش داده شود. برای نمایش آن نشانگر را روی دکمهٔ چشم ببرید.";
+"ShowSnippets" = "نمایش قطعه‌متن‌ها";
+"ShowSnippetsTooltip" = "نمایش پوشه‌های قطعه‌متن و «ویرایش قطعه‌متن‌ها…» در پایین پنجرهٔ بازشو.";

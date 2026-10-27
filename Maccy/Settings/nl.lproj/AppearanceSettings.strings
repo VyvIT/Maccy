@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Druk op ⌘, (command+comma) om voorkeuren te openen wanneer de voettekst verborgen is.";
 "ShowHexColorSwatch" = "Hex kleurstaal tonen";
 "ShowHexColorSwatchTooltip" = "Toon kleurstaal naast hex kleurcodes.";
+"SnippetPreviewDelay" = "Vertraging fragmentvoorvertoning:";
+"SnippetPreviewDelayTooltip" = "Vertraging in milliseconden voordat een voorvertoning van een fragment naast het fragmentenmenu verschijnt.\nStandaard: 300.";
+"HighlightMatchMarker" = "Markeerstift";
+"MaskPasswords" = "Verberg wachtwoorden";
+"MaskPasswordsShowLength" = "Toon wachtwoordlengte";
+"MaskPasswordsShowLengthTooltip" = "Toon één punt per verborgen teken in plaats van altijd 8, waardoor de lengte van het wachtwoord zichtbaar wordt.";
+"MaskPasswordsTooltip" = "Toon alleen het eerste en laatste teken van gekopieerde tekst die op een wachtwoord lijkt. Houd de aanwijzer boven de oogknop om het te tonen.";
+"ShowSnippets" = "Toon fragmenten";
+"ShowSnippetsTooltip" = "Toon fragmentmappen en ‘Fragmenten bewerken…’ onderaan de pop-up.";

@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ اضغط على ⌘، (command+comma) لفتح التفضيلات عندما يكون التذييل مخفيًا.";
 "ShowHexColorSwatch" = "إظهار عينة اللون الست عشري";
 "ShowHexColorSwatchTooltip" = "إظهار عينة اللون بجانب رموز الألوان الست عشرية.";
+"SnippetPreviewDelay" = "تأخير معاينة المقتطف:";
+"SnippetPreviewDelayTooltip" = "التأخير بالمللي ثانية حتى تظهر معاينة المقتطف بجانب قائمة المقتطفات.\nالافتراضي: 300.";
+"HighlightMatchMarker" = "قلم تمييز";
+"MaskPasswords" = "إخفاء كلمات السر";
+"MaskPasswordsShowLength" = "إظهار طول كلمة السر";
+"MaskPasswordsShowLengthTooltip" = "إظهار نقطة واحدة لكل حرف مخفي بدلاً من 8 دائمًا، مما يكشف طول كلمة السر.";
+"MaskPasswordsTooltip" = "إظهار الحرفين الأول والأخير فقط من النص المنسوخ الذي يبدو ككلمة سر. مرّر المؤشر فوق زر العين لإظهارها.";
+"ShowSnippets" = "إظهار المقتطفات";
+"ShowSnippetsTooltip" = "إظهار مجلدات المقتطفات و«تحرير المقتطفات…» في تذييل النافذة المنبثقة.";

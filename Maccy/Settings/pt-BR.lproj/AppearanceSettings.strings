@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Pressione ⌘, (command+comma) para abrir as preferências quando o rodapé estiver oculto.";
 "ShowHexColorSwatch" = "Mostrar amostra de cor hexadecimal";
 "ShowHexColorSwatchTooltip" = "Mostrar amostra de cor ao lado dos códigos de cor hexadecimais.";
+"SnippetPreviewDelay" = "Atraso de pré-visualização de snippets:";
+"SnippetPreviewDelayTooltip" = "Atraso em milissegundos até a pré-visualização de um snippet aparecer ao lado do menu de snippets.\nPadrão: 300.";
+"HighlightMatchMarker" = "Marca-texto";
+"MaskPasswords" = "Ocultar senhas";
+"MaskPasswordsShowLength" = "Mostrar comprimento da senha";
+"MaskPasswordsShowLengthTooltip" = "Mostrar um ponto para cada caractere oculto em vez de sempre 8, o que revela o comprimento da senha.";
+"MaskPasswordsTooltip" = "Mostrar apenas o primeiro e o último caractere de texto copiado que pareça uma senha. Passe o cursor sobre o botão do olho para mostrá-la.";
+"ShowSnippets" = "Mostrar snippets";
+"ShowSnippetsTooltip" = "Mostrar as pastas de snippets e “Editar snippets…” no rodapé do pop-up.";

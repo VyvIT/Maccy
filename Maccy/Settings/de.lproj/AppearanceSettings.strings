@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Um die Einstellungen zu öffnen, halte ⌘, (command+comma) gedrückt.";
 "ShowHexColorSwatch" = "Hex-Farbmuster anzeigen";
 "ShowHexColorSwatchTooltip" = "Farbmuster neben Hex-Farbcodes anzeigen.";
+"SnippetPreviewDelay" = "Verzögerung der Textbaustein-Vorschau:";
+"SnippetPreviewDelayTooltip" = "Verzögerung in Millisekunden, bis neben dem Textbaustein-Menü eine Vorschau angezeigt wird.\nStandard: 300.";
+"HighlightMatchMarker" = "Textmarker";
+"MaskPasswords" = "Passwörter verbergen";
+"MaskPasswordsShowLength" = "Passwortlänge anzeigen";
+"MaskPasswordsShowLengthTooltip" = "Für jedes verborgene Zeichen einen Punkt anzeigen statt immer 8, wodurch die Passwortlänge sichtbar wird.";
+"MaskPasswordsTooltip" = "Bei kopiertem Text, der wie ein Passwort aussieht, nur das erste und letzte Zeichen anzeigen. Zum Anzeigen mit dem Zeiger über die Augen-Taste fahren.";
+"ShowSnippets" = "Textbausteine anzeigen";
+"ShowSnippetsTooltip" = "Ordner mit Textbausteinen und „Textbausteine bearbeiten…“ unten im Popup anzeigen.";

@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Paspauskite ⌘, (command+comma) norėdami atidaryti nustatymus, kai paraštė yra paslėpta.";
 "ShowHexColorSwatch" = "Rodyti šešioliktainės spalvos pavyzdį";
 "ShowHexColorSwatchTooltip" = "Rodyti spalvos pavyzdį šalia šešioliktainių spalvų kodų.";
+"SnippetPreviewDelay" = "Fragmento peržiūros vėlavimas:";
+"SnippetPreviewDelayTooltip" = "Vėlavimas milisekundėmis, kol šalia fragmentų meniu parodoma fragmento peržiūra.\nNumatytoji reikšmė: 300.";
+"HighlightMatchMarker" = "Markeris";
+"MaskPasswords" = "Slėpti slaptažodžius";
+"MaskPasswordsShowLength" = "Rodyti slaptažodžio ilgį";
+"MaskPasswordsShowLengthTooltip" = "Rodyti po vieną tašką kiekvienam paslėptam simboliui, o ne visada 8 – taip atskleidžiamas slaptažodžio ilgis.";
+"MaskPasswordsTooltip" = "Nukopijuotame tekste, panašiame į slaptažodį, rodyti tik pirmą ir paskutinį simbolį. Užveskite žymeklį ant akies mygtuko, kad jį pamatytumėte.";
+"ShowSnippets" = "Rodyti fragmentus";
+"ShowSnippetsTooltip" = "Rodyti fragmentų aplankus ir „Redaguoti fragmentus…“ iššokančio lango apačioje.";

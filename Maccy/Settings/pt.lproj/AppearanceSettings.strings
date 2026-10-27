@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Pressione ⌘, (command+comma) para abrir as preferências quando o rodapé estiver oculto.";
 "ShowHexColorSwatch" = "Mostrar amostra de cor hexadecimal";
 "ShowHexColorSwatchTooltip" = "Mostrar amostra de cor junto aos códigos de cor hexadecimais.";
+"SnippetPreviewDelay" = "Atraso de pré-visualização de excertos:";
+"SnippetPreviewDelayTooltip" = "Atraso em milissegundos até ser mostrada a pré-visualização de um excerto junto ao menu de excertos.\nPadrão: 300.";
+"HighlightMatchMarker" = "Marcador";
+"MaskPasswords" = "Ocultar palavras-passe";
+"MaskPasswordsShowLength" = "Mostrar o comprimento da palavra-passe";
+"MaskPasswordsShowLengthTooltip" = "Mostrar um ponto por cada carácter oculto em vez de sempre 8, o que revela o comprimento da palavra-passe.";
+"MaskPasswordsTooltip" = "Mostrar apenas o primeiro e o último carácter de texto copiado que pareça uma palavra-passe. Passe o cursor sobre o botão do olho para a mostrar.";
+"ShowSnippets" = "Mostrar excertos";
+"ShowSnippetsTooltip" = "Mostrar as pastas de excertos e “Editar excertos…” no rodapé do pop-up.";

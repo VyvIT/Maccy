@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ フッターが隠されている時に設定を開くには⌘, (command+comma)を押してください。";
 "ShowHexColorSwatch" = "16進カラースウォッチを表示";
 "ShowHexColorSwatchTooltip" = "16進カラーコードの横にカラースウォッチを表示します。";
+"SnippetPreviewDelay" = "スニペットプレビューの遅延：";
+"SnippetPreviewDelayTooltip" = "スニペットメニューの横にスニペットのプレビューが表示されるまでの遅延（ミリ秒）。\nデフォルト：300。";
+"HighlightMatchMarker" = "蛍光ペン";
+"MaskPasswords" = "パスワードを隠す";
+"MaskPasswordsShowLength" = "パスワードの長さを表示";
+"MaskPasswordsShowLengthTooltip" = "常に 8 個ではなく、隠れた文字ごとに 1 つの点を表示します。パスワードの長さがわかってしまいます。";
+"MaskPasswordsTooltip" = "パスワードのように見えるコピーしたテキストは、最初と最後の文字だけを表示します。目のボタンにポインタを重ねると表示されます。";
+"ShowSnippets" = "スニペットを表示";
+"ShowSnippetsTooltip" = "スニペットフォルダと“スニペットを編集…”をポップアップのフッターに表示します。";

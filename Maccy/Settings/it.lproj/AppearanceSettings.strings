@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Premi ⌘, (command+comma) per aprire le preferenze quando il footer è nascosto.";
 "ShowHexColorSwatch" = "Mostra campione colore esadecimale";
 "ShowHexColorSwatchTooltip" = "Mostra il campione di colore accanto ai codici colore esadecimali.";
+"SnippetPreviewDelay" = "Ritardo anteprima snippet:";
+"SnippetPreviewDelayTooltip" = "Ritardo in millisecondi prima che venga mostrata l’anteprima di uno snippet accanto al menu degli snippet.\nDefault: 300.";
+"HighlightMatchMarker" = "Evidenziatore";
+"MaskPasswords" = "Nascondi password";
+"MaskPasswordsShowLength" = "Mostra lunghezza password";
+"MaskPasswordsShowLengthTooltip" = "Mostra un punto per ogni carattere nascosto invece di sempre 8, rivelando così la lunghezza della password.";
+"MaskPasswordsTooltip" = "Mostra solo il primo e l’ultimo carattere del testo copiato che sembra una password. Passa il puntatore sul pulsante a forma di occhio per mostrarla.";
+"ShowSnippets" = "Mostra snippet";
+"ShowSnippetsTooltip" = "Mostra le cartelle degli snippet e “Modifica snippet…” nella parte inferiore del popup.";

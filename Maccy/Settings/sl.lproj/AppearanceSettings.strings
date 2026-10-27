@@ -36,3 +36,12 @@
 "OpenPreferencesWarning" = "⚠️ Pritisnite ⌘, (command+comma) da odprete nastavitve, ko je noga skrita.";
 "ShowHexColorSwatch" = "Prikaži vzorec hex barve";
 "ShowHexColorSwatchTooltip" = "Prikaži barvni vzorec ob hex barvnih kodah.";
+"SnippetPreviewDelay" = "Zakasnitev predogleda izrezka:";
+"SnippetPreviewDelayTooltip" = "Zakasnitev v milisekundah, preden se ob meniju izrezkov prikaže predogled izrezka.\nPrivzeto: 300.";
+"HighlightMatchMarker" = "Označevalnik";
+"MaskPasswords" = "Skrij gesla";
+"MaskPasswordsShowLength" = "Prikaži dolžino gesla";
+"MaskPasswordsShowLengthTooltip" = "Za vsak skriti znak prikaži eno piko namesto vedno 8, kar razkrije dolžino gesla.";
+"MaskPasswordsTooltip" = "Pri kopiranem besedilu, ki je videti kot geslo, prikaži le prvi in zadnji znak. Za prikaz pomaknite kazalec nad gumb z očesom.";
+"ShowSnippets" = "Prikaži izrezke";
+"ShowSnippetsTooltip" = "Prikaži mape izrezkov in »Uredi izrezke…« v nogi pojavnega okna.";

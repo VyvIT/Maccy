@@ -36,3 +36,12 @@
 "ShowApplicationIcons" = "Prikaži ikone aplikacija";
 "ShowHexColorSwatch" = "Prikaži uzorak hex boje";
 "ShowHexColorSwatchTooltip" = "Prikaži uzorak boje pored hex kodova boja.";
+"SnippetPreviewDelay" = "Odgoda pregleda isječka:";
+"SnippetPreviewDelayTooltip" = "Odgoda u milisekundama prije prikaza pregleda isječka pokraj izbornika isječaka.\nStandardno: 300.";
+"HighlightMatchMarker" = "Marker";
+"MaskPasswords" = "Sakrij lozinke";
+"MaskPasswordsShowLength" = "Prikaži duljinu lozinke";
+"MaskPasswordsShowLengthTooltip" = "Prikaži jednu točku za svaki skriveni znak umjesto uvijek 8, čime se otkriva duljina lozinke.";
+"MaskPasswordsTooltip" = "Za kopirani tekst koji izgleda kao lozinka prikaži samo prvi i posljednji znak. Postavite pokazivač iznad gumba s okom za prikaz.";
+"ShowSnippets" = "Prikaži isječke";
+"ShowSnippetsTooltip" = "Prikaži mape isječaka i „Uredi isječke…” u podnožju skočnog prozora.";

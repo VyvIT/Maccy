@@ -33,3 +33,12 @@
 "PopupAtLastPosition" = "";
 "ShowTitleBeforeSearchField" = "";
 "OpenPreferencesWarning" = "";
+"SnippetPreviewDelay" = "Tekstinpätkän esikatselun viive:";
+"SnippetPreviewDelayTooltip" = "Viive millisekunteina, ennen kuin tekstinpätkän esikatselu näytetään tekstinpätkävalikon vieressä.\nOletus: 300.";
+"HighlightMatchMarker" = "Korostuskynä";
+"MaskPasswords" = "Piilota salasanat";
+"MaskPasswordsShowLength" = "Näytä salasanan pituus";
+"MaskPasswordsShowLengthTooltip" = "Näytä yksi piste jokaista piilotettua merkkiä kohden aina 8 pisteen sijaan, mikä paljastaa salasanan pituuden.";
+"MaskPasswordsTooltip" = "Näytä salasanalta näyttävästä kopioidusta tekstistä vain ensimmäinen ja viimeinen merkki. Näytä se viemällä osoitin silmäpainikkeen päälle.";
+"ShowSnippets" = "Näytä tekstinpätkät";
+"ShowSnippetsTooltip" = "Näytä tekstinpätkäkansiot ja ”Muokkaa tekstinpätkiä…” ponnahdusikkunan alaosassa.";
