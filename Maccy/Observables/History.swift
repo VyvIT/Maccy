@@ -133,6 +133,7 @@ class History: ItemsContainer { // swiftlint:disable:this type_body_length
     filteredUnpinnedItems = allUnpinnedItems
 
     limitHistorySize(to: Defaults[.size])
+    Storage.shared.scheduleCompaction()
 
     updateShortcuts()
     // Ensure that panel size is proper *after* loading all items.
@@ -257,6 +258,7 @@ class History: ItemsContainer { // swiftlint:disable:this type_body_length
       Storage.shared.context.processPendingChanges()
       try? Storage.shared.context.save()
     }
+    Storage.shared.scheduleCompaction()
 
     Clipboard.shared.clear()
     AppState.shared.popup.close()
@@ -293,6 +295,7 @@ class History: ItemsContainer { // swiftlint:disable:this type_body_length
       Storage.shared.context.processPendingChanges()
       try? Storage.shared.context.save()
     }
+    Storage.shared.scheduleCompaction()
 
     Clipboard.shared.clear()
     AppState.shared.popup.close()
@@ -311,6 +314,8 @@ class History: ItemsContainer { // swiftlint:disable:this type_body_length
       Storage.shared.context.processPendingChanges()
       try? Storage.shared.context.save()
     }
+    // Also covers trimming the history to its size.
+    Storage.shared.scheduleCompaction()
 
     pinManager.remove(item)
     allUnpinnedItems.removeAll { $0 == item }
