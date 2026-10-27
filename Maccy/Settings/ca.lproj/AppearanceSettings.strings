@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Mostra la mostra de color al costat dels codis de color hexadecimals.";
 "SnippetPreviewDelay" = "Retard de la previsualització dels retalls:";
 "SnippetPreviewDelayTooltip" = "Retard en mil·lisegons fins que es mostra la previsualització d'un retall al costat del menú de retalls.\nPer defecte: 300.";
-"HighlightMatchMarker" = "Retolador";
 "MaskPasswords" = "Amaga les contrasenyes";
 "MaskPasswordsShowLength" = "Mostra la longitud de la contrasenya";
 "MaskPasswordsShowLengthTooltip" = "Mostra un punt per cada caràcter amagat en lloc de sempre 8, cosa que revela la longitud de la contrasenya.";

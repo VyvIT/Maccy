@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Fet";
 "HighlightMatchItalic" = "Kursiv";
 "HighlightMatchUnderline" = "Understreke";
-"HighlightMatchesTooltip" = "Endre uthevingsstilen for søketreff.\nStandard: Marker.";
+"HighlightMatchesTooltip" = "Endre uthevingsstilen for søketreff.\nStandard: Farge.";
 "ShowSpecialSymbols" = "Vis spesielle symboler";
 "ShowSpecialSymbolsTooltip" = "Vis nylinjer, tabulatorer, innledende og etterfølgende mellomrom via spesielle symboler.";
 "ShowMenuIcon" = "Vis meny ikon";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Vis fargeprøve ved siden av heksadesimale fargekoder.";
 "SnippetPreviewDelay" = "Forsinkelse for forhåndsvisning av tekstbit:";
 "SnippetPreviewDelayTooltip" = "Forsinkelse i millisekunder før en forhåndsvisning av en tekstbit vises ved siden av tekstbitmenyen.\nStandard: 300.";
-"HighlightMatchMarker" = "Merkepenn";
 "MaskPasswords" = "Skjul passord";
 "MaskPasswordsShowLength" = "Vis passordlengde";
 "MaskPasswordsShowLengthTooltip" = "Vis ett punkt for hvert skjulte tegn i stedet for alltid 8, noe som avslører passordlengden.";

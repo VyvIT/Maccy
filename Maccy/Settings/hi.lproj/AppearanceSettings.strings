@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "हेक्स रंग कोड के बगल में रंग स्वैच दिखाएँ।";
 "SnippetPreviewDelay" = "स्निपेट पूर्वावलोकन विलंब:";
 "SnippetPreviewDelayTooltip" = "स्निपेट मेनू के बगल में स्निपेट का पूर्वावलोकन दिखने तक मिलीसेकंड में विलंब।\nडिफ़ॉल्ट: 300।";
-"HighlightMatchMarker" = "हाइलाइटर";
 "MaskPasswords" = "पासवर्ड छिपाएँ";
 "MaskPasswordsShowLength" = "पासवर्ड की लंबाई दिखाएँ";
 "MaskPasswordsShowLengthTooltip" = "हमेशा 8 के बजाय हर छिपे हुए वर्ण के लिए एक बिंदु दिखाएँ, जिससे पासवर्ड की लंबाई पता चल जाती है।";

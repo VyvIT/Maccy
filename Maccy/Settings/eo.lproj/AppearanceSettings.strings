@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Montri kolorspecimenon apud deksesumaj kolorkodoj.";
 "SnippetPreviewDelay" = "Prokrasto de tekstera antaŭrigardo:";
 "SnippetPreviewDelayTooltip" = "Prokrasto en milisekundoj ĝis antaŭrigardo de tekstero aperas apud la tekstera menuo.\nDefaŭlta: 300.";
-"HighlightMatchMarker" = "Markilo";
 "MaskPasswords" = "Kaŝi pasvortojn";
 "MaskPasswordsShowLength" = "Montri pasvortan longon";
 "MaskPasswordsShowLengthTooltip" = "Montri unu punkton por ĉiu kaŝita signo anstataŭ ĉiam 8, kio malkaŝas la longon de la pasvorto.";

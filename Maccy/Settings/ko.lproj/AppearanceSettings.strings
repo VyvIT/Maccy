@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "굵게";
 "HighlightMatchItalic" = "이탤릭체";
 "HighlightMatchUnderline" = "밑줄";
-"HighlightMatchesTooltip" = "검색 일치 항목의 강조 스타일을 변경합니다.\n기본값: Marker.";
+"HighlightMatchesTooltip" = "검색 일치 항목의 강조 스타일을 변경합니다.\n기본값: 색상.";
 "ShowSpecialSymbols" = "특수 기호 표시";
 "ShowSpecialSymbolsTooltip" = "특수 기호를 통해 개행, 탭, 선행 및 후행 공백을 표시합니다.";
 "ShowMenuIcon" = "메뉴 아이콘 표시";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "16진수 색상 코드 옆에 색상 견본을 표시합니다.";
 "SnippetPreviewDelay" = "스니펫 미리보기 지연:";
 "SnippetPreviewDelayTooltip" = "스니펫 메뉴 옆에 스니펫 미리보기가 표시될 때까지의 지연 시간(밀리초)입니다.\n기본값: 300.";
-"HighlightMatchMarker" = "형광펜";
 "MaskPasswords" = "암호 숨기기";
 "MaskPasswordsShowLength" = "암호 길이 표시";
 "MaskPasswordsShowLengthTooltip" = "항상 8개 대신 숨겨진 문자마다 점을 하나씩 표시하므로 암호 길이가 드러납니다.";

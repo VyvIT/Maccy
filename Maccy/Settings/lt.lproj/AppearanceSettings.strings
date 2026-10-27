@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Paryškintu šriftu";
 "HighlightMatchItalic" = "Kursyvu";
 "HighlightMatchUnderline" = "Pabraukimu";
-"HighlightMatchesTooltip" = "Pakeiskite paieškos atitikmenų paryškinimo stilių.\nNumatytoji reikšmė: Marker.";
+"HighlightMatchesTooltip" = "Pakeiskite paieškos atitikmenų paryškinimo stilių.\nNumatytoji reikšmė: Spalva.";
 "ShowSpecialSymbols" = "Rodyti specialiuosius simbolius";
 "ShowSpecialSymbolsTooltip" = "Rodyti naujas eilutes, skirtukus, pradinius ir galinius tarpus naudojant specialius simbolius.";
 "ShowMenuIcon" = "Rodyti meniu piktogramą";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Rodyti spalvos pavyzdį šalia šešioliktainių spalvų kodų.";
 "SnippetPreviewDelay" = "Fragmento peržiūros vėlavimas:";
 "SnippetPreviewDelayTooltip" = "Vėlavimas milisekundėmis, kol šalia fragmentų meniu parodoma fragmento peržiūra.\nNumatytoji reikšmė: 300.";
-"HighlightMatchMarker" = "Markeris";
 "MaskPasswords" = "Slėpti slaptažodžius";
 "MaskPasswordsShowLength" = "Rodyti slaptažodžio ilgį";
 "MaskPasswordsShowLengthTooltip" = "Rodyti po vieną tašką kiekvienam paslėptam simboliui, o ne visada 8 – taip atskleidžiamas slaptažodžio ilgis.";

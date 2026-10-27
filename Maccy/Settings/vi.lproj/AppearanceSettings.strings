@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "In đậm";
 "HighlightMatchItalic" = "In nghiêng";
 "HighlightMatchUnderline" = "Gạch chân";
-"HighlightMatchesTooltip" = "Thay đổi kiểu đánh dấu cho kết quả tìm kiếm.\nMặc định: Marker.";
+"HighlightMatchesTooltip" = "Thay đổi kiểu đánh dấu cho kết quả tìm kiếm.\nMặc định: Màu sắc.";
 "ShowSpecialSymbols" = "Hiển thị các ký tự đặc biệt";
 "ShowSpecialSymbolsTooltip" = "Hiển thị các ký tự xuống dòng, tab, khoảng trắng đầu và cuối bằng các ký hiệu đặc biệt.";
 "ShowMenuIcon" = "Hiển thị biểu tượng menu";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Hiển thị mẫu màu bên cạnh mã màu hex.";
 "SnippetPreviewDelay" = "Trì hoãn xem trước đoạn mẫu:";
 "SnippetPreviewDelayTooltip" = "Thời gian trễ tính bằng mili giây trước khi bản xem trước của đoạn mẫu hiện bên cạnh menu đoạn mẫu.\nMặc định: 300.";
-"HighlightMatchMarker" = "Bút dạ quang";
 "MaskPasswords" = "Ẩn mật khẩu";
 "MaskPasswordsShowLength" = "Hiện độ dài mật khẩu";
 "MaskPasswordsShowLengthTooltip" = "Hiện một dấu chấm cho mỗi ký tự bị ẩn thay vì luôn là 8, điều này làm lộ độ dài mật khẩu.";

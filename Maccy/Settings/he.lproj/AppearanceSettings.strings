@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "מודגש";
 "HighlightMatchItalic" = "נטוי";
 "HighlightMatchUnderline" = "קו תחתי";
-"HighlightMatchesTooltip" = "החלפת סגנון ההדגשה לתוצאות החיפוש.\nברירת המחדל: Marker.";
+"HighlightMatchesTooltip" = "החלפת סגנון ההדגשה לתוצאות החיפוש.\nברירת המחדל: צֶבַע.";
 "ShowSpecialSymbols" = "הצגת סימנים מיוחדים";
 "ShowSpecialSymbolsTooltip" = "הצגת שורות חדשות, טאבים, רווחים פותחים וסוגרים דרך סימנים מיוחדים.";
 "ShowMenuIcon" = "הצגת סמל תפריט";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "הצג דוגמית צבע ליד קודי צבע הקסדצימליים.";
 "SnippetPreviewDelay" = "השהיית תצוגה מקדימה של קטע:";
 "SnippetPreviewDelayTooltip" = "השהיה באלפיות שנייה עד להצגת תצוגה מקדימה של קטע לצד תפריט הקטעים.\nברירת מחדל: 300.";
-"HighlightMatchMarker" = "מרקר";
 "MaskPasswords" = "הסתרת סיסמאות";
 "MaskPasswordsShowLength" = "הצגת אורך הסיסמה";
 "MaskPasswordsShowLengthTooltip" = "הצגת נקודה אחת לכל תו מוסתר במקום 8 תמיד, מה שחושף את אורך הסיסמה.";

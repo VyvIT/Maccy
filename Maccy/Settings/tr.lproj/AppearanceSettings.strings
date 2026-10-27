@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Kalın";
 "HighlightMatchItalic" = "Italik";
 "HighlightMatchUnderline" = "Altını çizmek";
-"HighlightMatchesTooltip" = "Arama eşleşmeleri için vurgulama stilini değiştirin.\nSaptanmış: Marker.";
+"HighlightMatchesTooltip" = "Arama eşleşmeleri için vurgulama stilini değiştirin.\nSaptanmış: Renk.";
 "ShowSpecialSymbols" = "Özel sembolleri göster";
 "ShowSpecialSymbolsTooltip" = "Yeni satırları, sekmeleri, baştaki ve sondaki boşlukları özel sembollerle gösterin.";
 "ShowMenuIcon" = "Menü simgesini göster";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Hex renk kodlarının yanında renk örneği göster.";
 "SnippetPreviewDelay" = "Parçacık önizleme gecikmesi:";
 "SnippetPreviewDelayTooltip" = "Parçacıklar menüsünün yanında bir parçacık önizlemesi gösterilene kadar geçen milisaniye cinsinden gecikme.\nSaptanmış: 300.";
-"HighlightMatchMarker" = "İşaretleyici";
 "MaskPasswords" = "Parolaları gizle";
 "MaskPasswordsShowLength" = "Parola uzunluğunu göster";
 "MaskPasswordsShowLengthTooltip" = "Her zaman 8 yerine gizlenen her karakter için bir nokta göster; bu, parolanın uzunluğunu ortaya çıkarır.";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Жирний";
 "HighlightMatchItalic" = "Курсив";
 "HighlightMatchUnderline" = "Підкреслити";
-"HighlightMatchesTooltip" = "Змініть стиль виділення для пошукових збігів.\nЗа замовчуванням: Marker.";
+"HighlightMatchesTooltip" = "Змініть стиль виділення для пошукових збігів.\nЗа замовчуванням: Колір.";
 "ShowSpecialSymbols" = "Показати спеціальні символи";
 "ShowSpecialSymbolsTooltip" = "Показувати нові рядки, табуляції, пробіли на початку та в кінці за допомогою спеціальних символів.";
 "ShowMenuIcon" = "Показати значок меню";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Показувати зразок кольору поруч із hex-кодами кольорів.";
 "SnippetPreviewDelay" = "Затримка попереднього перегляду сніпета:";
 "SnippetPreviewDelayTooltip" = "Затримка в мілісекундах до показу попереднього перегляду сніпета поруч із меню сніпетів.\nЗа замовчуванням: 300.";
-"HighlightMatchMarker" = "Маркер";
 "MaskPasswords" = "Приховувати паролі";
 "MaskPasswordsShowLength" = "Показувати довжину пароля";
 "MaskPasswordsShowLengthTooltip" = "Показувати одну крапку для кожного прихованого символу замість завжди 8, що розкриває довжину пароля.";

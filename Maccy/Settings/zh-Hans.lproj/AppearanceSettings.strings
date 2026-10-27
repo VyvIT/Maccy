@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "粗体";
 "HighlightMatchItalic" = "斜体";
 "HighlightMatchUnderline" = "强调";
-"HighlightMatchesTooltip" = "更改搜索匹配项的突出显示样式。\n默认：Marker。";
+"HighlightMatchesTooltip" = "更改搜索匹配项的突出显示样式。\n默认：颜色。";
 "ShowSpecialSymbols" = "显示特殊符号";
 "ShowSpecialSymbolsTooltip" = "通过特殊符号显示换行符、制表符、前导和尾随空格。";
 "ShowMenuIcon" = "显示菜单栏图标";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "在十六进制颜色代码旁边显示颜色色块。";
 "SnippetPreviewDelay" = "片段预览延迟：";
 "SnippetPreviewDelayTooltip" = "在片段菜单旁显示片段预览前的延迟（毫秒）。\n默认：300。";
-"HighlightMatchMarker" = "荧光笔";
 "MaskPasswords" = "隐藏密码";
 "MaskPasswordsShowLength" = "显示密码长度";
 "MaskPasswordsShowLengthTooltip" = "为每个隐藏的字符显示一个圆点，而非始终显示 8 个，这会暴露密码长度。";

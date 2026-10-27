@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Negrito";
 "HighlightMatchItalic" = "Itálico";
 "HighlightMatchUnderline" = "Sublinhado";
-"HighlightMatchesTooltip" = "Mude o estilo de destaque para resultados da procura.\nPadrão: Marker.";
+"HighlightMatchesTooltip" = "Mude o estilo de destaque para resultados da procura.\nPadrão: Cor.";
 "ShowSpecialSymbols" = "Mostrar símbolos especiais";
 "ShowSpecialSymbolsTooltip" = "Mostrar novas linhas, tabulações e espaços iniciais e finais através de símbolos especiais.";
 "ShowMenuIcon" = "Mostrar ícone de menu";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Mostrar amostra de cor junto aos códigos de cor hexadecimais.";
 "SnippetPreviewDelay" = "Atraso de pré-visualização de excertos:";
 "SnippetPreviewDelayTooltip" = "Atraso em milissegundos até ser mostrada a pré-visualização de um excerto junto ao menu de excertos.\nPadrão: 300.";
-"HighlightMatchMarker" = "Marcador";
 "MaskPasswords" = "Ocultar palavras-passe";
 "MaskPasswordsShowLength" = "Mostrar o comprimento da palavra-passe";
 "MaskPasswordsShowLengthTooltip" = "Mostrar um ponto por cada carácter oculto em vez de sempre 8, o que revela o comprimento da palavra-passe.";

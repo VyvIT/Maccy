@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Vetgedrukt";
 "HighlightMatchItalic" = "Cursief";
 "HighlightMatchUnderline" = "Onderstreep";
-"HighlightMatchesTooltip" = "Wijzig de markeerstijl voor zoekresultaten.\nStandaard: Marker.";
+"HighlightMatchesTooltip" = "Wijzig de markeerstijl voor zoekresultaten.\nStandaard: Kleur.";
 "ShowSpecialSymbols" = "Toon speciale symbolen";
 "ShowSpecialSymbolsTooltip" = "Toon nieuwe regels, tabs, voorloop- en volgspaties via speciale symbolen.";
 "ShowMenuIcon" = "Toon menu-icoon";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Toon kleurstaal naast hex kleurcodes.";
 "SnippetPreviewDelay" = "Vertraging fragmentvoorvertoning:";
 "SnippetPreviewDelayTooltip" = "Vertraging in milliseconden voordat een voorvertoning van een fragment naast het fragmentenmenu verschijnt.\nStandaard: 300.";
-"HighlightMatchMarker" = "Markeerstift";
 "MaskPasswords" = "Verberg wachtwoorden";
 "MaskPasswordsShowLength" = "Toon wachtwoordlengte";
 "MaskPasswordsShowLengthTooltip" = "Toon één punt per verborgen teken in plaats van altijd 8, waardoor de lengte van het wachtwoord zichtbaar wordt.";

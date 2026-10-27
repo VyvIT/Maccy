@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Krepko";
 "HighlightMatchItalic" = "Poševno";
 "HighlightMatchUnderline" = "Podčrtaj";
-"HighlightMatchesTooltip" = "Spremenite slog označevanja za iskana ujemanja.\nPrivzeto: Marker.";
+"HighlightMatchesTooltip" = "Spremenite slog označevanja za iskana ujemanja.\nPrivzeto: Barva.";
 "ShowSpecialSymbols" = "Prikaži posebne simbole";
 "ShowSpecialSymbolsTooltip" = "Prikaži nove vrstice, zavihke, presledke na začetku in na koncu s posebnimi simboli.";
 "ShowMenuIcon" = "Prikaži ikono menija";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Prikaži barvni vzorec ob hex barvnih kodah.";
 "SnippetPreviewDelay" = "Zakasnitev predogleda izrezka:";
 "SnippetPreviewDelayTooltip" = "Zakasnitev v milisekundah, preden se ob meniju izrezkov prikaže predogled izrezka.\nPrivzeto: 300.";
-"HighlightMatchMarker" = "Označevalnik";
 "MaskPasswords" = "Skrij gesla";
 "MaskPasswordsShowLength" = "Prikaži dolžino gesla";
 "MaskPasswordsShowLengthTooltip" = "Za vsak skriti znak prikaži eno piko namesto vedno 8, kar razkrije dolžino gesla.";

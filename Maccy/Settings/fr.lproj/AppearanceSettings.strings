@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Gras";
 "HighlightMatchItalic" = "Italique";
 "HighlightMatchUnderline" = "Souligner";
-"HighlightMatchesTooltip" = "Modifiez le style de surbrillance des correspondances de recherche.\nPar défaut : Marker.";
+"HighlightMatchesTooltip" = "Modifiez le style de surbrillance des correspondances de recherche.\nPar défaut : Couleur.";
 "ShowSpecialSymbols" = "Afficher les symboles spéciaux";
 "ShowSpecialSymbolsTooltip" = "Afficher les nouvelles lignes, les tabulations, les espaces de début et de fin via des symboles spéciaux.";
 "ShowMenuIcon" = "Afficher l’icône du menu";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Afficher un échantillon de couleur à côté des codes couleur hexadécimaux.";
 "SnippetPreviewDelay" = "Délai de prévisualisation des extraits :";
 "SnippetPreviewDelayTooltip" = "Délai en millisecondes avant l’affichage de l’aperçu d’un extrait à côté du menu des extraits.\nPar défaut : 300.";
-"HighlightMatchMarker" = "Surligneur";
 "MaskPasswords" = "Masquer les mots de passe";
 "MaskPasswordsShowLength" = "Afficher la longueur du mot de passe";
 "MaskPasswordsShowLengthTooltip" = "Afficher un point par caractère masqué au lieu de toujours 8, ce qui révèle la longueur du mot de passe.";

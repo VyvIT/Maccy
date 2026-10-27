@@ -25,7 +25,7 @@
 "HighlightMatchColor" = "Ran";
 "HighlightMatchBold" = "Qalin";
 "HighlightMatchItalic" = "Yotiq";
-"HighlightMatchesTooltip" = "Qidiruv mosliklari uchun ta'kidlash uslubini o'zgartiring.\nStandart: Marker.";
+"HighlightMatchesTooltip" = "Qidiruv mosliklari uchun ta'kidlash uslubini o'zgartiring.\nStandart: Ran.";
 "ShowApplicationIcons" = "Ilova piktogrammalarini ko'rsatish";
 "ShowSpecialSymbols" = "Maxsus belgilarni ko'rsating";
 "ShowSpecialSymbolsTooltip" = "Yangi qatorlarni, yorliqlarni, bosh va keyingi bo'shliqlarni maxsus belgilar orqali ko'rsatish.";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Hex rang kodlari yonida rang namunasini koʻrsatish.";
 "SnippetPreviewDelay" = "Parcha ko‘rish kechikishi:";
 "SnippetPreviewDelayTooltip" = "Parchalar menyusi yonida parcha ko‘rinishi paydo bo‘lgunga qadar millisekundlardagi kechikish.\nStandart: 300.";
-"HighlightMatchMarker" = "Marker";
 "MaskPasswords" = "Parollarni yashirish";
 "MaskPasswordsShowLength" = "Parol uzunligini ko‘rsatish";
 "MaskPasswordsShowLengthTooltip" = "Har doim 8 ta o‘rniga har bir yashirin belgi uchun bitta nuqta ko‘rsatish; bu parol uzunligini oshkor qiladi.";

@@ -21,7 +21,7 @@
 "ShowFooter" = "បង្ហាញផ្នែកបាត";
 "Title" = "រូបរាង";
 "HighlightMatchUnderline" = "អក្សរគូសបន្ទាត់ក្រោម";
-"HighlightMatchesTooltip" = "ផ្លាស់ប្ដូររចនាប័ទ្មបន្លិចសម្រាប់ពាក្យដែលស្វែងរកត្រូវគ្នា។\nលំនាំដើម: Marker។";
+"HighlightMatchesTooltip" = "ផ្លាស់ប្ដូររចនាប័ទ្មបន្លិចសម្រាប់ពាក្យដែលស្វែងរកត្រូវគ្នា។\nលំនាំដើម: ពណ៌។";
 "SearchVisibilityAlways" = "ជានិច្ច";
 "PopupAt" = "បង្ហាញផុសឡើង នៅ:";
 "PinToTooltip" = "ផ្លាស់ប្ដូរទីតាំងធាតុដែលបានខ្ទាស់។\nលំនាំដើម: ខាងលើ។";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "បង្ហាញគំរូពណ៌នៅក្បែរកូដពណ៌ Hex។";
 "SnippetPreviewDelay" = "ពន្យារពេលមើលមុនអត្ថបទគំរូ:";
 "SnippetPreviewDelayTooltip" = "ពន្យារពេលជាមិល្លីវិនាទី មុនពេលការមើលមុនអត្ថបទគំរូបង្ហាញនៅក្បែរម៉ឺនុយអត្ថបទគំរូ។\nលំនាំដើម: 300។";
-"HighlightMatchMarker" = "ប៊ិចគូសពណ៌";
 "MaskPasswords" = "លាក់ពាក្យសម្ងាត់";
 "MaskPasswordsShowLength" = "បង្ហាញប្រវែងពាក្យសម្ងាត់";
 "MaskPasswordsShowLengthTooltip" = "បង្ហាញចំណុចមួយសម្រាប់តួអក្សរដែលលាក់នីមួយៗ ជំនួសឱ្យ 8 ជានិច្ច ដែលបង្ហាញប្រវែងពាក្យសម្ងាត់។";

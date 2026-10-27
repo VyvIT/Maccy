@@ -23,11 +23,10 @@
 "PreviewDelayTooltip" = "Delay in milliseconds until a preview popup is shown.\nDefault: 500.";
 "HighlightMatches" = "Highlight matches:";
 "HighlightMatchColor" = "Color";
-"HighlightMatchMarker" = "Marker";
 "HighlightMatchBold" = "Bold";
 "HighlightMatchItalic" = "Italic";
 "HighlightMatchUnderline" = "Underline";
-"HighlightMatchesTooltip" = "Change the highlighting style for search matches.\nDefault: Marker.";
+"HighlightMatchesTooltip" = "Change the highlighting style for search matches.\nDefault: Color.";
 "ShowSpecialSymbols" = "Show special symbols";
 "ShowSpecialSymbolsTooltip" = "Show newlines, tabs, leading and trailing spaces via special symbols.";
 "ShowMenuIcon" = "Show menu icon";

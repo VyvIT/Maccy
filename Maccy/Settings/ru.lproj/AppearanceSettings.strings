@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Жирный";
 "HighlightMatchItalic" = "Курсив";
 "HighlightMatchUnderline" = "Подчеркнутый";
-"HighlightMatchesTooltip" = "Измените стиль выделения для совпадений при поиске.\nПо умолчанию: Marker.";
+"HighlightMatchesTooltip" = "Измените стиль выделения для совпадений при поиске.\nПо умолчанию: Цвет.";
 "ShowSpecialSymbols" = "Показывать специальные символы";
 "ShowSpecialSymbolsTooltip" = "Показывать символы новой строки, табуляции, начальные и конечные пробелы с помощью специальных символов.";
 "ShowMenuIcon" = "Показывать иконку в меню";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Показывать образец цвета рядом с hex-кодами цветов.";
 "SnippetPreviewDelay" = "Задержка предпросмотра сниппета:";
 "SnippetPreviewDelayTooltip" = "Задержка в миллисекундах до показа предпросмотра сниппета рядом с меню сниппетов.\nПо умолчанию: 300.";
-"HighlightMatchMarker" = "Маркер";
 "MaskPasswords" = "Скрывать пароли";
 "MaskPasswordsShowLength" = "Показывать длину пароля";
 "MaskPasswordsShowLengthTooltip" = "Показывать по одной точке на каждый скрытый символ вместо постоянных 8, что раскрывает длину пароля.";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Grassetto";
 "HighlightMatchItalic" = "Corsiva";
 "HighlightMatchUnderline" = "Sottolineare";
-"HighlightMatchesTooltip" = "Modifica lo stile di evidenziazione per le corrispondenze di ricerca.\nPredefinito: Marker.";
+"HighlightMatchesTooltip" = "Modifica lo stile di evidenziazione per le corrispondenze di ricerca.\nPredefinito: Colore.";
 "ShowSpecialSymbols" = "Mostra simboli speciali";
 "ShowSpecialSymbolsTooltip" = "Mostra fine riga, tabulazioni, spazi iniziali e finali tramite simboli speciali.";
 "ShowMenuIcon" = "Mostra icona menù";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Mostra il campione di colore accanto ai codici colore esadecimali.";
 "SnippetPreviewDelay" = "Ritardo anteprima snippet:";
 "SnippetPreviewDelayTooltip" = "Ritardo in millisecondi prima che venga mostrata l’anteprima di uno snippet accanto al menu degli snippet.\nDefault: 300.";
-"HighlightMatchMarker" = "Evidenziatore";
 "MaskPasswords" = "Nascondi password";
 "MaskPasswordsShowLength" = "Mostra lunghezza password";
 "MaskPasswordsShowLengthTooltip" = "Mostra un punto per ogni carattere nascosto invece di sempre 8, rivelando così la lunghezza della password.";

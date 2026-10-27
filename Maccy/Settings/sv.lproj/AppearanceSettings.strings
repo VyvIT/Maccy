@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Visa färgprov bredvid hexadecimala färgkoder.";
 "SnippetPreviewDelay" = "Fördröjning för förhandsvisning av textklipp:";
 "SnippetPreviewDelayTooltip" = "Fördröjning i millisekunder innan en förhandsvisning av ett textklipp visas bredvid textklippsmenyn.\nStandard: 300.";
-"HighlightMatchMarker" = "Överstrykningspenna";
 "MaskPasswords" = "Dölj lösenord";
 "MaskPasswordsShowLength" = "Visa lösenordets längd";
 "MaskPasswordsShowLengthTooltip" = "Visa en punkt för varje dolt tecken i stället för alltid 8, vilket avslöjar lösenordets längd.";

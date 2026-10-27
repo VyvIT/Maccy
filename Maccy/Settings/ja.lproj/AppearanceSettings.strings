@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "太字";
 "HighlightMatchItalic" = "イタリック";
 "HighlightMatchUnderline" = "下線";
-"HighlightMatchesTooltip" = "検索一致の強調表示スタイルを変更します。\nデフォルト: Marker。";
+"HighlightMatchesTooltip" = "検索一致の強調表示スタイルを変更します。\nデフォルト: カラー。";
 "ShowSpecialSymbols" = "特殊な記号を表示する";
 "ShowSpecialSymbolsTooltip" = "改行、タブ、先頭および末尾のスペースを特殊記号で表示します。";
 "ShowMenuIcon" = "メニューアイコン表示";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "16進カラーコードの横にカラースウォッチを表示します。";
 "SnippetPreviewDelay" = "スニペットプレビューの遅延：";
 "SnippetPreviewDelayTooltip" = "スニペットメニューの横にスニペットのプレビューが表示されるまでの遅延（ミリ秒）。\nデフォルト：300。";
-"HighlightMatchMarker" = "蛍光ペン";
 "MaskPasswords" = "パスワードを隠す";
 "MaskPasswordsShowLength" = "パスワードの長さを表示";
 "MaskPasswordsShowLengthTooltip" = "常に 8 個ではなく、隠れた文字ごとに 1 つの点を表示します。パスワードの長さがわかってしまいます。";

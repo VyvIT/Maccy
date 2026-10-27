@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Podebljano";
 "HighlightMatchItalic" = "Kurziv";
 "HighlightMatchUnderline" = "Naglasiti";
-"HighlightMatchesTooltip" = "Promijenite stil isticanja za podudaranja pretraživanja.\nStandardno: Marker.";
+"HighlightMatchesTooltip" = "Promijenite stil isticanja za podudaranja pretraživanja.\nStandardno: Boja.";
 "ShowSpecialSymbols" = "Prikaži posebne simbole";
 "ShowSpecialSymbolsTooltip" = "Prikažite nove retke, kartice, razmake na početku i na kraju pomoću posebnih simbola.";
 "ShowMenuIcon" = "Prikaži ikonu u izborniku";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Prikaži uzorak boje pored hex kodova boja.";
 "SnippetPreviewDelay" = "Odgoda pregleda isječka:";
 "SnippetPreviewDelayTooltip" = "Odgoda u milisekundama prije prikaza pregleda isječka pokraj izbornika isječaka.\nStandardno: 300.";
-"HighlightMatchMarker" = "Marker";
 "MaskPasswords" = "Sakrij lozinke";
 "MaskPasswordsShowLength" = "Prikaži duljinu lozinke";
 "MaskPasswordsShowLengthTooltip" = "Prikaži jednu točku za svaki skriveni znak umjesto uvijek 8, čime se otkriva duljina lozinke.";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Pogrubione";
 "HighlightMatchItalic" = "Kursywa";
 "HighlightMatchUnderline" = "Podkreślone";
-"HighlightMatchesTooltip" = "Zmień styl podkreślenia dla dopasowanych wyników wyszukiwania.\nDomyślnie: Marker.";
+"HighlightMatchesTooltip" = "Zmień styl podkreślenia dla dopasowanych wyników wyszukiwania.\nDomyślnie: Kolor.";
 "ShowSpecialSymbols" = "Pokaż symbole specjalne";
 "ShowSpecialSymbolsTooltip" = "Pokaż znaki końca lini, tabulatory i końcowe spacje jako symbole specjalne.";
 "ShowMenuIcon" = "Pokaż ikonę menu";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Pokaż próbkę koloru obok kodów kolorów hex.";
 "SnippetPreviewDelay" = "Opóźnienie podglądu fragmentu:";
 "SnippetPreviewDelayTooltip" = "Opóźnienie w milisekundach, zanim obok menu fragmentów pojawi się podgląd fragmentu.\nDomyślnie: 300.";
-"HighlightMatchMarker" = "Zakreślacz";
 "MaskPasswords" = "Ukrywaj hasła";
 "MaskPasswordsShowLength" = "Pokazuj długość hasła";
 "MaskPasswordsShowLengthTooltip" = "Pokazuj jedną kropkę na każdy ukryty znak zamiast zawsze 8, co ujawnia długość hasła.";

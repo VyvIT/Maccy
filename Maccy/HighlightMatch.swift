@@ -3,7 +3,6 @@ import Defaults
 
 enum HighlightMatch: String, CaseIterable, Identifiable, CustomStringConvertible, Defaults.Serializable {
   case color
-  case marker
   case bold
   case italic
   case underline
@@ -16,8 +15,6 @@ enum HighlightMatch: String, CaseIterable, Identifiable, CustomStringConvertible
       return NSLocalizedString("HighlightMatchBold", tableName: "AppearanceSettings", comment: "")
     case .color:
       return NSLocalizedString("HighlightMatchColor", tableName: "AppearanceSettings", comment: "")
-    case .marker:
-      return NSLocalizedString("HighlightMatchMarker", tableName: "AppearanceSettings", comment: "")
     case .italic:
       return NSLocalizedString("HighlightMatchItalic", tableName: "AppearanceSettings", comment: "")
     case .underline:

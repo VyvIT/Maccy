@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Vastag";
 "HighlightMatchItalic" = "Dőlt";
 "HighlightMatchUnderline" = "Aláhúzott";
-"HighlightMatchesTooltip" = "Változtasd meg a keresési találatok kiemelésének a stílusát.\nAlapértelmezett: Marker.";
+"HighlightMatchesTooltip" = "Változtasd meg a keresési találatok kiemelésének a stílusát.\nAlapértelmezett: Szín.";
 "ShowSpecialSymbols" = "Speciális karakterek megjelenítése";
 "ShowSpecialSymbolsTooltip" = "Az újsorok, tabulátorok, kezdő és záró szóközök megjelenítése speciális szimbólumokkal.";
 "ShowMenuIcon" = "Menü ikon megjelenítése";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Színminta megjelenítése a hex színkódok mellett.";
 "SnippetPreviewDelay" = "Szövegrészlet-előnézet késleltetése:";
 "SnippetPreviewDelayTooltip" = "Késleltetés ezredmásodpercben, mielőtt a szövegrészlet előnézete megjelenik a szövegrészletek menüje mellett.\nAlapértelmezett: 300.";
-"HighlightMatchMarker" = "Szövegkiemelő";
 "MaskPasswords" = "Jelszavak elrejtése";
 "MaskPasswordsShowLength" = "Jelszó hosszának megjelenítése";
 "MaskPasswordsShowLengthTooltip" = "Minden rejtett karakterhez egy pont jelenjen meg a mindig 8 helyett, ami felfedi a jelszó hosszát.";

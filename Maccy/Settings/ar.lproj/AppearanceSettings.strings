@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "عريض";
 "HighlightMatchItalic" = "مائل";
 "HighlightMatchUnderline" = "تسطير";
-"HighlightMatchesTooltip" = "تغيير نمط التميز للبحث عن المطابقات.\nالافتراضي: Marker.";
+"HighlightMatchesTooltip" = "تغيير نمط التميز للبحث عن المطابقات.\nالافتراضي: اللون.";
 "ShowSpecialSymbols" = "إظهار الرموز الخاصة";
 "ShowSpecialSymbolsTooltip" = "إظهار الأسطر الجديدة، علامات التبويب، المسافات الأمامية والخلفية عبر الرموز الخاصة.";
 "ShowMenuIcon" = "إظهار أيقونة القائمة";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "إظهار عينة اللون بجانب رموز الألوان الست عشرية.";
 "SnippetPreviewDelay" = "تأخير معاينة المقتطف:";
 "SnippetPreviewDelayTooltip" = "التأخير بالمللي ثانية حتى تظهر معاينة المقتطف بجانب قائمة المقتطفات.\nالافتراضي: 300.";
-"HighlightMatchMarker" = "قلم تمييز";
 "MaskPasswords" = "إخفاء كلمات السر";
 "MaskPasswordsShowLength" = "إظهار طول كلمة السر";
 "MaskPasswordsShowLengthTooltip" = "إظهار نقطة واحدة لكل حرف مخفي بدلاً من 8 دائمًا، مما يكشف طول كلمة السر.";

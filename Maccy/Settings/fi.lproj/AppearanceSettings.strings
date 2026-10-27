@@ -35,7 +35,6 @@
 "OpenPreferencesWarning" = "";
 "SnippetPreviewDelay" = "Tekstinpätkän esikatselun viive:";
 "SnippetPreviewDelayTooltip" = "Viive millisekunteina, ennen kuin tekstinpätkän esikatselu näytetään tekstinpätkävalikon vieressä.\nOletus: 300.";
-"HighlightMatchMarker" = "Korostuskynä";
 "MaskPasswords" = "Piilota salasanat";
 "MaskPasswordsShowLength" = "Näytä salasanan pituus";
 "MaskPasswordsShowLengthTooltip" = "Näytä yksi piste jokaista piilotettua merkkiä kohden aina 8 pisteen sijaan, mikä paljastaa salasanan pituuden.";

@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Aldin (bold)";
 "HighlightMatchItalic" = "Italic";
 "HighlightMatchUnderline" = "Subliniat";
-"HighlightMatchesTooltip" = "Schimbă stilul de evidențiere pentru potrivirile din căutare.\nImplicit: Marker.";
+"HighlightMatchesTooltip" = "Schimbă stilul de evidențiere pentru potrivirile din căutare.\nImplicit: Culoare.";
 "ShowSpecialSymbols" = "Afișează simboluri speciale";
 "ShowSpecialSymbolsTooltip" = "Afișează caractere speciale pentru linie nouă, tabulator, spațiile de la început și de la sfârșit.";
 "ShowMenuIcon" = "Afișează iconița meniului";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Afișare mostră de culoare lângă codurile de culoare hexazecimale.";
 "SnippetPreviewDelay" = "Temporizare previzualizare fragment:";
 "SnippetPreviewDelayTooltip" = "Întârziere în milisecunde până la afișarea previzualizării unui fragment lângă meniul de fragmente.\nImplicit: 300.";
-"HighlightMatchMarker" = "Marker";
 "MaskPasswords" = "Ascunde parolele";
 "MaskPasswordsShowLength" = "Afișează lungimea parolei";
 "MaskPasswordsShowLengthTooltip" = "Afișează câte un punct pentru fiecare caracter ascuns în loc de mereu 8, ceea ce dezvăluie lungimea parolei.";

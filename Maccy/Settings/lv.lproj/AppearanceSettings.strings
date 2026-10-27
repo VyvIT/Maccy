@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Treknrakstā";
 "HighlightMatchItalic" = "Slīprakstā";
 "HighlightMatchUnderline" = "Pasvītrojot";
-"HighlightMatchesTooltip" = "Mainiet meklēšanas atbilstību iezīmēšanas stilu.\nNoklusējums: Marker.";
+"HighlightMatchesTooltip" = "Mainiet meklēšanas atbilstību iezīmēšanas stilu.\nNoklusējums: Ar krāsu.";
 "ShowSpecialSymbols" = "Rādīt īpašus simbolus";
 "ShowSpecialSymbolsTooltip" = "Rādīt jaunas līnijas, cilnes, sākuma un beigu atstarpes, izmantojot īpašus simbolus.";
 "ShowMenuIcon" = "Rādīt izvēlnes ikonu";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Rādīt krāsas paraugu blakus heksadecimālajiem krāsu kodiem.";
 "SnippetPreviewDelay" = "Fragmenta priekšskatījuma aizkave:";
 "SnippetPreviewDelayTooltip" = "Aizkave milisekundēs, līdz blakus fragmentu izvēlnei tiek parādīts fragmenta priekšskatījums.\nNoklusējums: 300.";
-"HighlightMatchMarker" = "Marķieris";
 "MaskPasswords" = "Slēpt paroles";
 "MaskPasswordsShowLength" = "Rādīt paroles garumu";
 "MaskPasswordsShowLengthTooltip" = "Rādīt vienu punktu par katru slēpto rakstzīmi, nevis vienmēr 8, tādējādi atklājot paroles garumu.";

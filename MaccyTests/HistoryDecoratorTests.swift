@@ -31,6 +31,13 @@ extension SharedStateTests {
       Defaults[.highlightMatch] = savedHighlightMatch
     }
 
+    @Test("Removed Marker highlight falls back to Color")
+    func removedMarkerHighlight() {
+      Defaults.Keys.highlightMatch.suite.set("marker", forKey: Defaults.Keys.highlightMatch.name)
+
+      #expect(Defaults[.highlightMatch] == .color)
+    }
+
     @Test("String")
     func string() {
       let title = "foo"

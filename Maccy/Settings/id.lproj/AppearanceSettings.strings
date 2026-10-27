@@ -24,7 +24,7 @@
 "HighlightMatchBold" = "Tebal";
 "HighlightMatchItalic" = "Miring";
 "HighlightMatchUnderline" = "Garis bawah";
-"HighlightMatchesTooltip" = "Mengubah gaya sorot untuk hasil pencarian.\nBawaan: Marker.";
+"HighlightMatchesTooltip" = "Mengubah gaya sorot untuk hasil pencarian.\nBawaan: Warna.";
 "ShowSpecialSymbols" = "Tampilkan simbol khusus";
 "ShowSpecialSymbolsTooltip" = "Menampilkan baris baru, tab, spasi awal, dan spasi akhir dengan simbol khusus.";
 "ShowMenuIcon" = "Tampilkan ikon menu";
@@ -38,7 +38,6 @@
 "ShowHexColorSwatchTooltip" = "Tampilkan contoh warna di samping kode warna hex.";
 "SnippetPreviewDelay" = "Jeda pratinjau cuplikan:";
 "SnippetPreviewDelayTooltip" = "Jeda dalam milidetik hingga pratinjau cuplikan ditampilkan di samping menu cuplikan.\nBawaan: 300.";
-"HighlightMatchMarker" = "Stabilo";
 "MaskPasswords" = "Sembunyikan kata sandi";
 "MaskPasswordsShowLength" = "Tampilkan panjang kata sandi";
 "MaskPasswordsShowLengthTooltip" = "Tampilkan satu titik untuk setiap karakter tersembunyi alih-alih selalu 8, sehingga panjang kata sandi terlihat.";
