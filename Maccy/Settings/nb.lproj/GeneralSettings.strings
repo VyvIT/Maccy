@@ -20,3 +20,8 @@
 "Regex" = "Vanlig uttrykk";
 "Mixed" = "Blandet";
 "NotificationsAndSounds" = "Varsler og lyder 􀱁";
+"Language" = "Språk:";
+"LanguageTooltip" = "Språket i Maccy. System bruker det første av Macens foretrukne språk som Maccy er oversatt til.\nStandard: System.";
+"LanguageSystem" = "System";
+"LanguageRestartNeeded" = "Tas i bruk når Maccy startes på nytt.";
+"LanguageRestart" = "Start på nytt";

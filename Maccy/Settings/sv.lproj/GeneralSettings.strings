@@ -21,3 +21,8 @@
 "PinTooltip" = "Kortkommando för att fästa historikpost .\nFörval: ⌥P.";
 "Modifiers" = "Anpassa beteendet vid val av post:\n• Välj med %@ nedtryckt för att kopiera posten.\n• Välj med %@ nedtryckt för att kopiera och klistra in posten.\n• Välj med %@ nedtryckt för att kopiera, rensa formatering och klistra in posten.";
 "Regex" = "Reguljära uttryck";
+"Language" = "Språk:";
+"LanguageTooltip" = "Maccys språk. System använder det första av din Macs föredragna språk som Maccy är översatt till.\nStandard: System.";
+"LanguageSystem" = "System";
+"LanguageRestartNeeded" = "Tillämpas när Maccy har startats om.";
+"LanguageRestart" = "Starta om";

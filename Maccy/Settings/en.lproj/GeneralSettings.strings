@@ -2,6 +2,11 @@
 "LaunchAtLogin" = "Launch at login";
 "CheckForUpdates" = "Check for updates automatically";
 "CheckNow" = "Check now";
+"Language" = "Language:";
+"LanguageTooltip" = "Language of Maccy. System uses the first of your Mac's preferred languages that Maccy is translated into.\nDefault: System.";
+"LanguageSystem" = "System";
+"LanguageRestartNeeded" = "Applies after restarting Maccy.";
+"LanguageRestart" = "Restart";
 "Open" = "Open:";
 "OpenTooltip" = "Global shortcut key to open application.\nA repeated press of the main key while holding modifiers will select the next item in the list. In this mode, releasing modifier keys will confirm selection and close the popup.\nDefault: ⇧⌘C.";
 "Pin" = "Pin:";

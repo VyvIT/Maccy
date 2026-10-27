@@ -20,3 +20,8 @@
 "Regex" = "Biểu thức chính quy";
 "Mixed" = "Hỗn hợp";
 "NotificationsAndSounds" = "Thông báo và âm thanh 􀱁";
+"Language" = "Ngôn ngữ:";
+"LanguageTooltip" = "Ngôn ngữ của Maccy. Hệ thống dùng ngôn ngữ ưu tiên đầu tiên trên máy Mac mà Maccy đã được dịch sang.\nMặc định: Hệ thống.";
+"LanguageSystem" = "Hệ thống";
+"LanguageRestartNeeded" = "Áp dụng sau khi khởi động lại Maccy.";
+"LanguageRestart" = "Khởi động lại";

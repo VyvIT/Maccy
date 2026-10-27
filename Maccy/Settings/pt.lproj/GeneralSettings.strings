@@ -21,3 +21,8 @@
 "ShowPreview" = "Pré-visualizar:";
 "ShowPreviewTooltip" = "Mostrar pré-visualização com informação adicional.\nPadrão: ⌃Space.";
 "Behavior" = "Comportamento:";
+"Language" = "Idioma:";
+"LanguageTooltip" = "Idioma do Maccy. Sistema usa o primeiro dos idiomas preferidos do Mac para o qual o Maccy está traduzido.\nPadrão: Sistema.";
+"LanguageSystem" = "Sistema";
+"LanguageRestartNeeded" = "Aplica-se depois de reiniciar o Maccy.";
+"LanguageRestart" = "Reiniciar";

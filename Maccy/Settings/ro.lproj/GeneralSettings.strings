@@ -21,3 +21,8 @@
 "Behavior" = "Comportament:";
 "Delete" = "Șterge:";
 "Title" = "General";
+"Language" = "Limbă:";
+"LanguageTooltip" = "Limba Maccy. Sistem folosește prima dintre limbile preferate ale Mac-ului în care este tradus Maccy.\nImplicit: Sistem.";
+"LanguageSystem" = "Sistem";
+"LanguageRestartNeeded" = "Se aplică după repornirea Maccy.";
+"LanguageRestart" = "Repornește";

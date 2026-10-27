@@ -21,3 +21,8 @@
 "Mixed" = "混合";
 "RemoveTrackingParameters" = "移除 URL 中的追踪参数";
 "NotificationsAndSounds" = "通知和声音 􀱁";
+"Language" = "语言：";
+"LanguageTooltip" = "Maccy 的语言。“系统”会使用 Mac 首选语言中第一个已有 Maccy 翻译的语言。\n默认：系统。";
+"LanguageSystem" = "系统";
+"LanguageRestartNeeded" = "重新启动 Maccy 后生效。";
+"LanguageRestart" = "重新启动";

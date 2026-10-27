@@ -20,3 +20,8 @@
 "Regex" = "التعبيرات العادية";
 "Mixed" = "مختلط";
 "NotificationsAndSounds" = "الإشعارات والأصوات 􀱁";
+"Language" = "اللغة:";
+"LanguageTooltip" = "لغة Maccy. يستخدم خيار «النظام» أول لغة من اللغات المفضلة في جهاز Mac تمت ترجمة Maccy إليها.\nالافتراضي: النظام.";
+"LanguageSystem" = "النظام";
+"LanguageRestartNeeded" = "يُطبَّق بعد إعادة تشغيل Maccy.";
+"LanguageRestart" = "إعادة التشغيل";

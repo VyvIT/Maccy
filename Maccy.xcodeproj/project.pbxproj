@@ -159,10 +159,12 @@
 		DAE8F5D42C43262B00851CA9 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8F5D32C43262B00851CA9 /* Popup.swift */; };
 		C0FFEE000000000000000120 /* FooterSnippetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000121 /* FooterSnippetsTests.swift */; };
 		C0FFEE000000000000000122 /* StorageCompactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000123 /* StorageCompactionTests.swift */; };
+		C0FFEE000000000000000126 /* AppLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000127 /* AppLanguageTests.swift */; };
 		C0FFEE00000000000000011E /* SnippetsSubmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */; };
 		C0FFEE00000000000000011C /* PasswordDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011D /* PasswordDetectorTests.swift */; };
 		C0FFEE00000000000000011A /* PasswordViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000011B /* PasswordViews.swift */; };
 		C0FFEE000000000000000118 /* PasswordDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000119 /* PasswordDetector.swift */; };
+		C0FFEE000000000000000124 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000125 /* AppLanguage.swift */; };
 		C0FFEE000000000000000116 /* SnippetPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000117 /* SnippetPreviewView.swift */; };
 		C0FFEE000000000000000114 /* SnippetsEditorWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000115 /* SnippetsEditorWindowController.swift */; };
 		C0FFEE000000000000000112 /* SnippetFolderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000113 /* SnippetFolderItemView.swift */; };
@@ -279,10 +281,12 @@
 		C0FFEE000000000000000004 /* ShortenedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenedTests.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000121 /* FooterSnippetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSnippetsTests.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000123 /* StorageCompactionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageCompactionTests.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000127 /* AppLanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguageTests.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000011F /* SnippetsSubmenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsSubmenuView.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000011D /* PasswordDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetectorTests.swift; sourceTree = "<group>"; };
 		C0FFEE00000000000000011B /* PasswordViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViews.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000119 /* PasswordDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetector.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000125 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000117 /* SnippetPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetPreviewView.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000115 /* SnippetsEditorWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsEditorWindowController.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000113 /* SnippetFolderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetFolderItemView.swift; sourceTree = "<group>"; };
@@ -818,6 +822,7 @@
 				C0FFEE00000000000000010A /* SnippetsXMLTests.swift */,
 				C0FFEE000000000000000121 /* FooterSnippetsTests.swift */,
 				C0FFEE000000000000000123 /* StorageCompactionTests.swift */,
+				C0FFEE000000000000000127 /* AppLanguageTests.swift */,
 				C0FFEE00000000000000011D /* PasswordDetectorTests.swift */,
 				FFFC00000000000000000004 /* UnsafeForTitleLayoutTests.swift */,
 				DAE2850123225BD90080E394 /* ColorImageTests.swift */,
@@ -950,6 +955,7 @@
 				DA243D132C2F66DD0012A27F /* Storage.swift */,
 				C0FFEE000000000000000103 /* SnippetsSubmenu.swift */,
 				C0FFEE000000000000000119 /* PasswordDetector.swift */,
+				C0FFEE000000000000000125 /* AppLanguage.swift */,
 				C0FFEE000000000000000115 /* SnippetsEditorWindowController.swift */,
 				DA81D673252A056B009977BC /* Throttler.swift */,
 				B21DCA6C3D17E48D33D6E608 /* VoiceOver.swift */,
@@ -1183,6 +1189,7 @@
 				C0FFEE000000000000000109 /* SnippetsXMLTests.swift in Sources */,
 				C0FFEE000000000000000120 /* FooterSnippetsTests.swift in Sources */,
 				C0FFEE000000000000000122 /* StorageCompactionTests.swift in Sources */,
+				C0FFEE000000000000000126 /* AppLanguageTests.swift in Sources */,
 				C0FFEE00000000000000011C /* PasswordDetectorTests.swift in Sources */,
 				FFFC00000000000000000003 /* UnsafeForTitleLayoutTests.swift in Sources */,
 				DA360DB31E3DF137005C6F6B /* HistoryTests.swift in Sources */,
@@ -1229,6 +1236,7 @@
 				C0FFEE00000000000000011E /* SnippetsSubmenuView.swift in Sources */,
 				C0FFEE00000000000000011A /* PasswordViews.swift in Sources */,
 				C0FFEE000000000000000118 /* PasswordDetector.swift in Sources */,
+				C0FFEE000000000000000124 /* AppLanguage.swift in Sources */,
 				C0FFEE000000000000000116 /* SnippetPreviewView.swift in Sources */,
 				C0FFEE000000000000000114 /* SnippetsEditorWindowController.swift in Sources */,
 				C0FFEE000000000000000112 /* SnippetFolderItemView.swift in Sources */,

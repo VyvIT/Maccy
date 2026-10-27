@@ -20,3 +20,8 @@
 "Regex" = "";
 "Mixed" = "";
 "NotificationsAndSounds" = "";
+"Language" = "Γλώσσα:";
+"LanguageTooltip" = "Η γλώσσα του Maccy. Η επιλογή Σύστημα χρησιμοποιεί την πρώτη από τις προτιμώμενες γλώσσες του Mac στην οποία έχει μεταφραστεί το Maccy.\nΠροεπιλογή: Σύστημα.";
+"LanguageSystem" = "Σύστημα";
+"LanguageRestartNeeded" = "Εφαρμόζεται μετά την επανεκκίνηση του Maccy.";
+"LanguageRestart" = "Επανεκκίνηση";

@@ -20,3 +20,8 @@
 "Regex" = "Regularni izrazi";
 "Mixed" = "Mješoviti";
 "NotificationsAndSounds" = "Obavijesti i zvukovi 􀱁";
+"Language" = "Jezik:";
+"LanguageTooltip" = "Jezik Maccyja. Sustavski koristi prvi od željenih jezika Maca na koji je Maccy preveden.\nStandardno: Sustavski.";
+"LanguageSystem" = "Sustavski";
+"LanguageRestartNeeded" = "Primjenjuje se nakon ponovnog pokretanja Maccyja.";
+"LanguageRestart" = "Ponovno pokreni";

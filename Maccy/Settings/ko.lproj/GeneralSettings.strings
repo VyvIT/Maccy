@@ -20,3 +20,8 @@
 "Regex" = "정규식";
 "Mixed" = "혼합";
 "NotificationsAndSounds" = "알림 및 소리 􀱁";
+"Language" = "언어:";
+"LanguageTooltip" = "Maccy의 언어입니다. ‘시스템’은 Mac의 선호 언어 중 Maccy가 번역된 첫 번째 언어를 사용합니다.\n기본값: 시스템.";
+"LanguageSystem" = "시스템";
+"LanguageRestartNeeded" = "Maccy를 재시동한 후에 적용됩니다.";
+"LanguageRestart" = "재시동";

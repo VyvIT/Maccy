@@ -20,3 +20,8 @@
 "Regex" = "Reguliarios išraiškos";
 "Mixed" = "Mišrus";
 "NotificationsAndSounds" = "Pranešimai ir garsai 􀱁";
+"Language" = "Kalba:";
+"LanguageTooltip" = "Maccy kalba. Sistemos – naudojama pirmoji iš jūsų „Mac“ pageidaujamų kalbų, į kurią išverstas Maccy.\nNumatytoji reikšmė: Sistemos.";
+"LanguageSystem" = "Sistemos";
+"LanguageRestartNeeded" = "Bus pritaikyta iš naujo paleidus Maccy.";
+"LanguageRestart" = "Paleisti iš naujo";

@@ -20,3 +20,8 @@
 "Regex" = "Reguláris kifejezés";
 "Mixed" = "Kevert";
 "NotificationsAndSounds" = "Értesítések és hangok 􀱁";
+"Language" = "Nyelv:";
+"LanguageTooltip" = "A Maccy nyelve. A Rendszer a Mac preferált nyelvei közül az elsőt használja, amelyre a Maccy le van fordítva.\nAlapértelmezett: Rendszer.";
+"LanguageSystem" = "Rendszer";
+"LanguageRestartNeeded" = "A Maccy újraindítása után lép érvénybe.";
+"LanguageRestart" = "Újraindítás";

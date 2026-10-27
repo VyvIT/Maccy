@@ -20,3 +20,8 @@
 "Regex" = "";
 "Mixed" = "";
 "NotificationsAndSounds" = "";
+"Language" = "भाषा:";
+"LanguageTooltip" = "Maccy की भाषा। सिस्टम आपके Mac की पसंदीदा भाषाओं में से पहली ऐसी भाषा का उपयोग करता है जिसमें Maccy का अनुवाद है।\nडिफ़ॉल्ट: सिस्टम।";
+"LanguageSystem" = "सिस्टम";
+"LanguageRestartNeeded" = "Maccy को फिर से शुरू करने के बाद लागू होगा।";
+"LanguageRestart" = "फिर से शुरू करें";

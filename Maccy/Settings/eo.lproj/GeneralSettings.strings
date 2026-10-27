@@ -21,3 +21,8 @@
 "Fuzzy" = "Proksimuma";
 "Mixed" = "Miksita";
 "NotificationsAndSounds" = "Sciigoj kaj sonoj 􀱁";
+"Language" = "Lingvo:";
+"LanguageTooltip" = "Lingvo de Maccy. Sistema uzas la unuan el la preferataj lingvoj de via Mac, en kiun Maccy estas tradukita.\nDefaŭlta: Sistema.";
+"LanguageSystem" = "Sistema";
+"LanguageRestartNeeded" = "Efikas post restartigo de Maccy.";
+"LanguageRestart" = "Restartigi";

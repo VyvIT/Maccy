@@ -20,3 +20,8 @@
 "Regex" = "Düzenli ifadeler";
 "Mixed" = "Karışık";
 "NotificationsAndSounds" = "Bildirimler ve sesler 􀱁";
+"Language" = "Dil:";
+"LanguageTooltip" = "Maccy'nin dili. Sistem, Mac'inizin tercih edilen dillerinden Maccy'nin çevrildiği ilk dili kullanır.\nSaptanmış: Sistem.";
+"LanguageSystem" = "Sistem";
+"LanguageRestartNeeded" = "Maccy yeniden başlatıldıktan sonra uygulanır.";
+"LanguageRestart" = "Yeniden başlat";

@@ -20,3 +20,8 @@
 "Regex" = "កន្សោមប្រក្រតី";
 "Mixed" = "ចម្រុះ";
 "NotificationsAndSounds" = "ការជូនដំណឹង និងសំឡេង 􀱁";
+"Language" = "ភាសា:";
+"LanguageTooltip" = "ភាសារបស់ Maccy។ ប្រព័ន្ធ ប្រើភាសាដំបូងក្នុងចំណោមភាសាដែលចូលចិត្តរបស់ Mac ដែល Maccy ត្រូវបានបកប្រែ។\nលំនាំដើម: ប្រព័ន្ធ។";
+"LanguageSystem" = "ប្រព័ន្ធ";
+"LanguageRestartNeeded" = "នឹងអនុវត្តបន្ទាប់ពីចាប់ផ្ដើម Maccy ឡើងវិញ។";
+"LanguageRestart" = "ចាប់ផ្ដើមឡើងវិញ";

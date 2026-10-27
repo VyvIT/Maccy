@@ -20,3 +20,8 @@
 "Regex" = "Regulārās izteiksmes";
 "Mixed" = "Jaukti";
 "NotificationsAndSounds" = "Paziņojumi un skaņas 􀱁";
+"Language" = "Valoda:";
+"LanguageTooltip" = "Maccy valoda. Sistēmas – tiek izmantota pirmā no jūsu Mac vēlamajām valodām, kurā Maccy ir tulkots.\nNoklusējums: Sistēmas.";
+"LanguageSystem" = "Sistēmas";
+"LanguageRestartNeeded" = "Tiks lietota pēc Maccy restartēšanas.";
+"LanguageRestart" = "Restartēt";

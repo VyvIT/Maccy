@@ -1,1 +1,6 @@
 
+"Language" = "Kieli:";
+"LanguageTooltip" = "Maccyn kieli. Järjestelmä käyttää ensimmäistä Macin ensisijaisista kielistä, jolle Maccy on käännetty.\nOletus: Järjestelmä.";
+"LanguageSystem" = "Järjestelmä";
+"LanguageRestartNeeded" = "Otetaan käyttöön, kun Maccy käynnistetään uudelleen.";
+"LanguageRestart" = "Käynnistä uudelleen";

@@ -20,3 +20,8 @@
 "Regex" = "ڕێجێکسەکان";
 "Mixed" = "تێکەڵ";
 "NotificationsAndSounds" = "ئاگادارییەکان و دەنگەکان 􀱁";
+"Language" = "زمان:";
+"LanguageTooltip" = "زمانی Maccy. «سیستەم» یەکەم زمان لە زمانە پەسەندکراوەکانی Mac بەکاردەهێنێت کە Maccy وەرگێڕدراوە بۆی.\nبنەڕەت: سیستەم.";
+"LanguageSystem" = "سیستەم";
+"LanguageRestartNeeded" = "دوای دەستپێکردنەوەی Maccy جێبەجێ دەکرێت.";
+"LanguageRestart" = "دەستپێکردنەوە";

@@ -20,3 +20,8 @@
 "Regex" = "Regulární výrazy";
 "Mixed" = "Smíšené";
 "NotificationsAndSounds" = "Notifikace a zvuky 􀱁";
+"Language" = "Jazyk:";
+"LanguageTooltip" = "Jazyk Maccy. Systémový použije první z preferovaných jazyků Macu, do kterého je Maccy přeložen.\nVýchozí: Systémový.";
+"LanguageSystem" = "Systémový";
+"LanguageRestartNeeded" = "Projeví se po restartu Maccy.";
+"LanguageRestart" = "Restartovat";

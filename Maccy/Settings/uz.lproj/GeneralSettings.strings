@@ -20,3 +20,8 @@
 "Search" = "Qidirish:";
 "Exact" = "Aniq";
 "Regex" = "Muntazam ifodalar";
+"Language" = "Til:";
+"LanguageTooltip" = "Maccy tili. Tizim – Mac’ning afzal tillari orasidan Maccy tarjima qilingan birinchi tilni ishlatadi.\nStandart: Tizim.";
+"LanguageSystem" = "Tizim";
+"LanguageRestartNeeded" = "Maccy qayta ishga tushirilgandan keyin qo‘llanadi.";
+"LanguageRestart" = "Qayta ishga tushirish";

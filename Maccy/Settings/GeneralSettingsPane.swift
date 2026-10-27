@@ -17,6 +17,9 @@ struct GeneralSettingsPane: View {
 
   @State private var updater = SoftwareUpdater()
 
+  @State private var language = AppLanguage.selected()
+  private let launchLanguage = AppLanguage.selected()
+
   var body: some View {
     Settings.Container(contentWidth: 450) {
       Settings.Section(title: "", bottomDivider: true) {
@@ -30,6 +33,36 @@ struct GeneralSettingsPane: View {
           action: { updater.checkForUpdates() },
           label: { Text("CheckNow", tableName: "GeneralSettings") }
         )
+      }
+
+      Settings.Section(
+        bottomDivider: true,
+        label: { Text("Language", tableName: "GeneralSettings") }
+      ) {
+        Picker("", selection: $language) {
+          ForEach(AppLanguage.available) { language in
+            Text(language.name).tag(language)
+          }
+        }
+        .labelsHidden()
+        .accessibilityLabel(Text("Language", tableName: "GeneralSettings"))
+        .help(Text("LanguageTooltip", tableName: "GeneralSettings"))
+        .frame(width: 180, alignment: .leading)
+        .onChange(of: language) {
+          AppLanguage.select(language)
+        }
+
+        if language != launchLanguage {
+          HStack {
+            Text("LanguageRestartNeeded", tableName: "GeneralSettings")
+              .foregroundStyle(.gray)
+              .controlSize(.small)
+            Button(
+              action: { AppLanguage.restart() },
+              label: { Text("LanguageRestart", tableName: "GeneralSettings") }
+            )
+          }
+        }
       }
 
       Settings.Section(label: { Text("Open", tableName: "GeneralSettings") }) {

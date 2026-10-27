@@ -20,3 +20,8 @@
 "Regex" = "Regularni izrazi";
 "Mixed" = "Miješano";
 "NotificationsAndSounds" = "Obavještenja i zvukovi 􀱁";
+"Language" = "Jezik:";
+"LanguageTooltip" = "Jezik Maccyja. Sistemski koristi prvi od željenih jezika Maca na koji je Maccy preveden.\nZadano: Sistemski.";
+"LanguageSystem" = "Sistemski";
+"LanguageRestartNeeded" = "Primjenjuje se nakon ponovnog pokretanja Maccyja.";
+"LanguageRestart" = "Ponovo pokreni";
