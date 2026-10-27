@@ -33,7 +33,9 @@
 	<key>SUEnableInstallerLauncherService</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/p0deje/Maccy/master/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/VyvIT/Maccy/master/appcast-vyvit.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>flk9NXIgeAIXIVuSClbPQtLadjn5op8Dm7xi9j1ixIU=</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 	<dict>
