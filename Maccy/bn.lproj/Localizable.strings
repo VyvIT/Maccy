@@ -61,3 +61,4 @@
 "snippets_editor_import_failed" = "এই ফাইল থেকে স্নিপেট আমদানি করা যায়নি।";
 "snippets_editor_delete_folder_message %@" = "ফোল্ডার “%@” এবং এর সব স্নিপেট মুছবেন?";
 "snippets_editor_delete_folder_comment" = "আপনি এই কাজটি পূর্বাবস্থায় ফেরাতে পারবেন না।";
+"color_picker_copy" = "কপি";

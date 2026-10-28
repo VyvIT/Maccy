@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "No s'han pogut importar retalls d'aquest fitxer.";
 "snippets_editor_delete_folder_message %@" = "Vols eliminar la carpeta «%@» i tots els seus retalls?";
 "snippets_editor_delete_folder_comment" = "Aquesta acció no es pot desfer.";
+"color_picker_copy" = "Copia";

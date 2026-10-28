@@ -59,3 +59,4 @@
 "snippets_editor_import_failed" = "Nie udało się zaimportować fragmentów z tego pliku.";
 "snippets_editor_delete_folder_message %@" = "Usunąć folder „%@” i wszystkie jego fragmenty?";
 "snippets_editor_delete_folder_comment" = "Tej czynności nie można cofnąć.";
+"color_picker_copy" = "Kopiuj";

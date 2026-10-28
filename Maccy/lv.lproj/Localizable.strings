@@ -60,3 +60,4 @@
 "snippets_editor_import_failed" = "Neizdevās importēt fragmentus no šī faila.";
 "snippets_editor_delete_folder_message %@" = "Dzēst mapi “%@” un visus tās fragmentus?";
 "snippets_editor_delete_folder_comment" = "Šo darbību nevar atsaukt.";
+"color_picker_copy" = "Kopēt";

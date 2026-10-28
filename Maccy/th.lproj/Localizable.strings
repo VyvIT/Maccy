@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "ไม่สามารถนำเข้าสนิปเพ็ตจากไฟล์นี้ได้";
 "snippets_editor_delete_folder_message %@" = "ลบโฟลเดอร์ “%@” และสนิปเพ็ตทั้งหมดในโฟลเดอร์หรือไม่";
 "snippets_editor_delete_folder_comment" = "คุณไม่สามารถเลิกทำการกระทำนี้ได้";
+"color_picker_copy" = "คัดลอก";

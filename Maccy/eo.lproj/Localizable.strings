@@ -63,3 +63,4 @@
 "snippets_editor_import_failed" = "Ne eblis importi teksterojn el ĉi tiu dosiero.";
 "snippets_editor_delete_folder_message %@" = "Ĉu forigi la dosierujon “%@” kaj ĉiujn ĝiajn teksterojn?";
 "snippets_editor_delete_folder_comment" = "Vi ne povas malfari ĉi tiun agon.";
+"color_picker_copy" = "Kopii";

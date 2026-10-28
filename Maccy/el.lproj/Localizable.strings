@@ -63,3 +63,4 @@
 "snippets_editor_import_failed" = "Δεν ήταν δυνατή η εισαγωγή αποσπασμάτων από αυτό το αρχείο.";
 "snippets_editor_delete_folder_message %@" = "Διαγραφή του φακέλου «%@» και όλων των αποσπασμάτων του;";
 "snippets_editor_delete_folder_comment" = "Δεν μπορείτε να αναιρέσετε αυτή την ενέργεια.";
+"color_picker_copy" = "Αντιγραφή";

@@ -61,3 +61,4 @@
 "snippets_editor_import_failed" = "Fragmentele nu au putut fi importate din acest fișier.";
 "snippets_editor_delete_folder_message %@" = "Ștergi dosarul „%@” și toate fragmentele sale?";
 "snippets_editor_delete_folder_comment" = "Această acțiune nu poate fi anulată.";
+"color_picker_copy" = "Copiază";

@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "无法从此文件导入片段。";
 "snippets_editor_delete_folder_message %@" = "要删除文件夹“%@”及其所有片段吗？";
 "snippets_editor_delete_folder_comment" = "此操作无法撤销。";
+"color_picker_copy" = "拷贝";

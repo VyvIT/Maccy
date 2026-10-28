@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Impossible d’importer des extraits depuis ce fichier.";
 "snippets_editor_delete_folder_message %@" = "Supprimer le dossier « %@ » et tous ses extraits ?";
 "snippets_editor_delete_folder_comment" = "Cette action est irréversible.";
+"color_picker_copy" = "Copier";

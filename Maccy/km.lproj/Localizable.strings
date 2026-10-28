@@ -59,3 +59,4 @@
 "snippets_editor_import_failed" = "មិនអាចនាំចូលអត្ថបទគំរូពីឯកសារនេះបានទេ។";
 "snippets_editor_delete_folder_message %@" = "លុបថត “%@” និងអត្ថបទគំរូទាំងអស់របស់វាឬ?";
 "snippets_editor_delete_folder_comment" = "អ្នកមិនអាចមិនធ្វើវិញនូវសកម្មភាពនេះបានទេ។";
+"color_picker_copy" = "ចម្លង";

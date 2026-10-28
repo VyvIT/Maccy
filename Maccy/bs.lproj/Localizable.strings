@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Uvoz isječaka iz ove datoteke nije uspio.";
 "snippets_editor_delete_folder_message %@" = "Izbrisati folder „%@“ i sve njegove isječke?";
 "snippets_editor_delete_folder_comment" = "Ova radnja se ne može poništiti.";
+"color_picker_copy" = "Kopiraj";

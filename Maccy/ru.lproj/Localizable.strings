@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Не удалось импортировать сниппеты из этого файла.";
 "snippets_editor_delete_folder_message %@" = "Удалить папку «%@» и все её сниппеты?";
 "snippets_editor_delete_folder_comment" = "Это действие нельзя отменить.";
+"color_picker_copy" = "Копировать";

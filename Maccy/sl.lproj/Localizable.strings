@@ -63,3 +63,4 @@
 "snippets_editor_import_failed" = "Izrezkov iz te datoteke ni bilo mogoče uvoziti.";
 "snippets_editor_delete_folder_message %@" = "Želite izbrisati mapo »%@« in vse njene izrezke?";
 "snippets_editor_delete_folder_comment" = "Tega dejanja ni mogoče razveljaviti.";
+"color_picker_copy" = "Kopiraj";

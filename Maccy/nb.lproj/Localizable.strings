@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Kunne ikke importere tekstbiter fra denne filen.";
 "snippets_editor_delete_folder_message %@" = "Slette mappen «%@» og alle tekstbitene i den?";
 "snippets_editor_delete_folder_comment" = "Denne handlingen kan ikke angres.";
+"color_picker_copy" = "Kopier";

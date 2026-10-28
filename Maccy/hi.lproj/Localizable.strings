@@ -62,3 +62,4 @@
 "snippets_editor_import_failed" = "इस फ़ाइल से स्निपेट आयात नहीं किए जा सके।";
 "snippets_editor_delete_folder_message %@" = "फ़ोल्डर “%@” और उसके सभी स्निपेट हटाएँ?";
 "snippets_editor_delete_folder_comment" = "आप इस क्रिया को पूर्ववत नहीं कर सकते।";
+"color_picker_copy" = "कॉपी करें";

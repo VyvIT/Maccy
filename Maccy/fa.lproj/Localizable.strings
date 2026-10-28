@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "وارد کردن قطعه‌متن‌ها از این پرونده ممکن نبود.";
 "snippets_editor_delete_folder_message %@" = "پوشهٔ «%@» و همهٔ قطعه‌متن‌های آن حذف شود؟";
 "snippets_editor_delete_folder_comment" = "این کار قابل بازگشت نیست.";
+"color_picker_copy" = "رونوشت";

@@ -59,3 +59,4 @@
 "snippets_editor_import_failed" = "Tekstinpätkiä ei voitu tuoda tästä tiedostosta.";
 "snippets_editor_delete_folder_message %@" = "Poistetaanko kansio ”%@” ja kaikki sen tekstinpätkät?";
 "snippets_editor_delete_folder_comment" = "Tätä toimintoa ei voi kumota.";
+"color_picker_copy" = "Kopioi";

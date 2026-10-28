@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "இந்தக் கோப்பிலிருந்து துணுக்குகளை இறக்குமதி செய்ய முடியவில்லை.";
 "snippets_editor_delete_folder_message %@" = "“%@” கோப்புறையையும் அதன் அனைத்துத் துணுக்குகளையும் நீக்கவா?";
 "snippets_editor_delete_folder_comment" = "இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.";
+"color_picker_copy" = "நகலெடு";

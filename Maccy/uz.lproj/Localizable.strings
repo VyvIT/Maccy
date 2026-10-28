@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Bu fayldan parchalarni import qilib bo‘lmadi.";
 "snippets_editor_delete_folder_message %@" = "“%@” jildi va undagi barcha parchalar o‘chirilsinmi?";
 "snippets_editor_delete_folder_comment" = "Bu amalni bekor qilib bo‘lmaydi.";
+"color_picker_copy" = "Nusxalash";

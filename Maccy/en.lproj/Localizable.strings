@@ -59,3 +59,4 @@
 "snippets_editor_import_failed" = "Could not import snippets from this file.";
 "snippets_editor_delete_folder_message %@" = "Delete folder “%@” and all its snippets?";
 "snippets_editor_delete_folder_comment" = "You can't undo this action.";
+"color_picker_copy" = "Copy";

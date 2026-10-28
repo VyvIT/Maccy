@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "نەتوانرا پارچەدەقەکان لەم پەڕگەیە هاوردە بکرێن.";
 "snippets_editor_delete_folder_message %@" = "بوخچەی «%@» و هەموو پارچەدەقەکانی بسڕدرێنەوە؟";
 "snippets_editor_delete_folder_comment" = "ناتوانیت ئەم کردارە پاشگەز بکەیتەوە.";
+"color_picker_copy" = "لەبەرگرتنەوە";

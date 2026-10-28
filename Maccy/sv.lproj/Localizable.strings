@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Det gick inte att importera textklipp från den här filen.";
 "snippets_editor_delete_folder_message %@" = "Radera mappen ”%@” och alla dess textklipp?";
 "snippets_editor_delete_folder_comment" = "Du kan inte ångra den här åtgärden.";
+"color_picker_copy" = "Kopiera";

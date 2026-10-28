@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Textbausteine konnten nicht aus dieser Datei importiert werden.";
 "snippets_editor_delete_folder_message %@" = "Ordner „%@“ und alle seine Textbausteine löschen?";
 "snippets_editor_delete_folder_comment" = "Diese Aktion kann nicht widerrufen werden.";
+"color_picker_copy" = "Kopieren";

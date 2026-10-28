@@ -49,6 +49,7 @@ struct HistoryItemView: View {
       appIcon: item.applicationImage,
       image: item.thumbnailImage,
       accessoryImage: item.thumbnailImage != nil ? nil : colorSwatchImage,
+      accessoryAction: { HexColorPicker.shared.open(hex: item.title) },
       // Search highlighting would show the hidden password.
       attributedTitle: item.isMasked ? nil : item.attributedTitle,
       shortcuts: item.shortcuts,

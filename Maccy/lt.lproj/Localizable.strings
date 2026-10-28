@@ -59,3 +59,4 @@
 "snippets_editor_import_failed" = "Nepavyko importuoti fragmentų iš šio failo.";
 "snippets_editor_delete_folder_message %@" = "Ištrinti aplanką „%@“ ir visus jo fragmentus?";
 "snippets_editor_delete_folder_comment" = "Šio veiksmo anuliuoti negalima.";
+"color_picker_copy" = "Kopijuoti";

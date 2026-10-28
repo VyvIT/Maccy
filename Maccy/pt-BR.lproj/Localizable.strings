@@ -62,3 +62,4 @@
 "snippets_editor_import_failed" = "Não foi possível importar snippets deste arquivo.";
 "snippets_editor_delete_folder_message %@" = "Excluir a pasta “%@” e todos os seus snippets?";
 "snippets_editor_delete_folder_comment" = "Não é possível desfazer esta ação.";
+"color_picker_copy" = "Copiar";

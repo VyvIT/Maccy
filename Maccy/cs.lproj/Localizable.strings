@@ -61,3 +61,4 @@
 "snippets_editor_import_failed" = "Z tohoto souboru se nepodařilo importovat úryvky.";
 "snippets_editor_delete_folder_message %@" = "Smazat složku „%@“ a všechny její úryvky?";
 "snippets_editor_delete_folder_comment" = "Tuto akci nelze vrátit zpět.";
+"color_picker_copy" = "Kopírovat";

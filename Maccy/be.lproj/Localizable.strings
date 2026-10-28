@@ -59,3 +59,4 @@
 "snippets_editor_import_failed" = "Не ўдалося імпартаваць фрагменты з гэтага файла.";
 "snippets_editor_delete_folder_message %@" = "Выдаліць папку «%@» і ўсе яе фрагменты?";
 "snippets_editor_delete_folder_comment" = "Гэта дзеянне нельга адрабіць.";
+"color_picker_copy" = "Капіраваць";

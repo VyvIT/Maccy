@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "このファイルからスニペットを読み込めませんでした。";
 "snippets_editor_delete_folder_message %@" = "フォルダ“%@”とそのすべてのスニペットを削除しますか？";
 "snippets_editor_delete_folder_comment" = "この操作は取り消せません。";
+"color_picker_copy" = "コピー";

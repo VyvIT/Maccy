@@ -67,3 +67,4 @@
 "snippets_editor_import_failed" = "Nem sikerült szövegrészleteket importálni ebből a fájlból.";
 "snippets_editor_delete_folder_message %@" = "Törlöd a(z) „%@” mappát és az összes szövegrészletét?";
 "snippets_editor_delete_folder_comment" = "Ez a művelet nem vonható vissza.";
+"color_picker_copy" = "Másolás";

@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Tidak dapat mengimpor cuplikan dari file ini.";
 "snippets_editor_delete_folder_message %@" = "Hapus folder “%@” beserta semua cuplikannya?";
 "snippets_editor_delete_folder_comment" = "Tindakan ini tidak dapat diurungkan.";
+"color_picker_copy" = "Salin";

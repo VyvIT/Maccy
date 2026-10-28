@@ -114,6 +114,7 @@
 		DA689FC62C1D14F10009B887 /* PopupPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA689FC52C1D14F10009B887 /* PopupPosition.swift */; };
 		DA689FC82C1D15140009B887 /* PinsPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA689FC72C1D15140009B887 /* PinsPosition.swift */; };
 		C0FFEE000000000000000128 /* PreviewOpening.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000129 /* PreviewOpening.swift */; };
+		C0FFEE000000000000000130 /* HexColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000131 /* HexColorPicker.swift */; };
 		DA689FCA2C1D18890009B887 /* HighlightMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA689FC92C1D18890009B887 /* HighlightMatch.swift */; };
 		DA689FCC2C1D1D510009B887 /* MenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA689FCB2C1D1D510009B887 /* MenuIcon.swift */; };
 		DA689FCF2C1DEE570009B887 /* AppearanceSettings.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA689FCD2C1DEE570009B887 /* AppearanceSettings.strings */; };
@@ -450,6 +451,7 @@
 		DA689FC52C1D14F10009B887 /* PopupPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupPosition.swift; sourceTree = "<group>"; };
 		DA689FC72C1D15140009B887 /* PinsPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsPosition.swift; sourceTree = "<group>"; };
 		C0FFEE000000000000000129 /* PreviewOpening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewOpening.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000131 /* HexColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorPicker.swift; sourceTree = "<group>"; };
 		DA689FC92C1D18890009B887 /* HighlightMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightMatch.swift; sourceTree = "<group>"; };
 		DA689FCB2C1D1D510009B887 /* MenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIcon.swift; sourceTree = "<group>"; };
 		DA689FCE2C1DEE570009B887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppearanceSettings.strings; sourceTree = "<group>"; };
@@ -949,6 +951,7 @@
 				2F0EC7802E773F1D003E2EA9 /* PasteStack.swift */,
 				DA689FC72C1D15140009B887 /* PinsPosition.swift */,
 				C0FFEE000000000000000129 /* PreviewOpening.swift */,
+				C0FFEE000000000000000131 /* HexColorPicker.swift */,
 				DA689FC52C1D14F10009B887 /* PopupPosition.swift */,
 				DAC14123232367B200FCFA30 /* Search.swift */,
 				2F1A79BF2C6DFB7800C98EBD /* SearchVisibility.swift */,
@@ -1231,6 +1234,7 @@
 				2F8A0DBE303A1FA0004BA51F /* ConcatenatedCollection.swift in Sources */,
 				DA689FC82C1D15140009B887 /* PinsPosition.swift in Sources */,
 				C0FFEE000000000000000128 /* PreviewOpening.swift in Sources */,
+				C0FFEE000000000000000130 /* HexColorPicker.swift in Sources */,
 				2FD5DE512FFE6DD50023FF60 /* LegacyReorderableContainer.swift in Sources */,
 				2F9B42EF2F1A494C006548E5 /* ListHeaderView.swift in Sources */,
 				DA13D7D92C1A223E00FA9E23 /* Get.swift in Sources */,

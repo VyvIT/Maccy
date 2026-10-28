@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Impossibile importare snippet da questo file.";
 "snippets_editor_delete_folder_message %@" = "Eliminare la cartella “%@” e tutti i suoi snippet?";
 "snippets_editor_delete_folder_comment" = "Questa azione non può essere annullata.";
+"color_picker_copy" = "Copia";

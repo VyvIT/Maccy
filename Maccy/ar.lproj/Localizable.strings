@@ -59,3 +59,4 @@
 "snippets_editor_import_failed" = "تعذّر استيراد المقتطفات من هذا الملف.";
 "snippets_editor_delete_folder_message %@" = "هل تريد حذف المجلد «%@» وجميع مقتطفاته؟";
 "snippets_editor_delete_folder_comment" = "لا يمكنك التراجع عن هذا الإجراء.";
+"color_picker_copy" = "نسخ";

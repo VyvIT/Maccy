@@ -34,6 +34,8 @@ struct ListItemView<Title: View, ID: Hashable>: View {
   var appIcon: ApplicationImage?
   var image: NSImage?
   var accessoryImage: NSImage?
+  // Clicking the accessory image runs this instead of selecting the row.
+  var accessoryAction: (() -> Void)?
   var attributedTitle: AttributedString?
   var shortcuts: [KeyShortcut]
   var isSelected: Bool
@@ -76,6 +78,11 @@ struct ListItemView<Title: View, ID: Hashable>: View {
           .accessibilityHidden(true)
           .padding(.trailing, 5)
           .padding(.vertical, 5)
+          .contentShape(Rectangle())
+          .onTapGesture {
+            accessoryAction?()
+          }
+          .allowsHitTesting(accessoryAction != nil)
       }
 
       if let image {

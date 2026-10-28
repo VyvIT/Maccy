@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "לא ניתן לייבא קטעים מקובץ זה.";
 "snippets_editor_delete_folder_message %@" = "למחוק את התיקייה „%@” ואת כל הקטעים שבה?";
 "snippets_editor_delete_folder_comment" = "לא ניתן לבטל פעולה זו.";
+"color_picker_copy" = "העתקה";

@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Không thể nhập đoạn mẫu từ tệp này.";
 "snippets_editor_delete_folder_message %@" = "Xóa thư mục “%@” và tất cả đoạn mẫu trong đó?";
 "snippets_editor_delete_folder_comment" = "Bạn không thể hoàn tác thao tác này.";
+"color_picker_copy" = "Sao chép";

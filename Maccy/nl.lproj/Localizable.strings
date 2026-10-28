@@ -66,3 +66,4 @@
 "snippets_editor_import_failed" = "Kan geen fragmenten importeren uit dit bestand.";
 "snippets_editor_delete_folder_message %@" = "Map ‘%@’ en alle fragmenten erin verwijderen?";
 "snippets_editor_delete_folder_comment" = "Je kunt deze actie niet ongedaan maken.";
+"color_picker_copy" = "Kopieer";
