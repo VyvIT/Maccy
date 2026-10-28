@@ -16,6 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
+"VisibleItems" = "দৃশ্যমান আইটেম:";
+"VisibleItemsTooltip" = "স্ক্রল করার আগে কতগুলো ইতিহাস আইটেম দেখানো হয়।\nডিফল্ট: 10।";
+"VisibleItemsHistoryOnly" = "দৃশ্যমান আইটেম (শুধু ইতিহাস):";
+"VisibleItemsHistoryOnlyTooltip" = "শুধু ইতিহাস খুললে স্ক্রল করার আগে কতগুলো আইটেম দেখানো হয়।\nডিফল্ট: 20।";
 "OpenPreview" = "প্রিভিউ খুলুন:";
 "OpenPreviewTooltip" = "নির্বাচিত ইতিহাস আইটেমের প্রিভিউ কীভাবে খোলে: প্রিভিউ বিলম্বের পরে, অথবা → দিয়ে খোলে ও ← দিয়ে বন্ধ হয়।";
 "OpenPreviewDelay" = "বিলম্বের পরে স্বয়ংক্রিয়ভাবে";

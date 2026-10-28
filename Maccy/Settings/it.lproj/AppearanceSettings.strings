@@ -16,6 +16,10 @@
 "PinToTooltip" = "Cambia la posizione degli elementi bloccati.\nDefault: Parte superiore.";
 "ImageHeight" = "Altezza dell'immagine:";
 "ImageHeightTooltip" = "Altezza massima preview immagine.\nDefault: 40.\nSuggerimento: Impostala a 16 per farla sembrare come gli elementi testuali.";
+"VisibleItems" = "Elementi visibili:";
+"VisibleItemsTooltip" = "Quanti elementi della cronologia sono mostrati prima dello scorrimento.\nPredefinito: 10.";
+"VisibleItemsHistoryOnly" = "Elementi visibili (solo cronologia):";
+"VisibleItemsHistoryOnlyTooltip" = "Quanti elementi sono mostrati prima dello scorrimento quando è aperta solo la cronologia.\nPredefinito: 20.";
 "OpenPreview" = "Apri anteprima:";
 "OpenPreviewTooltip" = "Come si apre l’anteprima dell’elemento della cronologia selezionato: dopo il ritardo, oppure con → e si chiude con ←.";
 "OpenPreviewDelay" = "Automaticamente dopo un ritardo";

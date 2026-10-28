@@ -3,6 +3,10 @@
 "PopupAtWindowCenter" = "ចំកណ្ដាលបង្អួច";
 "HighlightMatchItalic" = "អក្សរទេ្រត";
 "ImageHeightTooltip" = "កម្ពស់អតិបរមាសម្រាប់មើលរូបភាព។\nលំនាំដើម: 40។\nគន្លឹះ: កំណត់ទៅ 16 ដើម្បីឱ្យមើលទៅដូចធាតុអត្ថបទ។";
+"VisibleItems" = "ធាតុដែលមើលឃើញ:";
+"VisibleItemsTooltip" = "ចំនួនធាតុប្រវត្តិដែលបង្ហាញមុនពេលរមូរ។\nលំនាំដើម៖ 10។";
+"VisibleItemsHistoryOnly" = "ធាតុដែលមើលឃើញ (តែប្រវត្តិ):";
+"VisibleItemsHistoryOnlyTooltip" = "ចំនួនធាតុដែលបង្ហាញមុនពេលរមូរ ពេលបើកតែប្រវត្តិ។\nលំនាំដើម៖ 20។";
 "ShowApplicationIcons" = "បង្ហាញរូបសញ្ញាកម្មវិធី";
 "PreviewDelay" = "ពន្យារពេលមើលមុន:";
 "PopupAtScreenCenter" = "ចំកណ្ដាលអេក្រង់";

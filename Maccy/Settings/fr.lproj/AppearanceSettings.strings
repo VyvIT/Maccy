@@ -16,6 +16,10 @@
 "PinToTooltip" = "Change la localisation des éléments épinglés.\nPar défaut : Haut.";
 "ImageHeight" = "Hauteur de l'image :";
 "ImageHeightTooltip" = "Hauteur maximale de l’aperçu de l’image.\nPar défaut : 40.\nAstuce : réglez sur 16 pour qu’ils ressemblent à des éléments de texte.";
+"VisibleItems" = "Éléments visibles :";
+"VisibleItemsTooltip" = "Nombre d’éléments d’historique affichés avant le défilement.\nPar défaut : 10.";
+"VisibleItemsHistoryOnly" = "Éléments visibles (historique seul) :";
+"VisibleItemsHistoryOnlyTooltip" = "Nombre d’éléments affichés avant le défilement quand seul l’historique est ouvert.\nPar défaut : 20.";
 "OpenPreview" = "Ouvrir l’aperçu :";
 "OpenPreviewTooltip" = "Comment s’ouvre l’aperçu de l’élément d’historique sélectionné : après le délai, ou avec → et se ferme avec ←.";
 "OpenPreviewDelay" = "Automatiquement après un délai";

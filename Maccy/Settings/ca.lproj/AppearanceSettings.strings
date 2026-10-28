@@ -16,6 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
+"VisibleItems" = "Elements visibles:";
+"VisibleItemsTooltip" = "Quants elements de l'historial es mostren abans de desplaçar-se.\nPer defecte: 10.";
+"VisibleItemsHistoryOnly" = "Elements visibles (només historial):";
+"VisibleItemsHistoryOnlyTooltip" = "Quants elements es mostren abans de desplaçar-se quan s'obre només l'historial.\nPer defecte: 20.";
 "OpenPreview" = "Obre la previsualització:";
 "OpenPreviewTooltip" = "Com s'obre la previsualització de l'element de l'historial seleccionat: després del retard, o amb → i es tanca amb ←.";
 "OpenPreviewDelay" = "Automàticament després d'un retard";

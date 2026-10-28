@@ -16,6 +16,10 @@
 "PinToTooltip" = "İğnelenen ögelerin konumunu değiştir.\nSaptanmış: Üst.";
 "ImageHeight" = "Görsel boyu:";
 "ImageHeightTooltip" = "En yüksek görsel önizlemesi boyu.\nSaptanmış: 40.\nİpucu: Metin ögeleri gibi görünmeleri için 16 olarak ayarlayın.";
+"VisibleItems" = "Görünür öğeler:";
+"VisibleItemsTooltip" = "Kaydırmadan önce kaç geçmiş öğesinin gösterileceği.\nVarsayılan: 10.";
+"VisibleItemsHistoryOnly" = "Görünür öğeler (yalnızca geçmiş):";
+"VisibleItemsHistoryOnlyTooltip" = "Yalnızca geçmiş açıkken kaydırmadan önce kaç öğenin gösterileceği.\nVarsayılan: 20.";
 "OpenPreview" = "Önizlemeyi aç:";
 "OpenPreviewTooltip" = "Seçili geçmiş öğesinin önizlemesinin nasıl açılacağı: önizleme gecikmesinden sonra ya da → ile açılır ve ← ile kapanır.";
 "OpenPreviewDelay" = "Gecikmeden sonra otomatik";

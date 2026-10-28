@@ -16,6 +16,10 @@
 "PinToTooltip" = "Promijeni mjesto prikvačenih elemenata.\nStandardno: Gore.";
 "ImageHeight" = "Visina slike:";
 "ImageHeightTooltip" = "Maksimalna visina slike pregleda.\nStandardno: 40.\nSavjet: Postavi na 16 da bi sličilo tekstu.";
+"VisibleItems" = "Vidljive stavke:";
+"VisibleItemsTooltip" = "Koliko se stavki povijesti prikazuje prije pomicanja.\nZadano: 10.";
+"VisibleItemsHistoryOnly" = "Vidljive stavke (samo povijest):";
+"VisibleItemsHistoryOnlyTooltip" = "Koliko se stavki prikazuje prije pomicanja kada je otvorena samo povijest.\nZadano: 20.";
 "OpenPreview" = "Otvori pregled:";
 "OpenPreviewTooltip" = "Kako se otvara pregled odabrane stavke povijesti: nakon odgode pregleda ili tipkom →, a zatvara se tipkom ←.";
 "OpenPreviewDelay" = "Automatski nakon odgode";

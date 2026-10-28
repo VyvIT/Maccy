@@ -96,7 +96,18 @@ class Popup {
 
   private var state: PopupState = .toggle
 
+  // History list shows this many items before it scrolls.
+  private var visibleItems: Int {
+    Defaults[mode == .history ? .visibleItemsHistoryOnly : .visibleItems]
+  }
+
   init() {
+    Task { @MainActor [weak self] in
+      for await _ in Defaults.updates([.visibleItems, .visibleItemsHistoryOnly], initial: false) {
+        self?.needsResize = true
+      }
+    }
+
     for mode in [PopupMode.all, .snippets, .history] {
       KeyboardShortcuts.onKeyDown(for: mode.shortcutName) { [weak self] in
         self?.handleFirstKeyDown(mode: mode)
@@ -175,7 +186,9 @@ class Popup {
   }
 
   func resize(height: CGFloat) {
-    self.height = suitableHeight(for: height)
+    // Rows are at least item height, so images can show fewer items.
+    let maxListHeight = CGFloat(visibleItems) * Self.itemHeight + 2 * Self.verticalSeparatorPadding
+    self.height = suitableHeight(for: min(height, maxListHeight))
     AppState.shared.appDelegate?.panel.verticallyResize(
       to: preferredHeight(for: self.height),
       animated: animatesResize && !isRevealPending

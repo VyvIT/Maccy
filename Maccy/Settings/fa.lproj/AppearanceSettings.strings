@@ -16,6 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
+"VisibleItems" = "موارد قابل مشاهده:";
+"VisibleItemsTooltip" = "چند مورد تاریخچه پیش از پیمایش نمایش داده می‌شود.\nپیش‌فرض: 10.";
+"VisibleItemsHistoryOnly" = "موارد قابل مشاهده (فقط تاریخچه):";
+"VisibleItemsHistoryOnlyTooltip" = "چند مورد پیش از پیمایش نمایش داده می‌شود وقتی فقط تاریخچه باز است.\nپیش‌فرض: 20.";
 "OpenPreview" = "باز کردن پیش‌نمایش:";
 "OpenPreviewTooltip" = "پیش‌نمایش مورد انتخاب‌شده در تاریخچه چگونه باز می‌شود: پس از تأخیر پیش‌نمایش، یا با → و با ← بسته می‌شود.";
 "OpenPreviewDelay" = "خودکار پس از تأخیر";

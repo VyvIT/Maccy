@@ -16,6 +16,10 @@
 "PinToTooltip" = "更改置顶项目的位置。\n默认：顶部。";
 "ImageHeight" = "图片高度：";
 "ImageHeightTooltip" = "图像预览最大高度。\n默认: 40\n提示：设置为 16 以匹配文本项目的大小。";
+"VisibleItems" = "可见项目数：";
+"VisibleItemsTooltip" = "列表滚动前显示的历史记录项目数。\n默认：10。";
+"VisibleItemsHistoryOnly" = "可见项目数（仅历史记录）：";
+"VisibleItemsHistoryOnlyTooltip" = "仅打开历史记录时，列表滚动前显示的项目数。\n默认：20。";
 "OpenPreview" = "打开预览：";
 "OpenPreviewTooltip" = "所选历史记录项的预览打开方式：在预览延迟后打开，或按 → 打开、按 ← 关闭。";
 "OpenPreviewDelay" = "延迟后自动打开";

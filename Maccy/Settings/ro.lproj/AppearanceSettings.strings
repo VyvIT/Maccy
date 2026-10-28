@@ -16,6 +16,10 @@
 "PinToTooltip" = "Schimbă poziția elementelor fixate.\nImplicit: Sus.";
 "ImageHeight" = "Înălțimea imaginii:";
 "ImageHeightTooltip" = "Înălțime maximă pentru previzualizarea imaginii.\nImplicit: 40.\nSugestie: Setează la 16 pentru a semăna cu elementele de tip text.";
+"VisibleItems" = "Elemente vizibile:";
+"VisibleItemsTooltip" = "Câte elemente din istoric sunt afișate înainte de derulare.\nImplicit: 10.";
+"VisibleItemsHistoryOnly" = "Elemente vizibile (doar istoric):";
+"VisibleItemsHistoryOnlyTooltip" = "Câte elemente sunt afișate înainte de derulare când este deschis doar istoricul.\nImplicit: 20.";
 "OpenPreview" = "Deschide previzualizarea:";
 "OpenPreviewTooltip" = "Cum se deschide previzualizarea elementului selectat din istoric: după întârziere sau cu → și se închide cu ←.";
 "OpenPreviewDelay" = "Automat după o întârziere";

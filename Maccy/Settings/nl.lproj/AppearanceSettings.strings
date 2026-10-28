@@ -16,6 +16,10 @@
 "PinToTooltip" = "Wijzig de locatie van vastgemaakte items.\nStandaard: Boven.";
 "ImageHeight" = "Afbeeldingshoogte:";
 "ImageHeightTooltip" = "Maximale hoogte afbeeldingsvoorbeeld.\nStandaard: 40.\nHint: Stel in op 16 zodat het lijkt op tekstitems.";
+"VisibleItems" = "Zichtbare items:";
+"VisibleItemsTooltip" = "Hoeveel geschiedenisitems worden getoond voordat je moet scrollen.\nStandaard: 10.";
+"VisibleItemsHistoryOnly" = "Zichtbare items (alleen geschiedenis):";
+"VisibleItemsHistoryOnlyTooltip" = "Hoeveel items worden getoond voordat je moet scrollen als alleen de geschiedenis open is.\nStandaard: 20.";
 "OpenPreview" = "Voorvertoning openen:";
 "OpenPreviewTooltip" = "Hoe de voorvertoning van het geselecteerde geschiedenisitem opent: na de vertraging, of met → en sluit met ←.";
 "OpenPreviewDelay" = "Automatisch na vertraging";

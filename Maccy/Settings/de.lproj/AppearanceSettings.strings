@@ -16,6 +16,10 @@
 "PinToTooltip" = "Ändere die Position der angehefteten Einträge.\nStandard: Oben.";
 "ImageHeight" = "Bildhöhe:";
 "ImageHeightTooltip" = "Maximale Höhe für Bildvorschau in Pixel.\nStandard: 40.\nHinweis: Wähle 16, wenn das Bild gleich groß dargestellt werden soll, wie Text.";
+"VisibleItems" = "Sichtbare Einträge:";
+"VisibleItemsTooltip" = "Wie viele Verlaufseinträge vor dem Scrollen angezeigt werden.\nStandard: 10.";
+"VisibleItemsHistoryOnly" = "Sichtbare Einträge (nur Verlauf):";
+"VisibleItemsHistoryOnlyTooltip" = "Wie viele Einträge vor dem Scrollen angezeigt werden, wenn nur der Verlauf geöffnet ist.\nStandard: 20.";
 "OpenPreview" = "Vorschau öffnen:";
 "OpenPreviewTooltip" = "Wie sich die Vorschau des ausgewählten Verlaufseintrags öffnet: nach der Vorschauverzögerung oder mit → und schließt mit ←.";
 "OpenPreviewDelay" = "Automatisch nach Verzögerung";

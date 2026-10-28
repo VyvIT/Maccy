@@ -18,6 +18,10 @@
 "PinToTooltip" = "Ŝanĝi la lokon de la fiksitaj eroj.\nDefaŭlta: Supro.";
 "ImageHeight" = "Bilda alto:";
 "ImageHeightTooltip" = "";
+"VisibleItems" = "Videblaj eroj:";
+"VisibleItemsTooltip" = "Kiom da historieroj montriĝas antaŭ rulumado.\nApriore: 10.";
+"VisibleItemsHistoryOnly" = "Videblaj eroj (nur historio):";
+"VisibleItemsHistoryOnlyTooltip" = "Kiom da eroj montriĝas antaŭ rulumado, kiam nur la historio estas malfermita.\nApriore: 20.";
 "OpenPreview" = "Malfermi antaŭrigardon:";
 "OpenPreviewTooltip" = "Kiel malfermiĝas la antaŭrigardo de la elektita historiero: post la prokrasto, aŭ per → kaj fermiĝas per ←.";
 "OpenPreviewDelay" = "Aŭtomate post prokrasto";

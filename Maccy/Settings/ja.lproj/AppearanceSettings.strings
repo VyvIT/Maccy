@@ -16,6 +16,10 @@
 "PinToTooltip" = "ピン留め項目の場所を変更します。\nデフォルト：上段。";
 "ImageHeight" = "画像の高さ：";
 "ImageHeightTooltip" = "プレビュー時の画像の最大の高さ。\nデフォルト：40。\nヒント：16に設定するとテキスト項目と同じように見えます。";
+"VisibleItems" = "表示する項目数:";
+"VisibleItemsTooltip" = "スクロールせずに表示される履歴項目の数。\nデフォルト: 10。";
+"VisibleItemsHistoryOnly" = "表示する項目数（履歴のみ）:";
+"VisibleItemsHistoryOnlyTooltip" = "履歴のみを開いたときにスクロールせずに表示される項目の数。\nデフォルト: 20。";
 "OpenPreview" = "プレビューを開く:";
 "OpenPreviewTooltip" = "選択した履歴項目のプレビューの開き方: プレビューの遅延後、または → で開き ← で閉じます。";
 "OpenPreviewDelay" = "遅延後に自動で";

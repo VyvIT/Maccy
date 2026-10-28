@@ -16,6 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
+"VisibleItems" = "Synliga objekt:";
+"VisibleItemsTooltip" = "Hur många historikobjekt som visas innan listan rullar.\nStandard: 10.";
+"VisibleItemsHistoryOnly" = "Synliga objekt (endast historik):";
+"VisibleItemsHistoryOnlyTooltip" = "Hur många objekt som visas innan listan rullar när bara historiken är öppen.\nStandard: 20.";
 "OpenPreview" = "Öppna förhandsvisning:";
 "OpenPreviewTooltip" = "Hur förhandsvisningen av valt historikobjekt öppnas: efter fördröjningen, eller med → och stängs med ←.";
 "OpenPreviewDelay" = "Automatiskt efter fördröjning";

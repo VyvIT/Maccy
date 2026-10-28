@@ -8,6 +8,8 @@ struct AppearanceSettingsPane: View {
   @Default(.popupScreen) private var popupScreen
   @Default(.pinTo) private var pinTo
   @Default(.imageMaxHeight) private var imageHeight
+  @Default(.visibleItems) private var visibleItems
+  @Default(.visibleItemsHistoryOnly) private var visibleItemsHistoryOnly
   @Default(.previewOpening) private var previewOpening
   @Default(.previewDelay) private var previewDelay
   @Default(.snippetPreviewDelay) private var snippetPreviewDelay
@@ -27,6 +29,13 @@ struct AppearanceSettingsPane: View {
     let formatter = NumberFormatter()
     formatter.minimum = 1
     formatter.maximum = 200
+    return formatter
+  }()
+
+  private let visibleItemsFormatter: NumberFormatter = {
+    let formatter = NumberFormatter()
+    formatter.minimum = 3
+    formatter.maximum = 999
     return formatter
   }()
 
@@ -100,6 +109,30 @@ struct AppearanceSettingsPane: View {
         .frame(width: 141, alignment: .leading)
         .help(Text("PinToTooltip", tableName: "AppearanceSettings"))
         .accessibilityLabel(Text("PinTo", tableName: "AppearanceSettings"))
+      }
+
+      Settings.Section(label: { Text("VisibleItems", tableName: "AppearanceSettings") }) {
+        HStack {
+          TextField("", value: $visibleItems, formatter: visibleItemsFormatter)
+            .frame(width: 120)
+            .help(Text("VisibleItemsTooltip", tableName: "AppearanceSettings"))
+            .accessibilityLabel(Text("VisibleItems", tableName: "AppearanceSettings"))
+          Stepper("", value: $visibleItems, in: 3...999)
+            .labelsHidden()
+            .accessibilityLabel(Text("VisibleItems", tableName: "AppearanceSettings"))
+        }
+      }
+
+      Settings.Section(label: { Text("VisibleItemsHistoryOnly", tableName: "AppearanceSettings") }) {
+        HStack {
+          TextField("", value: $visibleItemsHistoryOnly, formatter: visibleItemsFormatter)
+            .frame(width: 120)
+            .help(Text("VisibleItemsHistoryOnlyTooltip", tableName: "AppearanceSettings"))
+            .accessibilityLabel(Text("VisibleItemsHistoryOnly", tableName: "AppearanceSettings"))
+          Stepper("", value: $visibleItemsHistoryOnly, in: 3...999)
+            .labelsHidden()
+            .accessibilityLabel(Text("VisibleItemsHistoryOnly", tableName: "AppearanceSettings"))
+        }
       }
 
       Settings.Section(label: { Text("ImageHeight", tableName: "AppearanceSettings") }) {

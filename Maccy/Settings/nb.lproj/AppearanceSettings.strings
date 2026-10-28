@@ -16,6 +16,10 @@
 "PinToTooltip" = "Forandre plassering av festede elementer.\nStandard: Øverst.";
 "ImageHeight" = "Bildehøyde:";
 "ImageHeightTooltip" = "Maximal bildehøyde forhåndsvisning.\nStandard: 40.\nTips: Satt til 16 for å se ut som tekst elementer.";
+"VisibleItems" = "Synlige elementer:";
+"VisibleItemsTooltip" = "Hvor mange historikkelementer som vises før rulling.\nStandard: 10.";
+"VisibleItemsHistoryOnly" = "Synlige elementer (bare historikk):";
+"VisibleItemsHistoryOnlyTooltip" = "Hvor mange elementer som vises før rulling når bare historikken er åpen.\nStandard: 20.";
 "OpenPreview" = "Åpne forhåndsvisning:";
 "OpenPreviewTooltip" = "Hvordan forhåndsvisningen av valgt historikkelement åpnes: etter forsinkelsen, eller med → og lukkes med ←.";
 "OpenPreviewDelay" = "Automatisk etter forsinkelse";

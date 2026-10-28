@@ -3,6 +3,10 @@
 "PopupAtWindowCenter" = "";
 "HighlightMatchItalic" = "";
 "ImageHeightTooltip" = "";
+"VisibleItems" = "Näkyvät kohteet:";
+"VisibleItemsTooltip" = "Montako historiakohdetta näytetään ennen vierittämistä.\nOletus: 10.";
+"VisibleItemsHistoryOnly" = "Näkyvät kohteet (vain historia):";
+"VisibleItemsHistoryOnlyTooltip" = "Montako kohdetta näytetään ennen vierittämistä, kun vain historia on auki.\nOletus: 20.";
 "ShowApplicationIcons" = "";
 "PreviewDelay" = "";
 "PopupAtScreenCenter" = "";

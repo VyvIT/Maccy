@@ -16,6 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
+"VisibleItems" = "दिखने वाले आइटम:";
+"VisibleItemsTooltip" = "स्क्रॉल से पहले कितने इतिहास आइटम दिखते हैं।\nडिफ़ॉल्ट: 10।";
+"VisibleItemsHistoryOnly" = "दिखने वाले आइटम (केवल इतिहास):";
+"VisibleItemsHistoryOnlyTooltip" = "केवल इतिहास खोलने पर स्क्रॉल से पहले कितने आइटम दिखते हैं।\nडिफ़ॉल्ट: 20।";
 "OpenPreview" = "पूर्वावलोकन खोलें:";
 "OpenPreviewTooltip" = "चुने गए इतिहास आइटम का पूर्वावलोकन कैसे खुलता है: पूर्वावलोकन विलंब के बाद, या → से खुलता है और ← से बंद होता है।";
 "OpenPreviewDelay" = "विलंब के बाद अपने-आप";

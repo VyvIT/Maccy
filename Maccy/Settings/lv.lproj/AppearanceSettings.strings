@@ -16,6 +16,10 @@
 "PinToTooltip" = "Mainiet piesprausto vienumu atrašanās vietu.\nNoklusējums: augšā.";
 "ImageHeight" = "Attēla augstums:";
 "ImageHeightTooltip" = "Maksimālais attēla priekšskatījuma augstums.\nNoklusējums: 40.\nIeteikums: iestatiet uz 16, lai izskatītos kā teksta vienumi.";
+"VisibleItems" = "Redzamie vienumi:";
+"VisibleItemsTooltip" = "Cik vēstures vienumu redzami pirms ritināšanas.\nNoklusējums: 10.";
+"VisibleItemsHistoryOnly" = "Redzamie vienumi (tikai vēsture):";
+"VisibleItemsHistoryOnlyTooltip" = "Cik vienumu redzami pirms ritināšanas, ja atvērta tikai vēsture.\nNoklusējums: 20.";
 "OpenPreview" = "Atvērt priekšskatījumu:";
 "OpenPreviewTooltip" = "Kā atveras atlasītā vēstures vienuma priekšskatījums: pēc aiztures vai ar →, un aizveras ar ←.";
 "OpenPreviewDelay" = "Automātiski pēc aiztures";

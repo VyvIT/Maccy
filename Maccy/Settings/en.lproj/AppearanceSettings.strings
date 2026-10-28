@@ -16,6 +16,10 @@
 "PinToTooltip" = "Change the location of pinned items.\nDefault: Top.";
 "ImageHeight" = "Image height:";
 "ImageHeightTooltip" = "Maximum image preview height.\nDefault: 40.\nHint: Set to 16 to look like text items.";
+"VisibleItems" = "Visible items:";
+"VisibleItemsTooltip" = "How many history items are shown before the list scrolls.\nDefault: 10.";
+"VisibleItemsHistoryOnly" = "Visible items (history only):";
+"VisibleItemsHistoryOnlyTooltip" = "How many history items are shown before the list scrolls when only the history is open.\nDefault: 20.";
 "OpenPreview" = "Open preview:";
 "OpenPreviewTooltip" = "How the preview of the selected history item opens: after the preview delay, or with → and closed with ←.";
 "OpenPreviewDelay" = "Automatically after delay";

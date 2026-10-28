@@ -16,6 +16,10 @@
 "PinToTooltip" = "Altera a localização de elementos fixados.\nPadrão: Topo.";
 "ImageHeight" = "Altura da imagem:";
 "ImageHeightTooltip" = "Altura máxima da pré-visualização de imagem.\nPadrão: 40.\nDica: Defina 16 para parecer elementos de texto.";
+"VisibleItems" = "Itens visíveis:";
+"VisibleItemsTooltip" = "Quantos itens do histórico aparecem antes de deslocar.\nPredefinição: 10.";
+"VisibleItemsHistoryOnly" = "Itens visíveis (só histórico):";
+"VisibleItemsHistoryOnlyTooltip" = "Quantos itens aparecem antes de deslocar quando só o histórico está aberto.\nPredefinição: 20.";
 "OpenPreview" = "Abrir pré-visualização:";
 "OpenPreviewTooltip" = "Como se abre a pré-visualização do item do histórico selecionado: após o atraso, ou com → e fecha-se com ←.";
 "OpenPreviewDelay" = "Automaticamente após um atraso";

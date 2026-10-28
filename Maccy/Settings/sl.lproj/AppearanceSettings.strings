@@ -16,6 +16,10 @@
 "PinToTooltip" = "Spremenite lokacijo pripetih elementov.\nPrivzeto: Zgoraj.";
 "ImageHeight" = "Višina slike:";
 "ImageHeightTooltip" = "Največja višina predogleda slike.\nPrivzeto: 40.\nNamig: nastavite na 16, da bodo slike videti kot besedilni elementi.";
+"VisibleItems" = "Vidni elementi:";
+"VisibleItemsTooltip" = "Koliko elementov zgodovine je prikazanih pred drsenjem.\nPrivzeto: 10.";
+"VisibleItemsHistoryOnly" = "Vidni elementi (samo zgodovina):";
+"VisibleItemsHistoryOnlyTooltip" = "Koliko elementov je prikazanih pred drsenjem, ko je odprta samo zgodovina.\nPrivzeto: 20.";
 "OpenPreview" = "Odpri predogled:";
 "OpenPreviewTooltip" = "Kako se odpre predogled izbranega elementa zgodovine: po zamiku predogleda ali s tipko →, zapre pa se s tipko ←.";
 "OpenPreviewDelay" = "Samodejno po zamiku";

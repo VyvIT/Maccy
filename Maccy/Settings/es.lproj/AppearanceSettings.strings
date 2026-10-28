@@ -16,6 +16,10 @@
 "PinToTooltip" = "Cambiar la ubicación de los artículos anclados.\nPor defecto: Arriba.";
 "ImageHeight" = "Altura de imagen:";
 "ImageHeightTooltip" = "Tamaño máximo de la previsualización de imágenes.\nPor defecto: 40.\nNota: Seleccionar 16 para igualar al tamaño del texto.";
+"VisibleItems" = "Elementos visibles:";
+"VisibleItemsTooltip" = "Cuántos elementos del historial se muestran antes de desplazarse.\nPredeterminado: 10.";
+"VisibleItemsHistoryOnly" = "Elementos visibles (solo historial):";
+"VisibleItemsHistoryOnlyTooltip" = "Cuántos elementos se muestran antes de desplazarse cuando solo se abre el historial.\nPredeterminado: 20.";
 "OpenPreview" = "Abrir vista previa:";
 "OpenPreviewTooltip" = "Cómo se abre la vista previa del elemento del historial seleccionado: tras el retraso, o con → y se cierra con ←.";
 "OpenPreviewDelay" = "Automáticamente tras un retraso";

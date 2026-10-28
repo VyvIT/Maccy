@@ -8,6 +8,10 @@
 "PopupAtLastLocationReset" = "Atur ulang posisi";
 "ImageHeight" = "Tinggi gambar:";
 "ImageHeightTooltip" = "Tinggi maksimum pratinjau gambar.\nBawaan: 40.\nPetunjuk: Atur ke 16 agar tampil seperti item teks.";
+"VisibleItems" = "Item terlihat:";
+"VisibleItemsTooltip" = "Berapa item riwayat yang ditampilkan sebelum menggulir.\nBawaan: 10.";
+"VisibleItemsHistoryOnly" = "Item terlihat (hanya riwayat):";
+"VisibleItemsHistoryOnlyTooltip" = "Berapa item yang ditampilkan sebelum menggulir saat hanya riwayat yang dibuka.\nBawaan: 20.";
 "PopupAtTooltip" = "Mengubah tempat popup muncul.\nBawaan: Kursor.";
 "SearchVisibilityAlways" = "Selalu";
 "SearchVisibilityDuringSearch" = "Saat mencari";

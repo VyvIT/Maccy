@@ -16,6 +16,10 @@
 "PinToTooltip" = "Thay đổi vị trí của các mục đã ghim.\nMặc định: Trên cùng.";
 "ImageHeight" = "Chiều cao hình ảnh:";
 "ImageHeightTooltip" = "Chiều cao xem trước hình ảnh tối đa.\nMặc định: 40.\nGợi ý: Đặt thành 16 sẽ trông giống như các mục văn bản.";
+"VisibleItems" = "Số mục hiển thị:";
+"VisibleItemsTooltip" = "Số mục lịch sử hiển thị trước khi phải cuộn.\nMặc định: 10.";
+"VisibleItemsHistoryOnly" = "Số mục hiển thị (chỉ lịch sử):";
+"VisibleItemsHistoryOnlyTooltip" = "Số mục hiển thị trước khi phải cuộn khi chỉ mở lịch sử.\nMặc định: 20.";
 "OpenPreview" = "Mở xem trước:";
 "OpenPreviewTooltip" = "Cách mở xem trước mục lịch sử đã chọn: sau độ trễ xem trước, hoặc bằng → và đóng bằng ←.";
 "OpenPreviewDelay" = "Tự động sau độ trễ";

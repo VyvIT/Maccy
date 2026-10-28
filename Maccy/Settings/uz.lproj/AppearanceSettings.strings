@@ -19,6 +19,10 @@
 "PinToTooltip" = "Mustahkamlangan elementlarning joylashuvini o'zgartirish. \nStandart: Tepada.";
 "ImageHeight" = "Rasm bo'yi:";
 "ImageHeightTooltip" = "Tasvirni oldindan ko'rishning maksimal balandligi.\nStandart: 40. \nMaslahat: Matn elementlariga o'xshash bo'lish uchun 16 ga o'rnating.";
+"VisibleItems" = "Ko‘rinadigan elementlar:";
+"VisibleItemsTooltip" = "Aylantirishdan oldin nechta tarix elementi ko‘rsatiladi.\nStandart: 10.";
+"VisibleItemsHistoryOnly" = "Ko‘rinadigan elementlar (faqat tarix):";
+"VisibleItemsHistoryOnlyTooltip" = "Faqat tarix ochilganda aylantirishdan oldin nechta element ko‘rsatiladi.\nStandart: 20.";
 "OpenPreview" = "Oldindan ko‘rishni ochish:";
 "OpenPreviewTooltip" = "Tanlangan tarix elementining oldindan ko‘rinishi qanday ochiladi: kechikishdan so‘ng yoki → bilan ochilib, ← bilan yopiladi.";
 "OpenPreviewDelay" = "Kechikishdan so‘ng avtomatik";
