@@ -8,7 +8,7 @@ struct AppearanceSettingsPane: View {
   @Default(.popupScreen) private var popupScreen
   @Default(.pinTo) private var pinTo
   @Default(.imageMaxHeight) private var imageHeight
-  @Default(.openPreviewAutomatically) private var openPreviewAutomatically
+  @Default(.previewOpening) private var previewOpening
   @Default(.previewDelay) private var previewDelay
   @Default(.snippetPreviewDelay) private var snippetPreviewDelay
   @Default(.highlightMatch) private var highlightMatch
@@ -114,10 +114,16 @@ struct AppearanceSettingsPane: View {
         }
       }
 
-      Settings.Section(title: "") {
-        Defaults.Toggle(key: .openPreviewAutomatically) {
-          Text("OpenPreviewAutomatically", tableName: "AppearanceSettings")
+      Settings.Section(label: { Text("OpenPreview", tableName: "AppearanceSettings") }) {
+        Picker("", selection: $previewOpening) {
+          ForEach(PreviewOpening.allCases) { opening in
+            Text(opening.description)
+          }
         }
+        .labelsHidden()
+        .fixedSize()
+        .help(Text("OpenPreviewTooltip", tableName: "AppearanceSettings"))
+        .accessibilityLabel(Text("OpenPreview", tableName: "AppearanceSettings"))
       }
 
       Settings.Section(label: { Text("PreviewDelay", tableName: "AppearanceSettings") }) {
@@ -130,7 +136,7 @@ struct AppearanceSettingsPane: View {
             .labelsHidden()
             .accessibilityLabel(Text("PreviewDelay", tableName: "AppearanceSettings"))
         }
-        .disabled(!openPreviewAutomatically)
+        .disabled(previewOpening != .delay)
       }
 
       Settings.Section(label: { Text("SnippetPreviewDelay", tableName: "AppearanceSettings") }) {
@@ -143,7 +149,7 @@ struct AppearanceSettingsPane: View {
             .labelsHidden()
             .accessibilityLabel(Text("SnippetPreviewDelay", tableName: "AppearanceSettings"))
         }
-        .disabled(!openPreviewAutomatically)
+        .disabled(previewOpening != .delay)
       }
 
       Settings.Section(

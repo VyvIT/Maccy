@@ -218,7 +218,7 @@ class SnippetsSubmenu {
       return
     }
 
-    guard Defaults[.openPreviewAutomatically] else { return }
+    guard Defaults[.previewOpening] == .delay else { return }
 
     previewTask = Task {
       try? await Task.sleep(for: .milliseconds(Defaults[.snippetPreviewDelay]))
@@ -226,6 +226,16 @@ class SnippetsSubmenu {
       showPreview(snippet)
     }
   }
+
+  // With arrow key previews, → shows the preview of the highlighted snippet.
+  func showHighlightedPreview() {
+    guard let highlightedIndex, snippets.indices.contains(highlightedIndex) else { return }
+
+    previewTask?.cancel()
+    showPreview(snippets[highlightedIndex])
+  }
+
+  var isPreviewVisible: Bool { previewPanel?.isVisible == true }
 
   private func showPreview(_ snippet: Snippet) {
     let rootView = SnippetPreviewView(snippet: snippet, folderTitle: folder?.title ?? "")
@@ -244,7 +254,7 @@ class SnippetsSubmenu {
     previewPanel?.orderFrontRegardless()
   }
 
-  private func hidePreview() {
+  func hidePreview() {
     previewTask?.cancel()
     previewPanel?.orderOut(nil)
   }

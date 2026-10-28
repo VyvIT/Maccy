@@ -16,7 +16,10 @@
 "PinToTooltip" = "Promjeni lokaciju zakačenih stavki.\nZadano: Vrh.";
 "ImageHeight" = "Visina slike:";
 "ImageHeightTooltip" = "Maksimalna visina pregleda slike.\nZadano: 40.\nSavjet: Postavite na 16 da izgledaju kao tekstualne stavke.";
-"OpenPreviewAutomatically" = "Automatski otvori pregled";
+"OpenPreview" = "Otvori pregled:";
+"OpenPreviewTooltip" = "Kako se otvara pregled odabrane stavke historije: nakon kašnjenja pregleda ili tipkom →, a zatvara se tipkom ←.";
+"OpenPreviewDelay" = "Automatski nakon kašnjenja";
+"OpenPreviewArrowKeys" = "Tipkama → i ←";
 "PreviewDelay" = "Kašnjenje pregleda:";
 "PreviewDelayTooltip" = "Kašnjenje u milisekundama dok se ne prikaže skočni prozor za pregled.\nZadano: 500.";
 "HighlightMatches" = "Istaknite utakmice:";

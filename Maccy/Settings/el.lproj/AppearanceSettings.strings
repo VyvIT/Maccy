@@ -16,7 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
-"OpenPreviewAutomatically" = "Άνοιγμα προεπισκόπησης αυτόματα";
+"OpenPreview" = "Άνοιγμα προεπισκόπησης:";
+"OpenPreviewTooltip" = "Πώς ανοίγει η προεπισκόπηση του επιλεγμένου στοιχείου ιστορικού: μετά την καθυστέρηση ή με το → και κλείνει με το ←.";
+"OpenPreviewDelay" = "Αυτόματα μετά από καθυστέρηση";
+"OpenPreviewArrowKeys" = "Με τα πλήκτρα → και ←";
 "PreviewDelay" = "";
 "PreviewDelayTooltip" = "";
 "HighlightMatches" = "";

@@ -16,7 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
-"OpenPreviewAutomatically" = "Öppna förhandsvisning automatiskt";
+"OpenPreview" = "Öppna förhandsvisning:";
+"OpenPreviewTooltip" = "Hur förhandsvisningen av valt historikobjekt öppnas: efter fördröjningen, eller med → och stängs med ←.";
+"OpenPreviewDelay" = "Automatiskt efter fördröjning";
+"OpenPreviewArrowKeys" = "Med tangenterna → och ←";
 "PreviewDelay" = "";
 "PreviewDelayTooltip" = "";
 "HighlightMatches" = "";

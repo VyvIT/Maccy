@@ -33,6 +33,10 @@ struct KeyHandlingView<Content: View>: View {
           return .handled
         }
 
+        if let event = NSApp.currentEvent, handlePreviewArrows(event) {
+          return .handled
+        }
+
         switch KeyChord(NSApp.currentEvent) {
         case .clearHistory:
           if let item = appState.footer.items.first(where: { $0.title == "clear" }),
@@ -199,7 +203,15 @@ struct KeyHandlingView<Content: View>: View {
       return true
     }
 
+    let arrowKeyPreviews = Defaults[.previewOpening] == .arrowKeys && modifierFlags.isEmpty
+
     switch event.specialKey {
+    case .rightArrow where arrowKeyPreviews:
+      submenu.showHighlightedPreview()
+      return true
+    case .leftArrow where arrowKeyPreviews && submenu.isPreviewVisible:
+      submenu.hidePreview()
+      return true
     case .upArrow:
       submenu.moveHighlight(by: -1)
       return true
@@ -231,5 +243,38 @@ struct KeyHandlingView<Content: View>: View {
     // Any other key, e.g. typing a search, goes back to the popup.
     submenu.close()
     return false
+  }
+
+  // With arrow key previews, → opens the preview of the selected history item and ← closes it.
+  // While typing a search, → still moves the cursor until it reaches the end.
+  @MainActor
+  private func handlePreviewArrows(_ event: NSEvent) -> Bool {
+    let modifierFlags = event.modifierFlags
+      .intersection(.deviceIndependentFlagsMask)
+      .subtracting([.function, .numericPad])
+    guard Defaults[.previewOpening] == .arrowKeys, modifierFlags.isEmpty else { return false }
+
+    let preview = appState.preview
+    let navigator = appState.navigator
+    switch event.specialKey {
+    case .rightArrow:
+      guard !preview.state.isOpen,
+            navigator.leadHistoryItem != nil || navigator.pasteStackSelected,
+            isCursorAtEndOfSearch else { return false }
+    case .leftArrow:
+      guard preview.state.isOpen else { return false }
+    default:
+      return false
+    }
+
+    preview.togglePreview()
+    return true
+  }
+
+  private var isCursorAtEndOfSearch: Bool {
+    guard let textView = NSApp.keyWindow?.firstResponder as? NSTextView else { return true }
+
+    let selection = textView.selectedRange()
+    return selection.length == 0 && selection.location >= (textView.string as NSString).length
   }
 }

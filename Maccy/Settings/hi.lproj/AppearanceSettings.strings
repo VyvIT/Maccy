@@ -16,7 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
-"OpenPreviewAutomatically" = "पूर्वावलोकन अपने-आप खोलें";
+"OpenPreview" = "पूर्वावलोकन खोलें:";
+"OpenPreviewTooltip" = "चुने गए इतिहास आइटम का पूर्वावलोकन कैसे खुलता है: पूर्वावलोकन विलंब के बाद, या → से खुलता है और ← से बंद होता है।";
+"OpenPreviewDelay" = "विलंब के बाद अपने-आप";
+"OpenPreviewArrowKeys" = "→ और ← कुंजियों से";
 "PreviewDelay" = "";
 "PreviewDelayTooltip" = "";
 "HighlightMatches" = "";

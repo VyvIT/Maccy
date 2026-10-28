@@ -9,7 +9,10 @@
 "PinToTop" = "Верху";
 "PinToBottom" = "Нізу";
 "ImageHeight" = "Вышыня выяў:";
-"OpenPreviewAutomatically" = "Аўтаматычна адкрываць прадпрагляд";
+"OpenPreview" = "Адчыняць перадпрагляд:";
+"OpenPreviewTooltip" = "Як адчыняецца перадпрагляд выбранага элемента гісторыі: пасля затрымкі перадпрагляду або клавішай →, а зачыняецца клавішай ←.";
+"OpenPreviewDelay" = "Аўтаматычна пасля затрымкі";
+"OpenPreviewArrowKeys" = "Клавішамі → і ←";
 "PreviewDelay" = "Затрымка прадпрагляду:";
 "HighlightMatches" = "Вылучыць супадзенні:";
 "HighlightMatchBold" = "Тоўсты";

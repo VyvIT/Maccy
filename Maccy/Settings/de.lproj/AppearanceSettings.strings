@@ -16,7 +16,10 @@
 "PinToTooltip" = "Ändere die Position der angehefteten Einträge.\nStandard: Oben.";
 "ImageHeight" = "Bildhöhe:";
 "ImageHeightTooltip" = "Maximale Höhe für Bildvorschau in Pixel.\nStandard: 40.\nHinweis: Wähle 16, wenn das Bild gleich groß dargestellt werden soll, wie Text.";
-"OpenPreviewAutomatically" = "Vorschau automatisch öffnen";
+"OpenPreview" = "Vorschau öffnen:";
+"OpenPreviewTooltip" = "Wie sich die Vorschau des ausgewählten Verlaufseintrags öffnet: nach der Vorschauverzögerung oder mit → und schließt mit ←.";
+"OpenPreviewDelay" = "Automatisch nach Verzögerung";
+"OpenPreviewArrowKeys" = "Mit den Tasten → und ←";
 "PreviewDelay" = "Vorschauverzögerung:";
 "PreviewDelayTooltip" = "Verzögerung in Millisekunden, bis ein Vorschau-Popup angezeigt wird.\nStandard: 500.";
 "HighlightMatches" = "Übereinstimmungen hervorheben:";

@@ -16,7 +16,10 @@
 "PinToTooltip" = "Wijzig de locatie van vastgemaakte items.\nStandaard: Boven.";
 "ImageHeight" = "Afbeeldingshoogte:";
 "ImageHeightTooltip" = "Maximale hoogte afbeeldingsvoorbeeld.\nStandaard: 40.\nHint: Stel in op 16 zodat het lijkt op tekstitems.";
-"OpenPreviewAutomatically" = "Voorbeeld automatisch openen";
+"OpenPreview" = "Voorvertoning openen:";
+"OpenPreviewTooltip" = "Hoe de voorvertoning van het geselecteerde geschiedenisitem opent: na de vertraging, of met → en sluit met ←.";
+"OpenPreviewDelay" = "Automatisch na vertraging";
+"OpenPreviewArrowKeys" = "Met de toetsen → en ←";
 "PreviewDelay" = "Vertraging:";
 "PreviewDelayTooltip" = "Vertraging in milliseconden totdat een voorbeeldpop-up wordt weergegeven.\nStandaard: 500.";
 "HighlightMatches" = "Markeer overeenkomsten:";

@@ -16,7 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
-"OpenPreviewAutomatically" = "পূর্বরূপ স্বয়ংক্রিয়ভাবে খুলুন";
+"OpenPreview" = "প্রিভিউ খুলুন:";
+"OpenPreviewTooltip" = "নির্বাচিত ইতিহাস আইটেমের প্রিভিউ কীভাবে খোলে: প্রিভিউ বিলম্বের পরে, অথবা → দিয়ে খোলে ও ← দিয়ে বন্ধ হয়।";
+"OpenPreviewDelay" = "বিলম্বের পরে স্বয়ংক্রিয়ভাবে";
+"OpenPreviewArrowKeys" = "→ ও ← কী দিয়ে";
 "PreviewDelay" = "";
 "PreviewDelayTooltip" = "";
 "HighlightMatches" = "";

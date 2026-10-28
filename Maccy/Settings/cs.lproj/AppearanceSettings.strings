@@ -16,7 +16,10 @@
 "PinToTooltip" = "Změnit umístění připnutí položek.\nVýchozí: Nahoru.";
 "ImageHeight" = "Výška obrázku:";
 "ImageHeightTooltip" = "Maximální výška náhledu obrázku.\nVýchozí: 40.\nTip: Zvol 16 pro stejnou podobu jako textové položky.";
-"OpenPreviewAutomatically" = "Automaticky otevřít náhled";
+"OpenPreview" = "Otevřít náhled:";
+"OpenPreviewTooltip" = "Jak se otevírá náhled vybrané položky historie: po prodlevě náhledu, nebo klávesou → a zavírá se klávesou ←.";
+"OpenPreviewDelay" = "Automaticky po prodlevě";
+"OpenPreviewArrowKeys" = "Klávesami → a ←";
 "PreviewDelay" = "Zpoždení náhledu:";
 "PreviewDelayTooltip" = "Zpoždění v milisekundách před zobrazením popup okna.\nVýchozí: 500.";
 "HighlightMatches" = "Zvýraznit shody:";

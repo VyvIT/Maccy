@@ -16,7 +16,10 @@
 "PinToTooltip" = "Change the location of pinned items.\nDefault: Top.";
 "ImageHeight" = "Image height:";
 "ImageHeightTooltip" = "Maximum image preview height.\nDefault: 40.\nHint: Set to 16 to look like text items.";
-"OpenPreviewAutomatically" = "Open Preview automatically";
+"OpenPreview" = "Open preview:";
+"OpenPreviewTooltip" = "How the preview of the selected history item opens: after the preview delay, or with → and closed with ←.";
+"OpenPreviewDelay" = "Automatically after delay";
+"OpenPreviewArrowKeys" = "With → and ← keys";
 "PreviewDelay" = "Preview delay:";
 "SnippetPreviewDelay" = "Snippet preview delay:";
 "SnippetPreviewDelayTooltip" = "Delay in milliseconds until a snippet preview is shown next to the snippets menu.\nDefault: 300.";

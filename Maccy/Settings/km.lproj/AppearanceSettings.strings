@@ -33,7 +33,10 @@
 "PopupAtLastPosition" = "ទីតាំងចុងក្រោយ";
 "ShowTitleBeforeSearchField" = "បង្ហាញចំណងជើងមុនប្រអប់ស្វែងរក";
 "OpenPreferencesWarning" = "⚠️ ចុច ⌘, (command+comma) ដើម្បីបើកចំណូលចិត្ត នៅពេលលាក់ផ្នែកបាត។";
-"OpenPreviewAutomatically" = "បើកការមើលមុនដោយស្វ័យប្រវត្តិ";
+"OpenPreview" = "បើកការមើលជាមុន:";
+"OpenPreviewTooltip" = "របៀបបើកការមើលជាមុននៃធាតុប្រវត្តិដែលបានជ្រើស៖ ក្រោយពន្យារពេល ឬដោយ → ហើយបិទដោយ ←។";
+"OpenPreviewDelay" = "ដោយស្វ័យប្រវត្តិក្រោយពន្យារពេល";
+"OpenPreviewArrowKeys" = "ដោយគ្រាប់ចុច → និង ←";
 "ShowHexColorSwatch" = "បង្ហាញគំរូពណ៌ Hex";
 "ShowHexColorSwatchTooltip" = "បង្ហាញគំរូពណ៌នៅក្បែរកូដពណ៌ Hex។";
 "SnippetPreviewDelay" = "ពន្យារពេលមើលមុនអត្ថបទគំរូ:";

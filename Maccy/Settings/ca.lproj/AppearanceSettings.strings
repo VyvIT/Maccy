@@ -16,7 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
-"OpenPreviewAutomatically" = "Obre la previsualització automàticament";
+"OpenPreview" = "Obre la previsualització:";
+"OpenPreviewTooltip" = "Com s'obre la previsualització de l'element de l'historial seleccionat: després del retard, o amb → i es tanca amb ←.";
+"OpenPreviewDelay" = "Automàticament després d'un retard";
+"OpenPreviewArrowKeys" = "Amb les tecles → i ←";
 "PreviewDelay" = "";
 "PreviewDelayTooltip" = "";
 "HighlightMatches" = "";

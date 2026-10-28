@@ -41,3 +41,7 @@
 "MaskPasswordsTooltip" = "Näytä salasanalta näyttävästä kopioidusta tekstistä vain ensimmäinen ja viimeinen merkki. Näytä se viemällä osoitin silmäpainikkeen päälle.";
 "ShowSnippets" = "Näytä tekstinpätkät";
 "ShowSnippetsTooltip" = "Näytä tekstinpätkäkansiot ja ”Muokkaa tekstinpätkiä…” ponnahdusikkunan alaosassa.";
+"OpenPreview" = "Avaa esikatselu:";
+"OpenPreviewTooltip" = "Miten valitun historiakohteen esikatselu avautuu: esikatseluviiveen jälkeen tai näppäimellä →, ja se suljetaan näppäimellä ←.";
+"OpenPreviewDelay" = "Automaattisesti viiveen jälkeen";
+"OpenPreviewArrowKeys" = "Näppäimillä → ja ←";

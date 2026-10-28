@@ -16,7 +16,10 @@
 "PinToTop" = "Atas";
 "PinToBottom" = "Bawah";
 "PinToTooltip" = "Mengubah tempat item tersemat.\nDefault: Atas.";
-"OpenPreviewAutomatically" = "Buka pratinjau secara otomatis";
+"OpenPreview" = "Buka pratinjau:";
+"OpenPreviewTooltip" = "Cara pratinjau item riwayat yang dipilih dibuka: setelah jeda pratinjau, atau dengan → dan ditutup dengan ←.";
+"OpenPreviewDelay" = "Otomatis setelah jeda";
+"OpenPreviewArrowKeys" = "Dengan tombol → dan ←";
 "PreviewDelay" = "Jeda pratinjau:";
 "PreviewDelayTooltip" = "Jeda (dalam milidetik) sampai pop-up pratinjau ditampilkan.\nDefault: 500.";
 "HighlightMatches" = "Sorot hasil pencarian:";

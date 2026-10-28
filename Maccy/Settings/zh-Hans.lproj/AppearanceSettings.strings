@@ -16,7 +16,10 @@
 "PinToTooltip" = "更改置顶项目的位置。\n默认：顶部。";
 "ImageHeight" = "图片高度：";
 "ImageHeightTooltip" = "图像预览最大高度。\n默认: 40\n提示：设置为 16 以匹配文本项目的大小。";
-"OpenPreviewAutomatically" = "自动打开预览";
+"OpenPreview" = "打开预览：";
+"OpenPreviewTooltip" = "所选历史记录项的预览打开方式：在预览延迟后打开，或按 → 打开、按 ← 关闭。";
+"OpenPreviewDelay" = "延迟后自动打开";
+"OpenPreviewArrowKeys" = "使用 → 和 ← 键";
 "PreviewDelay" = "预览延迟：";
 "PreviewDelayTooltip" = "延迟以毫秒为单位，直到显示预览弹出窗口。\n默认：500。";
 "HighlightMatches" = "高亮匹配：";

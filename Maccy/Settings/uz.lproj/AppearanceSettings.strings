@@ -19,7 +19,10 @@
 "PinToTooltip" = "Mustahkamlangan elementlarning joylashuvini o'zgartirish. \nStandart: Tepada.";
 "ImageHeight" = "Rasm bo'yi:";
 "ImageHeightTooltip" = "Tasvirni oldindan ko'rishning maksimal balandligi.\nStandart: 40. \nMaslahat: Matn elementlariga o'xshash bo'lish uchun 16 ga o'rnating.";
-"OpenPreviewAutomatically" = "Oldindan ko'rishni avtomatik ochish";
+"OpenPreview" = "Oldindan ko‘rishni ochish:";
+"OpenPreviewTooltip" = "Tanlangan tarix elementining oldindan ko‘rinishi qanday ochiladi: kechikishdan so‘ng yoki → bilan ochilib, ← bilan yopiladi.";
+"OpenPreviewDelay" = "Kechikishdan so‘ng avtomatik";
+"OpenPreviewArrowKeys" = "→ va ← tugmalari bilan";
 "PreviewDelay" = "Ko‘rish kechikishi:";
 "HighlightMatches" = "Ko'rsatish turi:";
 "HighlightMatchColor" = "Ran";

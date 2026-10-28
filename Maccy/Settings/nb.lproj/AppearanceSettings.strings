@@ -16,7 +16,10 @@
 "PinToTooltip" = "Forandre plassering av festede elementer.\nStandard: Øverst.";
 "ImageHeight" = "Bildehøyde:";
 "ImageHeightTooltip" = "Maximal bildehøyde forhåndsvisning.\nStandard: 40.\nTips: Satt til 16 for å se ut som tekst elementer.";
-"OpenPreviewAutomatically" = "Åpne forhåndsvisning automatisk";
+"OpenPreview" = "Åpne forhåndsvisning:";
+"OpenPreviewTooltip" = "Hvordan forhåndsvisningen av valgt historikkelement åpnes: etter forsinkelsen, eller med → og lukkes med ←.";
+"OpenPreviewDelay" = "Automatisk etter forsinkelse";
+"OpenPreviewArrowKeys" = "Med tastene → og ←";
 "PreviewDelay" = "Forsinkelse for forhåndsvisning:";
 "PreviewDelayTooltip" = "Utsett i millisekunder til en forhåndsvisningspopup vises.\nStandard: 500.";
 "HighlightMatches" = "Fremhev kamper:";

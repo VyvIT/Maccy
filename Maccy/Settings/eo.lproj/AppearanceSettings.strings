@@ -18,7 +18,10 @@
 "PinToTooltip" = "Ŝanĝi la lokon de la fiksitaj eroj.\nDefaŭlta: Supro.";
 "ImageHeight" = "Bilda alto:";
 "ImageHeightTooltip" = "";
-"OpenPreviewAutomatically" = "Malfermi antaŭrigardon aŭtomate";
+"OpenPreview" = "Malfermi antaŭrigardon:";
+"OpenPreviewTooltip" = "Kiel malfermiĝas la antaŭrigardo de la elektita historiero: post la prokrasto, aŭ per → kaj fermiĝas per ←.";
+"OpenPreviewDelay" = "Aŭtomate post prokrasto";
+"OpenPreviewArrowKeys" = "Per la klavoj → kaj ←";
 "PreviewDelay" = "Antaŭrigarda prokrasto:";
 "PreviewDelayTooltip" = "Prokrasto en milisekundoj ĝis la antaŭrigarda ŝprucfenestro montriĝas.\nDefaŭlto: 500.";
 "HighlightMatches" = "";

@@ -16,7 +16,10 @@
 "PinToTooltip" = "Változtasd meg a kitűzött elemek helyét.\nAlapértelmezett: Fent.";
 "ImageHeight" = "Kép magassága:";
 "ImageHeightTooltip" = "Az előnézeti kép maximum magassága.\nAlapértelmezett: 40.\nTipp: Allítsd 16-ra, hogy akkora legyen, mint a szövegek.";
-"OpenPreviewAutomatically" = "Előnézet automatikus megnyitása";
+"OpenPreview" = "Előnézet megnyitása:";
+"OpenPreviewTooltip" = "Hogyan nyílik meg a kijelölt előzményelem előnézete: a késleltetés után, vagy a → billentyűvel, és a ← zárja be.";
+"OpenPreviewDelay" = "Automatikusan késleltetés után";
+"OpenPreviewArrowKeys" = "A → és ← billentyűkkel";
 "PreviewDelay" = "Előnézet késleltetése:";
 "PreviewDelayTooltip" = "A késleltetés milliszekundumokban mielőtt a felugró előnézet megjelenik.\nAlapértelmezett: 500.";
 "HighlightMatches" = "Egyezések kiemelése:";

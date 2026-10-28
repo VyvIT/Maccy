@@ -16,7 +16,10 @@
 "PinToTooltip" = "";
 "ImageHeight" = "";
 "ImageHeightTooltip" = "";
-"OpenPreviewAutomatically" = "باز کردن خودکار پیش‌نمایش";
+"OpenPreview" = "باز کردن پیش‌نمایش:";
+"OpenPreviewTooltip" = "پیش‌نمایش مورد انتخاب‌شده در تاریخچه چگونه باز می‌شود: پس از تأخیر پیش‌نمایش، یا با → و با ← بسته می‌شود.";
+"OpenPreviewDelay" = "خودکار پس از تأخیر";
+"OpenPreviewArrowKeys" = "با کلیدهای → و ←";
 "PreviewDelay" = "";
 "PreviewDelayTooltip" = "";
 "HighlightMatches" = "";

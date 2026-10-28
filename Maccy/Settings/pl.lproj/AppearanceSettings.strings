@@ -16,7 +16,10 @@
 "PinToTooltip" = "Zmień pozycję przypiętych wpisów.\nDomyślnie: góra.";
 "ImageHeight" = "Wysokość obrazków:";
 "ImageHeightTooltip" = "Maksymalna wysokość podglądu obrazka.\nDomyślnie: 40.\nWskazówka: Wybierz 16 aby obrazek był takiej samej wysokości jak wpis tekstowy.";
-"OpenPreviewAutomatically" = "Otwieraj podgląd automatycznie";
+"OpenPreview" = "Otwieraj podgląd:";
+"OpenPreviewTooltip" = "Jak otwiera się podgląd wybranego elementu historii: po opóźnieniu podglądu lub klawiszem →, a zamyka klawiszem ←.";
+"OpenPreviewDelay" = "Automatycznie po opóźnieniu";
+"OpenPreviewArrowKeys" = "Klawiszami → i ←";
 "PreviewDelay" = "Opóźnienie podglądu:";
 "PreviewDelayTooltip" = "Opóźnienie w milisekundach zanim pojawi się okienko podglądu.\nDomyślnie: 500.";
 "HighlightMatches" = "Podkreśl dopasowania:";
