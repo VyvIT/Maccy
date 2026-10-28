@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "";
 "ShowHexColorSwatch" = "हेक्स रंग स्वैच दिखाएँ";
 "ShowHexColorSwatchTooltip" = "हेक्स रंग कोड के बगल में रंग स्वैच दिखाएँ।";
+"ShowHexColorSwatchHint" = "रंग को कलर पिकर में बदलने के लिए स्वैच पर क्लिक करें। “कॉपी” परिणाम को नए आइटम के रूप में जोड़ता है।";
 "SnippetPreviewDelay" = "स्निपेट पूर्वावलोकन विलंब:";
 "SnippetPreviewDelayTooltip" = "स्निपेट मेनू के बगल में स्निपेट का पूर्वावलोकन दिखने तक मिलीसेकंड में विलंब।\nडिफ़ॉल्ट: 300।";
 "MaskPasswords" = "पासवर्ड छिपाएँ";

@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Um die Einstellungen zu öffnen, halte ⌘, (command+comma) gedrückt.";
 "ShowHexColorSwatch" = "Hex-Farbmuster anzeigen";
 "ShowHexColorSwatchTooltip" = "Farbmuster neben Hex-Farbcodes anzeigen.";
+"ShowHexColorSwatchHint" = "Klicke auf das Farbfeld, um die Farbe in der Farbauswahl anzupassen. „Kopieren“ fügt das Ergebnis als neuen Eintrag hinzu.";
 "SnippetPreviewDelay" = "Verzögerung der Textbaustein-Vorschau:";
 "SnippetPreviewDelayTooltip" = "Verzögerung in Millisekunden, bis neben dem Textbaustein-Menü eine Vorschau angezeigt wird.\nStandard: 300.";
 "MaskPasswords" = "Passwörter verbergen";

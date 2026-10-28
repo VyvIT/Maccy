@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Naciśnij ⌘, (command+comma) aby otworzyć ustawienia, kiedy stopka jest ukryta.";
 "ShowHexColorSwatch" = "Pokaż próbkę koloru hex";
 "ShowHexColorSwatchTooltip" = "Pokaż próbkę koloru obok kodów kolorów hex.";
+"ShowHexColorSwatchHint" = "Kliknij próbkę, aby dostosować kolor w próbniku kolorów. „Kopiuj” dodaje wynik jako nowy element.";
 "SnippetPreviewDelay" = "Opóźnienie podglądu fragmentu:";
 "SnippetPreviewDelayTooltip" = "Opóźnienie w milisekundach, zanim obok menu fragmentów pojawi się podgląd fragmentu.\nDomyślnie: 300.";
 "MaskPasswords" = "Ukrywaj hasła";

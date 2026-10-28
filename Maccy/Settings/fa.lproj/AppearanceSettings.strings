@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "";
 "ShowHexColorSwatch" = "نمایش نمونه رنگ هگزادسیمال";
 "ShowHexColorSwatchTooltip" = "نمایش نمونه رنگ در کنار کدهای رنگ هگزادسیمال.";
+"ShowHexColorSwatchHint" = "روی نمونه رنگ کلیک کنید تا رنگ را در انتخابگر رنگ تنظیم کنید. «کپی» نتیجه را به‌عنوان مورد جدید اضافه می‌کند.";
 "SnippetPreviewDelay" = "تأخیر پیش‌نمایش قطعه‌متن:";
 "SnippetPreviewDelayTooltip" = "تأخیر بر حسب میلی‌ثانیه تا نمایش پیش‌نمایش قطعه‌متن در کنار منوی قطعه‌متن‌ها.\nپیش‌فرض: 300.";
 "MaskPasswords" = "پنهان کردن گذرواژه‌ها";

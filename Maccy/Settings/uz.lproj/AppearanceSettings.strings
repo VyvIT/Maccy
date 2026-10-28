@@ -43,6 +43,7 @@
 "PinToTop" = "Yuqorida";
 "ShowHexColorSwatch" = "Hex rang namunasini koʻrsatish";
 "ShowHexColorSwatchTooltip" = "Hex rang kodlari yonida rang namunasini koʻrsatish.";
+"ShowHexColorSwatchHint" = "Rangni rang tanlagichda sozlash uchun namunani bosing. “Nusxalash” natijani yangi element sifatida qo‘shadi.";
 "SnippetPreviewDelay" = "Parcha ko‘rish kechikishi:";
 "SnippetPreviewDelayTooltip" = "Parchalar menyusi yonida parcha ko‘rinishi paydo bo‘lgunga qadar millisekundlardagi kechikish.\nStandart: 300.";
 "MaskPasswords" = "Parollarni yashirish";

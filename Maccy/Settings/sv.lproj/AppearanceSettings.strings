@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "";
 "ShowHexColorSwatch" = "Visa hexadecimalt färgprov";
 "ShowHexColorSwatchTooltip" = "Visa färgprov bredvid hexadecimala färgkoder.";
+"ShowHexColorSwatchHint" = "Klicka på färgrutan för att justera färgen i färgväljaren. ”Kopiera” lägger till resultatet som ett nytt objekt.";
 "SnippetPreviewDelay" = "Fördröjning för förhandsvisning av textklipp:";
 "SnippetPreviewDelayTooltip" = "Fördröjning i millisekunder innan en förhandsvisning av ett textklipp visas bredvid textklippsmenyn.\nStandard: 300.";
 "MaskPasswords" = "Dölj lösenord";

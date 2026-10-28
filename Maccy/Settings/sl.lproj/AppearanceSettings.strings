@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Pritisnite ⌘, (command+comma) da odprete nastavitve, ko je noga skrita.";
 "ShowHexColorSwatch" = "Prikaži vzorec hex barve";
 "ShowHexColorSwatchTooltip" = "Prikaži barvni vzorec ob hex barvnih kodah.";
+"ShowHexColorSwatchHint" = "Kliknite vzorec, da prilagodite barvo v izbirniku barv. »Kopiraj« doda rezultat kot nov element.";
 "SnippetPreviewDelay" = "Zakasnitev predogleda izrezka:";
 "SnippetPreviewDelayTooltip" = "Zakasnitev v milisekundah, preden se ob meniju izrezkov prikaže predogled izrezka.\nPrivzeto: 300.";
 "MaskPasswords" = "Skrij gesla";

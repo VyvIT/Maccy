@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Altbilgi gizliyken ayarları açmak için ⌘, (command+comma)'a basın.";
 "ShowHexColorSwatch" = "Hex renk örneğini göster";
 "ShowHexColorSwatchTooltip" = "Hex renk kodlarının yanında renk örneği göster.";
+"ShowHexColorSwatchHint" = "Rengi renk seçicide ayarlamak için renk örneğine tıklayın. “Kopyala” sonucu yeni bir öğe olarak ekler.";
 "SnippetPreviewDelay" = "Parçacık önizleme gecikmesi:";
 "SnippetPreviewDelayTooltip" = "Parçacıklar menüsünün yanında bir parçacık önizlemesi gösterilene kadar geçen milisaniye cinsinden gecikme.\nSaptanmış: 300.";
 "MaskPasswords" = "Parolaları gizle";

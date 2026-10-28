@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Pressione ⌘, (command+comma) para abrir as preferências quando o rodapé estiver oculto.";
 "ShowHexColorSwatch" = "Mostrar amostra de cor hexadecimal";
 "ShowHexColorSwatchTooltip" = "Mostrar amostra de cor ao lado dos códigos de cor hexadecimais.";
+"ShowHexColorSwatchHint" = "Clique na amostra para ajustar a cor no seletor de cores. “Copiar” adiciona o resultado como um novo item.";
 "SnippetPreviewDelay" = "Atraso de pré-visualização de snippets:";
 "SnippetPreviewDelayTooltip" = "Atraso em milissegundos até a pré-visualização de um snippet aparecer ao lado do menu de snippets.\nPadrão: 300.";
 "MaskPasswords" = "Ocultar senhas";

@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ 隐藏底部菜单时仍可按 ⌘, (command+comma) 打开偏好设置。";
 "ShowHexColorSwatch" = "显示十六进制颜色色块";
 "ShowHexColorSwatchTooltip" = "在十六进制颜色代码旁边显示颜色色块。";
+"ShowHexColorSwatchHint" = "点按色块可在颜色选择器中调整颜色。“拷贝”会将结果添加为新项目。";
 "SnippetPreviewDelay" = "片段预览延迟：";
 "SnippetPreviewDelayTooltip" = "在片段菜单旁显示片段预览前的延迟（毫秒）。\n默认：300。";
 "MaskPasswords" = "隐藏密码";

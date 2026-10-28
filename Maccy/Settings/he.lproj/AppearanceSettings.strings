@@ -43,6 +43,7 @@
 "ShowApplicationIcons" = "הצג סמלי יישומים";
 "ShowHexColorSwatch" = "הצג דוגמית צבע הקסדצימלי";
 "ShowHexColorSwatchTooltip" = "הצג דוגמית צבע ליד קודי צבע הקסדצימליים.";
+"ShowHexColorSwatchHint" = "לחצו על דוגמית הצבע כדי לכוונן את הצבע בבוחר הצבעים. „העתקה” מוסיפה את התוצאה כפריט חדש.";
 "SnippetPreviewDelay" = "השהיית תצוגה מקדימה של קטע:";
 "SnippetPreviewDelayTooltip" = "השהיה באלפיות שנייה עד להצגת תצוגה מקדימה של קטע לצד תפריט הקטעים.\nברירת מחדל: 300.";
 "MaskPasswords" = "הסתרת סיסמאות";

@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Presionar ⌘, (command+comma) para abrir las preferencias cuando el footer esté oculto.";
 "ShowHexColorSwatch" = "Mostrar muestra de color hexadecimal";
 "ShowHexColorSwatchTooltip" = "Mostrar muestra de color junto a los códigos de color hexadecimales.";
+"ShowHexColorSwatchHint" = "Haz clic en la muestra para ajustar el color en el selector de colores. «Copiar» añade el resultado como un elemento nuevo.";
 "SnippetPreviewDelay" = "Retraso de vista previa de fragmentos:";
 "SnippetPreviewDelayTooltip" = "Retraso en milisegundos hasta que se muestra la vista previa de un fragmento junto al menú de fragmentos.\nPor defecto: 300.";
 "MaskPasswords" = "Ocultar contraseñas";

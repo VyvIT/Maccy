@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Trykk ⌘, (command+comma) for å åpne valg når bunntekst er skjult.";
 "ShowHexColorSwatch" = "Vis heksadesimal fargeprøve";
 "ShowHexColorSwatchTooltip" = "Vis fargeprøve ved siden av heksadesimale fargekoder.";
+"ShowHexColorSwatchHint" = "Klikk på fargeprøven for å justere fargen i fargevelgeren. «Kopier» legger til resultatet som et nytt element.";
 "SnippetPreviewDelay" = "Forsinkelse for forhåndsvisning av tekstbit:";
 "SnippetPreviewDelayTooltip" = "Forsinkelse i millisekunder før en forhåndsvisning av en tekstbit vises ved siden av tekstbitmenyen.\nStandard: 300.";
 "MaskPasswords" = "Skjul passord";

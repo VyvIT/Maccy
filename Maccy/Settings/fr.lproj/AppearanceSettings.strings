@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Pressez ⌘, (command+comma) pour ouvrir les préférences quand le bas de l’application est caché.";
 "ShowHexColorSwatch" = "Afficher l'échantillon de couleur hexadécimale";
 "ShowHexColorSwatchTooltip" = "Afficher un échantillon de couleur à côté des codes couleur hexadécimaux.";
+"ShowHexColorSwatchHint" = "Cliquez sur la pastille pour ajuster la couleur dans le sélecteur de couleurs. « Copier » ajoute le résultat comme nouvel élément.";
 "SnippetPreviewDelay" = "Délai de prévisualisation des extraits :";
 "SnippetPreviewDelayTooltip" = "Délai en millisecondes avant l’affichage de l’aperçu d’un extrait à côté du menu des extraits.\nPar défaut : 300.";
 "MaskPasswords" = "Masquer les mots de passe";

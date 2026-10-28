@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "";
 "ShowHexColorSwatch" = "Mostra la mostra de color hexadecimal";
 "ShowHexColorSwatchTooltip" = "Mostra la mostra de color al costat dels codis de color hexadecimals.";
+"ShowHexColorSwatchHint" = "Fes clic a la mostra per ajustar el color al selector de colors. «Copia» afegeix el resultat com a element nou.";
 "SnippetPreviewDelay" = "Retard de la previsualització dels retalls:";
 "SnippetPreviewDelayTooltip" = "Retard en mil·lisegons fins que es mostra la previsualització d'un retall al costat del menú de retalls.\nPer defecte: 300.";
 "MaskPasswords" = "Amaga les contrasenyes";

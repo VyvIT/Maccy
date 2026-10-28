@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Nhấn phím ⌘, (command+comma) để mở cài đặt khi phần chân trang bị ẩn.";
 "ShowHexColorSwatch" = "Hiển thị mẫu màu hex";
 "ShowHexColorSwatchTooltip" = "Hiển thị mẫu màu bên cạnh mã màu hex.";
+"ShowHexColorSwatchHint" = "Nhấp vào mẫu màu để chỉnh màu trong bộ chọn màu. “Sao chép” thêm kết quả thành mục mới.";
 "SnippetPreviewDelay" = "Trì hoãn xem trước đoạn mẫu:";
 "SnippetPreviewDelayTooltip" = "Thời gian trễ tính bằng mili giây trước khi bản xem trước của đoạn mẫu hiện bên cạnh menu đoạn mẫu.\nMặc định: 300.";
 "MaskPasswords" = "Ẩn mật khẩu";

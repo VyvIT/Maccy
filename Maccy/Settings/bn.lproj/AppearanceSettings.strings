@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "";
 "ShowHexColorSwatch" = "হেক্স রঙের নমুনা দেখান";
 "ShowHexColorSwatchTooltip" = "হেক্স রঙ কোডের পাশে রঙের নমুনা দেখান।";
+"ShowHexColorSwatchHint" = "কালার পিকারে রং বদলাতে সোয়াচে ক্লিক করুন। “কপি” ফলাফলকে নতুন আইটেম হিসেবে যোগ করে।";
 "SnippetPreviewDelay" = "স্নিপেট প্রিভিউ বিলম্ব:";
 "SnippetPreviewDelayTooltip" = "স্নিপেট মেনুর পাশে স্নিপেটের প্রিভিউ দেখানোর আগে মিলিসেকেন্ডে বিলম্ব।\nডিফল্ট: 300।";
 "MaskPasswords" = "পাসওয়ার্ড লুকান";

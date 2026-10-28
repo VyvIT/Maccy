@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Apasă ⌘, (command+comma) pentru a deschide preferințele atunci când subsolul este ascuns.";
 "ShowHexColorSwatch" = "Afișare mostră de culoare hexazecimală";
 "ShowHexColorSwatchTooltip" = "Afișare mostră de culoare lângă codurile de culoare hexazecimale.";
+"ShowHexColorSwatchHint" = "Fă clic pe mostră pentru a ajusta culoarea în selectorul de culori. „Copiază” adaugă rezultatul ca element nou.";
 "SnippetPreviewDelay" = "Temporizare previzualizare fragment:";
 "SnippetPreviewDelayTooltip" = "Întârziere în milisecunde până la afișarea previzualizării unui fragment lângă meniul de fragmente.\nImplicit: 300.";
 "MaskPasswords" = "Ascunde parolele";

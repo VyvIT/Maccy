@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "";
 "ShowHexColorSwatch" = "Montri kolorspecimenon de deksesuma koloro";
 "ShowHexColorSwatchTooltip" = "Montri kolorspecimenon apud deksesumaj kolorkodoj.";
+"ShowHexColorSwatchHint" = "Alklaku la specimenon por alĝustigi la koloron en la kolorelektilo. “Kopii” aldonas la rezulton kiel novan eron.";
 "SnippetPreviewDelay" = "Prokrasto de tekstera antaŭrigardo:";
 "SnippetPreviewDelayTooltip" = "Prokrasto en milisekundoj ĝis antaŭrigardo de tekstero aperas apud la tekstera menuo.\nDefaŭlta: 300.";
 "MaskPasswords" = "Kaŝi pasvortojn";

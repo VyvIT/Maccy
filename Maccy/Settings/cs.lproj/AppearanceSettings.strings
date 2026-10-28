@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Stiskni ⌘, (command+comma) pro otevření předvoleb, když je skrytá patička.";
 "ShowHexColorSwatch" = "Zobrazit vzorek hex barvy";
 "ShowHexColorSwatchTooltip" = "Zobrazit barevný vzorek vedle hex kódů barev.";
+"ShowHexColorSwatchHint" = "Kliknutím na vzorek upravíte barvu ve výběru barev. „Kopírovat“ přidá výsledek jako novou položku.";
 "SnippetPreviewDelay" = "Zpoždění náhledu úryvku:";
 "SnippetPreviewDelayTooltip" = "Zpoždění v milisekundách, než se vedle nabídky úryvků zobrazí náhled úryvku.\nVýchozí: 300.";
 "MaskPasswords" = "Skrývat hesla";

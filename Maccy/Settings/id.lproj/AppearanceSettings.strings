@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Tekan ⌘, (cmd + koma) untuk membuka preferensi ketika footer tersembunyi.";
 "ShowHexColorSwatch" = "Tampilkan contoh warna hex";
 "ShowHexColorSwatchTooltip" = "Tampilkan contoh warna di samping kode warna hex.";
+"ShowHexColorSwatchHint" = "Klik contoh warna untuk menyesuaikan warna di pemilih warna. “Salin” menambahkan hasilnya sebagai item baru.";
 "SnippetPreviewDelay" = "Jeda pratinjau cuplikan:";
 "SnippetPreviewDelayTooltip" = "Jeda dalam milidetik hingga pratinjau cuplikan ditampilkan di samping menu cuplikan.\nBawaan: 300.";
 "MaskPasswords" = "Sembunyikan kata sandi";

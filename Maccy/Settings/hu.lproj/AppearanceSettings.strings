@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Nyomd meg a ⌘, (command+comma) gombot a Preferenciák megnyitásához, ha a lábléc el van rejtve.";
 "ShowHexColorSwatch" = "Hex színminta megjelenítése";
 "ShowHexColorSwatchTooltip" = "Színminta megjelenítése a hex színkódok mellett.";
+"ShowHexColorSwatchHint" = "Kattints a színmintára a szín módosításához a színválasztóban. A „Másolás” új elemként adja hozzá az eredményt.";
 "SnippetPreviewDelay" = "Szövegrészlet-előnézet késleltetése:";
 "SnippetPreviewDelayTooltip" = "Késleltetés ezredmásodpercben, mielőtt a szövegrészlet előnézete megjelenik a szövegrészletek menüje mellett.\nAlapértelmezett: 300.";
 "MaskPasswords" = "Jelszavak elrejtése";

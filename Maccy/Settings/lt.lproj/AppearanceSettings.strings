@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Paspauskite ⌘, (command+comma) norėdami atidaryti nustatymus, kai paraštė yra paslėpta.";
 "ShowHexColorSwatch" = "Rodyti šešioliktainės spalvos pavyzdį";
 "ShowHexColorSwatchTooltip" = "Rodyti spalvos pavyzdį šalia šešioliktainių spalvų kodų.";
+"ShowHexColorSwatchHint" = "Spustelėkite spalvos kvadratėlį, kad pakoreguotumėte spalvą spalvų parinkiklyje. „Kopijuoti“ prideda rezultatą kaip naują įrašą.";
 "SnippetPreviewDelay" = "Fragmento peržiūros vėlavimas:";
 "SnippetPreviewDelayTooltip" = "Vėlavimas milisekundėmis, kol šalia fragmentų meniu parodoma fragmento peržiūra.\nNumatytoji reikšmė: 300.";
 "MaskPasswords" = "Slėpti slaptažodžius";

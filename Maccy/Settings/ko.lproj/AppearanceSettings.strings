@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ 푸터가 숨겨져 있을 때 설정을 열려면 ⌘, (command+comma)를 누르세요.";
 "ShowHexColorSwatch" = "16진수 색상 견본 표시";
 "ShowHexColorSwatchTooltip" = "16진수 색상 코드 옆에 색상 견본을 표시합니다.";
+"ShowHexColorSwatchHint" = "색상 견본을 클릭하면 색상 선택기에서 색을 조정할 수 있습니다. “복사”는 결과를 새 항목으로 추가합니다.";
 "SnippetPreviewDelay" = "스니펫 미리보기 지연:";
 "SnippetPreviewDelayTooltip" = "스니펫 메뉴 옆에 스니펫 미리보기가 표시될 때까지의 지연 시간(밀리초)입니다.\n기본값: 300.";
 "MaskPasswords" = "암호 숨기기";

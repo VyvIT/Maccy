@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ フッターが隠されている時に設定を開くには⌘, (command+comma)を押してください。";
 "ShowHexColorSwatch" = "16進カラースウォッチを表示";
 "ShowHexColorSwatchTooltip" = "16進カラーコードの横にカラースウォッチを表示します。";
+"ShowHexColorSwatchHint" = "色見本をクリックするとカラーピッカーで色を調整できます。「コピー」で結果が新しい項目として追加されます。";
 "SnippetPreviewDelay" = "スニペットプレビューの遅延：";
 "SnippetPreviewDelayTooltip" = "スニペットメニューの横にスニペットのプレビューが表示されるまでの遅延（ミリ秒）。\nデフォルト：300。";
 "MaskPasswords" = "パスワードを隠す";

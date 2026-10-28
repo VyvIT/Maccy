@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Nospiediet taustiņu ⌘, (command+comma) lai atvērtu preferences, ja kājene ir paslēpta.";
 "ShowHexColorSwatch" = "Rādīt heksadecimālās krāsas paraugu";
 "ShowHexColorSwatchTooltip" = "Rādīt krāsas paraugu blakus heksadecimālajiem krāsu kodiem.";
+"ShowHexColorSwatchHint" = "Noklikšķiniet uz krāsas parauga, lai pielāgotu krāsu krāsu atlasītājā. “Kopēt” pievieno rezultātu kā jaunu vienumu.";
 "SnippetPreviewDelay" = "Fragmenta priekšskatījuma aizkave:";
 "SnippetPreviewDelayTooltip" = "Aizkave milisekundēs, līdz blakus fragmentu izvēlnei tiek parādīts fragmenta priekšskatījums.\nNoklusējums: 300.";
 "MaskPasswords" = "Slēpt paroles";

@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Druk op ⌘, (command+comma) om voorkeuren te openen wanneer de voettekst verborgen is.";
 "ShowHexColorSwatch" = "Hex kleurstaal tonen";
 "ShowHexColorSwatchTooltip" = "Toon kleurstaal naast hex kleurcodes.";
+"ShowHexColorSwatchHint" = "Klik op het kleurstaal om de kleur aan te passen in de kleurkiezer. ‘Kopieer’ voegt het resultaat toe als nieuw item.";
 "SnippetPreviewDelay" = "Vertraging fragmentvoorvertoning:";
 "SnippetPreviewDelayTooltip" = "Vertraging in milliseconden voordat een voorvertoning van een fragment naast het fragmentenmenu verschijnt.\nStandaard: 300.";
 "MaskPasswords" = "Verberg wachtwoorden";

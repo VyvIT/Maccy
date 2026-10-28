@@ -43,6 +43,7 @@
 "OpenPreferencesWarning" = "⚠️ Premi ⌘, (command+comma) per aprire le preferenze quando il footer è nascosto.";
 "ShowHexColorSwatch" = "Mostra campione colore esadecimale";
 "ShowHexColorSwatchTooltip" = "Mostra il campione di colore accanto ai codici colore esadecimali.";
+"ShowHexColorSwatchHint" = "Fai clic sul campione per regolare il colore nel selettore colori. «Copia» aggiunge il risultato come nuovo elemento.";
 "SnippetPreviewDelay" = "Ritardo anteprima snippet:";
 "SnippetPreviewDelayTooltip" = "Ritardo in millisecondi prima che venga mostrata l’anteprima di uno snippet accanto al menu degli snippet.\nDefault: 300.";
 "MaskPasswords" = "Nascondi password";

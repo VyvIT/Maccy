@@ -62,3 +62,4 @@
 "ImageHeightHint" = "Aseta 16, jotta kuvat ovat yhtä korkeita kuin tekstikohteet.";
 "OpenPreviewHint" = "Esikatselun pikanäppäin yleisissä asetuksissa avaa ja sulkee sen kummassakin tapauksessa.";
 "Milliseconds" = "ms";
+"ShowHexColorSwatchHint" = "Napsauta värimallia säätääksesi väriä värivalitsimessa. ”Kopioi” lisää tuloksen uutena kohteena.";

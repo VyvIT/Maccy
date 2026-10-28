@@ -43,6 +43,7 @@
 "ShowApplicationIcons" = "Prikaži ikone aplikacija";
 "ShowHexColorSwatch" = "Prikaži uzorak hex boje";
 "ShowHexColorSwatchTooltip" = "Prikaži uzorak boje pored hex kodova boja.";
+"ShowHexColorSwatchHint" = "Kliknite uzorak da biste prilagodili boju u biraču boja. „Kopiraj” dodaje rezultat kao novu stavku.";
 "SnippetPreviewDelay" = "Odgoda pregleda isječka:";
 "SnippetPreviewDelayTooltip" = "Odgoda u milisekundama prije prikaza pregleda isječka pokraj izbornika isječaka.\nStandardno: 300.";
 "MaskPasswords" = "Sakrij lozinke";

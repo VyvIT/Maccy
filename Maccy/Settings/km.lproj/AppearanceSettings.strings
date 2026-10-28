@@ -43,6 +43,7 @@
 "OpenPreviewArrowKeys" = "ដោយគ្រាប់ចុច → និង ←";
 "ShowHexColorSwatch" = "បង្ហាញគំរូពណ៌ Hex";
 "ShowHexColorSwatchTooltip" = "បង្ហាញគំរូពណ៌នៅក្បែរកូដពណ៌ Hex។";
+"ShowHexColorSwatchHint" = "ចុចលើគំរូពណ៌ ដើម្បីកែពណ៌ក្នុងកម្មវិធីជ្រើសពណ៌។ “ចម្លង” បន្ថែមលទ្ធផលជាធាតុថ្មី។";
 "SnippetPreviewDelay" = "ពន្យារពេលមើលមុនអត្ថបទគំរូ:";
 "SnippetPreviewDelayTooltip" = "ពន្យារពេលជាមិល្លីវិនាទី មុនពេលការមើលមុនអត្ថបទគំរូបង្ហាញនៅក្បែរម៉ឺនុយអត្ថបទគំរូ។\nលំនាំដើម: 300។";
 "MaskPasswords" = "លាក់ពាក្យសម្ងាត់";

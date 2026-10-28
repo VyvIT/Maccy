@@ -251,6 +251,7 @@ struct AppearanceSettingsPane: View {
         }
         .help(Text("ShowHexColorSwatchTooltip", tableName: "AppearanceSettings"))
         hint("ShowHexColorSwatchTooltip", level: 1)
+        hint("ShowHexColorSwatchHint", level: 1)
         Defaults.Toggle(key: .maskPasswords) {
           Text("MaskPasswords", tableName: "AppearanceSettings")
         }
