@@ -6,6 +6,20 @@
     <description>Releases of the VyvIT fork of Maccy. Updated by scripts/release-fork.sh.</description>
     <language>en</language>
     <item>
+      <title>2.8.0-vv5</title>
+      <description><![CDATA[<p>Fifth release of the VyvIT fork of Maccy 2.8.0.</p><ul><li>Added shortcuts to open only snippets (⌘⌥§) or only history (⌘⇧§), next to Open in General settings.</li><li>Snippet folders show ⌘1 to ⌘9 when only snippets are open, and pressing the number opens the folder.</li><li>Previews now open with → and close with ← by default. Automatic previews after a delay can be chosen in Appearance settings.</li><li>Added settings for how many history items show before the list scrolls: 10, and 20 when only history is open.</li><li>Clicking the color swatch of a hex color opens the color picker. Copy adds the adjusted color as a new item.</li><li>Appearance settings are split into tabs, with hints under options that aren&#x27;t obvious.</li><li>The preview button shows a list icon while the preview is open.</li><li>Fixed Maccy quitting when the popup shortcut was held and repeated until the highlight reached Quit.</li><li>Fixed the preview button sliding under the search field while the preview opened on the left.</li></ul>]]></description>
+      <pubDate>Thu, 29 Oct 2026 01:29:37 +0200</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/VyvIT/Maccy/releases/tag/2.8.0-vv5</sparkle:releaseNotesLink>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/VyvIT/Maccy/releases/download/2.8.0-vv5/Maccy.app.zip"
+        sparkle:version="1005"
+        sparkle:shortVersionString="2.8.0-vv5"
+        sparkle:edSignature="IfYVDspEUQ+344C4aCy5BC5pAwUCVa/XAtPWDaLew6ycoQsPudTi21H6bfRMfsQlPK5TfccJlkzT1km5eJXwBQ==" length="8209881"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>2.8.0-vv4</title>
       <description><![CDATA[<p>Fourth release of the VyvIT fork of Maccy 2.8.0.</p><ul><li>Added a Language picker to General settings, with a Restart button to apply it.</li><li>Added translations of snippets, the snippets editor and password hiding to all languages.</li><li>Fixed the history database keeping its largest size after deleting items, e.g. after copying screenshots. It now shrinks a few seconds after items are deleted, cleared or trimmed, and at launch.</li><li>Fixed the history size in Storage settings leaving out recent changes.</li><li>Removed the Marker highlight style, as Color highlights matches almost the same way. Color is the default now.</li></ul>]]></description>
       <pubDate>Wed, 28 Oct 2026 00:20:57 +0200</pubDate>
