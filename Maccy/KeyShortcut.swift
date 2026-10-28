@@ -15,6 +15,12 @@ struct KeyShortcut: Identifiable {
     ]
   }
 
+  static func create(number: Int) -> [KeyShortcut] {
+    guard let key = Key(character: String(number), virtualKeyCode: nil) else { return [] }
+
+    return [KeyShortcut(key: key)]
+  }
+
   let id = UUID()
 
   var key: Key?

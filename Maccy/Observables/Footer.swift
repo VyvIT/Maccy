@@ -130,8 +130,11 @@ class Footer: ItemsContainer {
 
     snippetItems = Defaults[.snippetFolders]
       .filter(\.isVisibleInPopup)
-      .map { folder in
-        let item = FooterItem(title: folder.title) {}
+      .enumerated()
+      .map { index, folder in
+        // First 9 folders open with their number in snippets mode.
+        let shortcuts = index < 9 ? KeyShortcut.create(number: index + 1) : []
+        let item = FooterItem(title: folder.title, shortcuts: shortcuts) {}
         item.snippetFolderID = folder.id
         item.action = { [weak item] in
           guard let item else { return }

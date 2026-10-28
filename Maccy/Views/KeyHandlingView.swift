@@ -193,6 +193,16 @@ struct KeyHandlingView<Content: View>: View {
       .intersection(.deviceIndependentFlagsMask)
       .subtracting([.function, .numericPad])
 
+    // In snippets mode a folder number opens the folder. Without ⌘ it does so only
+    // while its submenu isn't entered, where numbers choose snippets.
+    if appState.popup.mode == .snippets,
+       modifierFlags == [.command] || (modifierFlags.isEmpty && !submenu.isActive),
+       let item = numberedSnippetFolder(for: event) {
+      appState.navigator.select(footerItem: item)
+      submenu.activate(item)
+      return true
+    }
+
     guard submenu.isActive else {
       guard let item = appState.footer.selectedItem,
             item.snippetFolderID != nil,
@@ -243,6 +253,13 @@ struct KeyHandlingView<Content: View>: View {
     // Any other key, e.g. typing a search, goes back to the popup.
     submenu.close()
     return false
+  }
+
+  private func numberedSnippetFolder(for event: NSEvent) -> FooterItem? {
+    let key = Sauce.shared.key(for: Int(event.keyCode))
+    return appState.footer.snippetItems.first { item in
+      item.shortcuts.contains { $0.key == key }
+    }
   }
 
   // With arrow key previews, → opens the preview of the selected history item and ← closes it.

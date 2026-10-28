@@ -8,7 +8,8 @@ struct SnippetFolderItemView: View {
     ListItemView(
       id: item.id,
       selectionId: item.id,
-      shortcuts: [],
+      // Numbers open folders only when the popup shows just snippets.
+      shortcuts: appState.popup.mode == .snippets ? item.shortcuts : [],
       isSelected: item.isSelected,
       accessibilityLabel: item.title
     ) {
