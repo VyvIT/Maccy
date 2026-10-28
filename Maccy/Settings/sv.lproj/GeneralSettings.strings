@@ -6,6 +6,10 @@
 "Open" = "Öppna:";
 "Delete" = "Ta bort:";
 "OpenTooltip" = "Globalt kortkommando för att öppna applikationen.\nFörval: ⇧⌘C.";
+"OpenSnippets" = "Öppna textklipp:";
+"OpenSnippetsTooltip" = "Globalt kortkommando som bara öppnar textklippen.";
+"OpenHistory" = "Öppna historik:";
+"OpenHistoryTooltip" = "Globalt kortkommando som bara öppnar historiken, utan textklipp och åtgärder.";
 "DeleteTooltip" = "Kortkommando för att ta bort historikpost\nFörval: ⌥⌫.";
 "ShowPreview" = "Förhandsvisning:";
 "ShowPreviewTooltip" = "Visa förhandsgranskning med ytterligare information.\nFörval: ⌃Space.";

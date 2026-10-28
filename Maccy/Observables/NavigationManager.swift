@@ -234,9 +234,20 @@ class NavigationManager { // swiftlint:disable:this type_body_length
     extendSelection(from: fromItem, to: toItem, isRange: isRange)
   }
 
+  // Selection when the popup opens or switches mode.
+  func highlightInitial() {
+    if AppState.shared.popup.mode == .snippets {
+      select(footerItem: footer.firstVisibleItem)
+    } else {
+      select(item: history.firstUnpinnedItem ?? history.firstPinnedItem)
+    }
+  }
+
   func highlightFirst() {
     if let item = history.firstVisibleItem {
       selectFromKeyboardNavigation(item: item)
+    } else if AppState.shared.popup.mode == .snippets {
+      selectFromKeyboardNavigation(footerItem: footer.firstVisibleItem)
     } else {
       selectFromKeyboardNavigation(item: nil)
     }

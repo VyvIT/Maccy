@@ -4,6 +4,10 @@
 "CheckNow" = "Patikrinti dabar";
 "Open" = "Atidaryti:";
 "OpenTooltip" = "Pasaulinis spartusis klavišas programai atidaryti.\nPakartotinai paspaudus pagrindinį klavišą ir laikant modifikatorių, bus pasirinktas kitas sąrašo elementas. Šiuo režimu atleidus modifikavimo klavišus bus patvirtintas pasirinkimas ir uždarytas iškylantysis langas.\nNumatytasis: ⇧⌘C.";
+"OpenSnippets" = "Atidaryti fragmentus:";
+"OpenSnippetsTooltip" = "Pasaulinis spartusis klavišas, atidarantis tik fragmentus.";
+"OpenHistory" = "Atidaryti istoriją:";
+"OpenHistoryTooltip" = "Pasaulinis spartusis klavišas, atidarantis tik istoriją, be fragmentų ir veiksmų.";
 "Pin" = "Prisegti:";
 "PinTooltip" = "Spartusis klavišas istorijos elementui prisegti.\nNumatytasis spartusis klavišas: ⌥P.";
 "Delete" = "Ištrinti:";

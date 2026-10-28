@@ -4,6 +4,10 @@
 "CheckNow" = "Comprobar ahora";
 "Open" = "Abrir:";
 "OpenTooltip" = "Tecla de acceso directo global para abrir la aplicación.\nUna pulsación repetida de la tecla principal mientras se mantienen pulsados los modificadores seleccionará el siguiente elemento de la lista. En este modo, al soltar las teclas modificadoras se confirmará la selección y se cerrará la ventana emergente.\nPor defecto: ⇧⌘C.";
+"OpenSnippets" = "Abrir fragmentos:";
+"OpenSnippetsTooltip" = "Atajo global para abrir solo los fragmentos.";
+"OpenHistory" = "Abrir historial:";
+"OpenHistoryTooltip" = "Atajo global para abrir solo el historial, sin fragmentos ni acciones.";
 "Pin" = "Anclar:";
 "PinTooltip" = "Combinación de teclas para anclar un elemento del historial.\nPor defecto: ⌥P.";
 "Delete" = "Borrar:";

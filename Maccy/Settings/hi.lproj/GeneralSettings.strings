@@ -4,6 +4,10 @@
 "CheckNow" = "";
 "Open" = "";
 "OpenTooltip" = "";
+"OpenSnippets" = "स्निपेट खोलें:";
+"OpenSnippetsTooltip" = "केवल स्निपेट खोलने के लिए ग्लोबल शॉर्टकट कुंजी।";
+"OpenHistory" = "इतिहास खोलें:";
+"OpenHistoryTooltip" = "स्निपेट और कार्यों के बिना केवल इतिहास खोलने के लिए ग्लोबल शॉर्टकट कुंजी।";
 "Pin" = "";
 "PinTooltip" = "";
 "Delete" = "";

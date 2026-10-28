@@ -56,6 +56,32 @@ extension SharedStateTests {
       #expect(editSnippetsItem(footer)?.isVisible == true)
     }
 
+    @Test("Snippets mode lists only snippet folders")
+    func snippetsMode() async {
+      let footer = Footer()
+      await waitUntil { footer.snippetItems.count == 1 }
+
+      AppState.shared.popup.mode = .snippets
+      defer { AppState.shared.popup.mode = .all }
+
+      #expect(footer.items.map(\.title) == ["Shown"])
+      #expect(footer.containerVisible)
+      #expect(Footer.isVisible(in: .snippets, showFooter: false))
+    }
+
+    @Test("History mode hides the footer")
+    func historyMode() async {
+      let footer = Footer()
+      await waitUntil { footer.snippetItems.count == 1 }
+
+      AppState.shared.popup.mode = .history
+      defer { AppState.shared.popup.mode = .all }
+
+      #expect(footer.items.isEmpty)
+      #expect(!footer.containerVisible)
+      #expect(footer.firstVisibleItem == nil)
+    }
+
     private func editSnippetsItem(_ footer: Footer) -> FooterItem? {
       footer.actionItems.first { $0.title == "edit_snippets" }
     }

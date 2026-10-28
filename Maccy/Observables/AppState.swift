@@ -23,7 +23,7 @@ class AppState: Sendable {
   }
 
   var searchVisible: Bool {
-    if !Defaults[.showSearch] { return false }
+    if !Defaults[.showSearch] || popup.mode == .snippets { return false }
     switch Defaults[.searchVisibility] {
     case .always: return true
     case .duringSearch: return !history.searchQuery.isEmpty

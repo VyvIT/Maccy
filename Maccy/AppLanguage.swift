@@ -54,7 +54,7 @@ extension AppLanguage {
   @MainActor
   static func restart() {
     // Let the new instance register the global shortcut.
-    KeyboardShortcuts.disable(.popup)
+    KeyboardShortcuts.disable(KeyboardShortcuts.Name.popupNames)
 
     let configuration = NSWorkspace.OpenConfiguration()
     configuration.createsNewApplicationInstance = true
@@ -63,7 +63,7 @@ extension AppLanguage {
         if error == nil {
           NSApp.terminate(nil)
         } else {
-          KeyboardShortcuts.enable(.popup)
+          KeyboardShortcuts.enable(KeyboardShortcuts.Name.popupNames)
         }
       }
     }

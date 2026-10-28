@@ -11,6 +11,10 @@
 "LaunchAtLogin" = "Lanĉi dum ensaluto";
 "CheckForUpdates" = "Serĉi ĝisdatigojn aŭtomate";
 "OpenTooltip" = "Ĝenerala fulmoklavo por malfermi la aplikaĵon.\nRipetita premo de la ĉefa klavo dum tenado de modifaj klavoj elektos la sekvan eron en la listo. En ĉi tiu reĝimo, liberigo de la modifaj klavoj konfirmos la elekton kaj fermos la ŝprucfenestron.\nDefaŭlta: ⇧⌘C.";
+"OpenSnippets" = "Malfermi teksterojn:";
+"OpenSnippetsTooltip" = "Ĝenerala klavkombino por malfermi nur la teksterojn.";
+"OpenHistory" = "Malfermi historion:";
+"OpenHistoryTooltip" = "Ĝenerala klavkombino por malfermi nur la historion, sen teksteroj kaj agoj.";
 "PinTooltip" = "Fulmoklavo por fiksi historian eron.\nDefaŭlta: ⌥P.";
 "DeleteTooltip" = "Fulmoklavo por forigi historian eron.\nDefaŭlta: ⌥⌫.";
 "ShowPreview" = "Antaŭrigardo:";

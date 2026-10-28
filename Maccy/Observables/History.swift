@@ -51,8 +51,11 @@ class History: ItemsContainer { // swiftlint:disable:this type_body_length
     }
   }
 
+  // History is hidden while the popup shows only snippets.
+  var containerVisible: Bool { AppState.shared.popup.mode != .snippets }
+
   var pressedShortcutItem: HistoryItemDecorator? {
-    guard let event = NSApp.currentEvent else {
+    guard containerVisible, let event = NSApp.currentEvent else {
       return nil
     }
 

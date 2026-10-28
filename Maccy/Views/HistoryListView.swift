@@ -13,11 +13,17 @@ struct HistoryListView: View {
   @Default(.previewDelay) private var previewDelay
   @Default(.showFooter) private var showFooter
 
+  private var historyVisible: Bool {
+    appState.popup.mode != .snippets
+  }
+  private var footerVisible: Bool {
+    Footer.isVisible(in: appState.popup.mode, showFooter: showFooter)
+  }
   private var pinnedItems: [HistoryItemDecorator] {
-    appState.history.pinnedItems
+    historyVisible ? appState.history.pinnedItems : []
   }
   private var unpinnedItems: [HistoryItemDecorator] {
-    appState.history.unpinnedItems
+    historyVisible ? appState.history.unpinnedItems : []
   }
   private var showPinsSeparator: Bool {
     pinsVisible && !unpinnedItems.isEmpty
@@ -28,7 +34,8 @@ struct HistoryListView: View {
   }
 
   private var pasteStackVisible: Bool {
-    if let stack = appState.history.pasteStack,
+    if historyVisible,
+       let stack = appState.history.pasteStack,
        !stack.items.isEmpty {
       return true
     }
@@ -36,11 +43,15 @@ struct HistoryListView: View {
   }
 
   private var topPadding: CGFloat {
+    guard historyVisible else { return 0 }
+
     return Popup.verticalSeparatorPadding
   }
 
   private var bottomPadding: CGFloat {
-    return showFooter
+    guard historyVisible else { return 0 }
+
+    return footerVisible
       ? Popup.verticalSeparatorPadding
       : (Popup.verticalSeparatorPadding - 1)
   }
@@ -75,8 +86,7 @@ struct HistoryListView: View {
     let scrollBottomPadding = bottomSeparatorVisible ? Popup.verticalSeparatorPadding : bottomPadding
 
     VStack(spacing: 0) {
-      if let stack = appState.history.pasteStack,
-         !stack.items.isEmpty {
+      if pasteStackVisible, let stack = appState.history.pasteStack {
         PasteStackView(stack: stack)
 
         if topPinsVisible {
@@ -90,7 +100,7 @@ struct HistoryListView: View {
 
       if topSeparatorVisible {
         topSeparator()
-      } else if showFooter && historyEmpty {
+      } else if footerVisible && historyEmpty && historyVisible {
         Spacer()
           .frame(height: Popup.verticalSeparatorPadding)
       }
@@ -120,7 +130,10 @@ struct HistoryListView: View {
           if scenePhase == .active {
             searchFocused = true
             appState.navigator.isKeyboardNavigating = true
-            appState.navigator.select(item: appState.history.firstUnpinnedItem ?? appState.history.firstPinnedItem)
+            // Popup opened hidden selects once revealed.
+            if !appState.popup.isRevealPending {
+              appState.navigator.highlightInitial()
+            }
             appState.preview.enableAutoOpen()
             appState.preview.resetAutoOpenSuppression()
             appState.preview.startAutoOpen()
@@ -134,7 +147,7 @@ struct HistoryListView: View {
         .background {
           GeometryReader { geo in
             Color.clear
-              .task(id: appState.popup.needsResize) {
+              .task(id: appState.popup.resizeRequest) {
                 try? await Task.sleep(for: .milliseconds(10))
                 guard !Task.isCancelled else { return }
 

@@ -7,6 +7,10 @@
 "CheckNow" = "Hozir tekshir";
 "Open" = "Ochish:";
 "OpenTooltip" = "Ilovani ochish uchun global yorliq.\nOʻzgartirgichlarni ushlab turganda asosiy tugmani qayta-qayta bosish roʻyxatdagi keyingi elementni tanlaydi. Bu rejimda modifikator tugmachalarini bo‘shatish tanlovni tasdiqlaydi va qalqib chiquvchi oynani yopadi.\nStandart: ⇧⌘C.";
+"OpenSnippets" = "Parchalarni ochish:";
+"OpenSnippetsTooltip" = "Faqat parchalarni ochadigan global tezkor tugma.";
+"OpenHistory" = "Tarixni ochish:";
+"OpenHistoryTooltip" = "Parchalar va amallarsiz faqat tarixni ochadigan global tezkor tugma.";
 "Pin" = "Mustahkamlash:";
 "PinTooltip" = "Tarix elementini mahkamlash uchun yorliq tugmasi.\nStandart: ⌥P.";
 "Delete" = "O'chirish:";

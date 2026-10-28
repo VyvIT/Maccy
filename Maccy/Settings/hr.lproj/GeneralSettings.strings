@@ -4,6 +4,10 @@
 "CheckNow" = "Provjeri sada";
 "Open" = "Otvoriti:";
 "OpenTooltip" = "Globalna tipkovnica prečaca za otvaranje aplikacije.\nPonovljenim pritiskom na glavnu tipku dok držite modifikatore odabrat ćete sljedeću stavku na popisu. U ovom načinu rada, otpuštanjem modifikatorskih tipki potvrdit ćete odabir i zatvoriti skočni prozor.\nZadano: ⇧⌘C.";
+"OpenSnippets" = "Otvori isječke:";
+"OpenSnippetsTooltip" = "Globalni prečac za otvaranje samo isječaka.";
+"OpenHistory" = "Otvori povijest:";
+"OpenHistoryTooltip" = "Globalni prečac za otvaranje samo povijesti, bez isječaka i radnji.";
 "Pin" = "Prikačiti:";
 "PinTooltip" = "Tipka prečaca za prikvačivanje stavke povijesti.\nStandardno: ⌥P.";
 "Delete" = "Izbrisati:";

@@ -4,6 +4,10 @@
 "CheckNow" = "";
 "Open" = "";
 "OpenTooltip" = "";
+"OpenSnippets" = "Obre els retalls:";
+"OpenSnippetsTooltip" = "Drecera global per obrir només els retalls.";
+"OpenHistory" = "Obre l'historial:";
+"OpenHistoryTooltip" = "Drecera global per obrir només l'historial, sense retalls ni accions.";
 "Pin" = "";
 "PinTooltip" = "";
 "Delete" = "";

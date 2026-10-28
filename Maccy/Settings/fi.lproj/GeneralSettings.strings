@@ -4,3 +4,7 @@
 "LanguageSystem" = "Järjestelmä";
 "LanguageRestartNeeded" = "Otetaan käyttöön, kun Maccy käynnistetään uudelleen.";
 "LanguageRestart" = "Käynnistä uudelleen";
+"OpenSnippets" = "Avaa tekstinpätkät:";
+"OpenSnippetsTooltip" = "Yleinen pikanäppäin, joka avaa vain tekstinpätkät.";
+"OpenHistory" = "Avaa historia:";
+"OpenHistoryTooltip" = "Yleinen pikanäppäin, joka avaa vain historian ilman tekstinpätkiä ja toimintoja.";

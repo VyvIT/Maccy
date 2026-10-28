@@ -3,6 +3,10 @@
 "LaunchAtLogin" = "Deschide la login";
 "CheckNow" = "Verifică acum";
 "OpenTooltip" = "Tastă globală de comandă rapidă pentru a deschide aplicația.\nO apăsare repetată a tastei principale, în timp ce taste \"modifier\" sunt menținute apăsate, va selecta următorul element din listă. Eliberare unei taste \"modifier\" va confirma selecția și va închide fereastra popup.\nImplicit: ⇧⌘C.";
+"OpenSnippets" = "Deschide fragmentele:";
+"OpenSnippetsTooltip" = "Scurtătură globală care deschide doar fragmentele.";
+"OpenHistory" = "Deschide istoricul:";
+"OpenHistoryTooltip" = "Scurtătură globală care deschide doar istoricul, fără fragmente și acțiuni.";
 "Pin" = "Fixează:";
 "PasteAutomatically" = "Lipește automat";
 "Fuzzy" = "Aproximativă";

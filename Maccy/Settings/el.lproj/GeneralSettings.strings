@@ -4,6 +4,10 @@
 "CheckNow" = "";
 "Open" = "";
 "OpenTooltip" = "";
+"OpenSnippets" = "Άνοιγμα αποσπασμάτων:";
+"OpenSnippetsTooltip" = "Καθολική συντόμευση για άνοιγμα μόνο των αποσπασμάτων.";
+"OpenHistory" = "Άνοιγμα ιστορικού:";
+"OpenHistoryTooltip" = "Καθολική συντόμευση για άνοιγμα μόνο του ιστορικού, χωρίς αποσπάσματα και ενέργειες.";
 "Pin" = "";
 "PinTooltip" = "";
 "Delete" = "";

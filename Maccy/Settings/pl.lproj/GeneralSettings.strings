@@ -4,6 +4,10 @@
 "CheckNow" = "Sprawdź teraz";
 "Open" = "Otwórz:";
 "OpenTooltip" = "Globalny skrót klawiszowy do otwierania aplikacji.\nKrotne naciśnięcie klawisza głównego przy jednoczesnym przytrzymaniu klawiszy modyfikujących spowoduje wybranie następnego elementu na liście. W tym trybie zwolnienie klawiszy modyfikatorów potwierdzi wybór i zamknie wyskakujące okienko.\nDomyślnie: ⇧⌘C.";
+"OpenSnippets" = "Otwórz fragmenty:";
+"OpenSnippetsTooltip" = "Globalny skrót otwierający tylko fragmenty.";
+"OpenHistory" = "Otwórz historię:";
+"OpenHistoryTooltip" = "Globalny skrót otwierający tylko historię, bez fragmentów i akcji.";
 "Pin" = "Przypnij:";
 "PinTooltip" = "Skrót do przypięcia wpisu w historii.\nDomyślnie: ⌥P.";
 "Delete" = "Usuń:";

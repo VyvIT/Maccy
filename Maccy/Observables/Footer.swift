@@ -5,7 +5,13 @@ import SwiftUI
 class Footer: ItemsContainer {
   // Snippet folders are listed before the actions,
   // so that keyboard navigation goes through them.
-  var items: [FooterItem] { snippetItems + actionItems }
+  var items: [FooterItem] {
+    switch AppState.shared.popup.mode {
+    case .all: return snippetItems + actionItems
+    case .snippets: return snippetItems
+    case .history: return []
+    }
+  }
   var actionItems: [FooterItem] = []
   var snippetItems: [FooterItem] = []
 
@@ -27,11 +33,17 @@ class Footer: ItemsContainer {
     set: { Defaults[.suppressClearAlert] = $0 }
   )
 
-  private var showFooter: Bool {
-    return Defaults[.showFooter]
-  }
   var containerVisible: Bool {
-    return showFooter
+    return Footer.isVisible(in: AppState.shared.popup.mode, showFooter: Defaults[.showFooter])
+  }
+
+  // Snippets mode shows the snippets even when the footer is hidden.
+  static func isVisible(in mode: PopupMode, showFooter: Bool) -> Bool {
+    switch mode {
+    case .all: return showFooter
+    case .snippets: return true
+    case .history: return false
+    }
   }
 
   init() { // swiftlint:disable:this function_body_length

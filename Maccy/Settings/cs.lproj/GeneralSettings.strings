@@ -4,6 +4,10 @@
 "CheckNow" = "Zkontrolovat teď";
 "Open" = "Otevřít:";
 "OpenTooltip" = "Globální klávesová zkratka pro otevření aplikace.\nPakliže opakovaně stisknete hlavní klávesu a podržíte modifikátory, vyberete další položku v seznamu. V tomto režimu uvolnění modifikátorových kláves potvrdí výběr a zavře vyskakovací okno.\nVýchozí: ⇧⌘C.";
+"OpenSnippets" = "Otevřít úryvky:";
+"OpenSnippetsTooltip" = "Globální zkratka pro otevření pouze úryvků.";
+"OpenHistory" = "Otevřít historii:";
+"OpenHistoryTooltip" = "Globální zkratka pro otevření pouze historie, bez úryvků a akcí.";
 "Pin" = "Připnout:";
 "PinTooltip" = "Klávesová zkratka pro připnutí položky.\nVýchozí: ⌥P.";
 "Delete" = "Smazat:";

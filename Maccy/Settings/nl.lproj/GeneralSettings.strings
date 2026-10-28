@@ -4,6 +4,10 @@
 "CheckNow" = "Controleer nu";
 "Open" = "Open:";
 "OpenTooltip" = "Algemene sneltoets om de applicatie te openen.\nEen herhaalde druk op de hoofdtoets terwijl de modificatietoetsen ingedrukt worden gehouden, selecteert het volgende item in de lijst. In deze modus zal het loslaten van de modificatietoetsen de selectie bevestigen en het popupvenster sluiten.\nStandaard: ⇧⌘C.";
+"OpenSnippets" = "Open fragmenten:";
+"OpenSnippetsTooltip" = "Globale sneltoets om alleen de fragmenten te openen.";
+"OpenHistory" = "Open geschiedenis:";
+"OpenHistoryTooltip" = "Globale sneltoets om alleen de geschiedenis te openen, zonder fragmenten en acties.";
 "Pin" = "Pin:";
 "PinTooltip" = "Sneltoets om geschiedenisitem vast te zetten.\nStandaard: ⌥P.";
 "Delete" = "Verwijder:";

@@ -100,11 +100,16 @@ class FloatingPanel<Content: View>: NSPanel, NSWindowDelegate {
     }
   }
 
-  func verticallyResize(to newHeight: CGFloat) {
+  func verticallyResize(to newHeight: CGFloat, animated: Bool = true) {
     var newSize = frame.size
     newSize.height = newHeight
     var newOrigin = frame.origin
     newOrigin.y += (frame.height - newSize.height)
+
+    guard animated else {
+      setFrame(NSRect(origin: newOrigin, size: newSize), display: true)
+      return
+    }
 
     NSAnimationContext.runAnimationGroup { (context) in
       context.duration = 0.2

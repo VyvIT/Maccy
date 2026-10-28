@@ -4,6 +4,10 @@
 "CheckNow" = "Şimdi denetle";
 "Open" = "Açmak:";
 "OpenTooltip" = "Uygulamayı açmak için global kısayol tuşu.\nDeğiştiricileri basılı tutarken ana tuşa tekrar basmak listedeki bir sonraki öğeyi seçecektir. Bu modda, değiştirici tuşların bırakılması seçimi onaylayacak ve açılır pencereyi kapatacaktır.\nVarsayılan: ⇧⌘C.";
+"OpenSnippets" = "Parçacıkları aç:";
+"OpenSnippetsTooltip" = "Yalnızca parçacıkları açan genel kısayol.";
+"OpenHistory" = "Geçmişi aç:";
+"OpenHistoryTooltip" = "Parçacıklar ve eylemler olmadan yalnızca geçmişi açan genel kısayol.";
 "Pin" = "İğnelemek:";
 "PinTooltip" = "Geçmiş öğesini sabitlemek için kısayol düğmesi.\nVarsayılan: ⌥P.";
 "Delete" = "Silmek:";

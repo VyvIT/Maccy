@@ -18,13 +18,23 @@ struct FooterView: View {
       && modifierFlags.flags.isSubset(of: clearAllModifiers)
   }
 
+  private var isVisible: Bool {
+    Footer.isVisible(in: appState.popup.mode, showFooter: showFooter)
+  }
+
+  private var snippetsOnly: Bool {
+    appState.popup.mode == .snippets
+  }
+
   var body: some View {
     VStack(spacing: 0) {
-      Divider()
-        .padding(.horizontal, Popup.horizontalSeparatorPadding)
-        .padding(.bottom, Popup.verticalSeparatorPadding)
+      if !snippetsOnly {
+        Divider()
+          .padding(.horizontal, Popup.horizontalSeparatorPadding)
+          .padding(.bottom, Popup.verticalSeparatorPadding)
+      }
 
-      if !footer.snippetItems.isEmpty {
+      if !footer.snippetItems.isEmpty || snippetsOnly {
         Text("snippets")
           .font(.subheadline)
           .foregroundStyle(.secondary)
@@ -37,44 +47,53 @@ struct FooterView: View {
           SnippetFolderItemView(item: item)
         }
 
-        Divider()
-          .padding(.horizontal, Popup.horizontalSeparatorPadding)
-          .padding(.vertical, Popup.verticalSeparatorPadding)
-      }
-
-      ZStack {
-        FooterItemView(item: footer.actionItems[0])
-          .invisible(!showClear)
-        FooterItemView(item: footer.actionItems[1])
-          .invisible(!showClearAll)
-      }
-      .onChange(of: modifierFlags.flags) {
-        if clearAllModifiersPressed {
-          showClear = false
-          showClearAll = true
-          footer.actionItems[0].isVisible = false
-          footer.actionItems[1].isVisible = true
-          if appState.footer.selectedItem == footer.actionItems[0] {
-            appState.navigator.select(footerItem: footer.actionItems[1])
-          }
-        } else {
-          showClear = true
-          showClearAll = false
-          footer.actionItems[0].isVisible = true
-          footer.actionItems[1].isVisible = false
-          if appState.footer.selectedItem == footer.actionItems[1] {
-            appState.navigator.select(footerItem: footer.actionItems[0])
-          }
+        if !snippetsOnly {
+          Divider()
+            .padding(.horizontal, Popup.horizontalSeparatorPadding)
+            .padding(.vertical, Popup.verticalSeparatorPadding)
         }
       }
 
-      ForEach(footer.actionItems.suffix(from: 2).filter(\.isVisible)) { item in
-        FooterItemView(item: item)
+      if !snippetsOnly {
+        actions
       }
     }
-    .invisible(!showFooter)
-    .frame(maxHeight: showFooter ? nil : 0)
-    .padding(.bottom, showFooter ? Popup.verticalPadding : 0)
+    .invisible(!isVisible)
+    .frame(maxHeight: isVisible ? nil : 0)
+    .padding(.bottom, isVisible ? Popup.verticalPadding : 0)
     .readHeight(appState, into: \.popup.footerHeight)
+  }
+
+  @ViewBuilder
+  private var actions: some View {
+    ZStack {
+      FooterItemView(item: footer.actionItems[0])
+        .invisible(!showClear)
+      FooterItemView(item: footer.actionItems[1])
+        .invisible(!showClearAll)
+    }
+    .onChange(of: modifierFlags.flags) {
+      if clearAllModifiersPressed {
+        showClear = false
+        showClearAll = true
+        footer.actionItems[0].isVisible = false
+        footer.actionItems[1].isVisible = true
+        if appState.footer.selectedItem == footer.actionItems[0] {
+          appState.navigator.select(footerItem: footer.actionItems[1])
+        }
+      } else {
+        showClear = true
+        showClearAll = false
+        footer.actionItems[0].isVisible = true
+        footer.actionItems[1].isVisible = false
+        if appState.footer.selectedItem == footer.actionItems[1] {
+          appState.navigator.select(footerItem: footer.actionItems[0])
+        }
+      }
+    }
+
+    ForEach(footer.actionItems.suffix(from: 2).filter(\.isVisible)) { item in
+      FooterItemView(item: item)
+    }
   }
 }

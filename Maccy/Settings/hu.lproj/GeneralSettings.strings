@@ -4,6 +4,10 @@
 "CheckNow" = "Ellenőrzés most";
 "Open" = "Megnyitás:";
 "OpenTooltip" = "Globális gyorsbillentyű az alkalmazás megnyitásához.\nA fő billentyű ismételt lenyomása a módosítók lenyomva tartása mellett a következő elemet választja ki a listában. Ebben az üzemmódban a módosító billentyűk elengedése megerősíti a kiválasztást és bezárja a felugró ablakot.\nEgyértelmezett: ⇧⌘C.";
+"OpenSnippets" = "Szövegrészletek megnyitása:";
+"OpenSnippetsTooltip" = "Globális billentyűparancs csak a szövegrészletek megnyitásához.";
+"OpenHistory" = "Előzmények megnyitása:";
+"OpenHistoryTooltip" = "Globális billentyűparancs csak az előzmények megnyitásához, szövegrészletek és műveletek nélkül.";
 "Pin" = "Kitűzés:";
 "PinTooltip" = "Gyorsbillentyű az előzmény elem kitűzéséhez.\nAlapértelmezett: ⌥P.";
 "Delete" = "Törlés:";

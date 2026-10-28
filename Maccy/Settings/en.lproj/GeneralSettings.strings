@@ -9,6 +9,10 @@
 "LanguageRestart" = "Restart";
 "Open" = "Open:";
 "OpenTooltip" = "Global shortcut key to open application.\nA repeated press of the main key while holding modifiers will select the next item in the list. In this mode, releasing modifier keys will confirm selection and close the popup.\nDefault: ⇧⌘C.";
+"OpenSnippets" = "Open snippets:";
+"OpenSnippetsTooltip" = "Global shortcut key to open only snippets.";
+"OpenHistory" = "Open history:";
+"OpenHistoryTooltip" = "Global shortcut key to open only history, without snippets and actions.";
 "Pin" = "Pin:";
 "PinTooltip" = "Shortcut key to pin history item.\nDefault: ⌥P.";
 "Delete" = "Delete:";

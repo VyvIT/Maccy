@@ -4,6 +4,10 @@
 "CheckNow" = "检查更新";
 "Open" = "打开：";
 "OpenTooltip" = "用于打开应用的全局快捷键。\n按住修饰键并重复按主键，可依次选择列表中的下一项。在此模式下，松开修饰键即可确认选择并关闭弹出窗口。\n默认： ⇧⌘C。";
+"OpenSnippets" = "打开片段：";
+"OpenSnippetsTooltip" = "仅打开片段的全局快捷键。";
+"OpenHistory" = "打开历史记录：";
+"OpenHistoryTooltip" = "仅打开历史记录的全局快捷键，不含片段和操作。";
 "Pin" = "置顶：";
 "PinTooltip" = "置顶历史记录项的快捷键。\n默认：⌥P。";
 "Delete" = "删除：";
