@@ -59,9 +59,7 @@ nonisolated extension Defaults.Keys {
   static let pinTo = Key<PinsPosition>("pinTo", default: .top, suite: preferencesSuite)
   static let popupPosition = Key<PopupPosition>("popupPosition", default: .cursor, suite: preferencesSuite)
   static let popupScreen = Key<Int>("popupScreen", default: 0, suite: preferencesSuite)
-  // Replaced by previewOpening, kept for migration.
-  static let openPreviewAutomatically = Key<Bool>("openPreviewAutomatically", default: true, suite: preferencesSuite)
-  static let previewOpening = Key<PreviewOpening>("previewOpening", default: .delay, suite: preferencesSuite)
+  static let previewOpening = Key<PreviewOpening>("previewOpening", default: .arrowKeys, suite: preferencesSuite)
   static let previewDelay = Key<Int>("previewDelay", default: 500, suite: preferencesSuite)
   static let removeFormattingByDefault = Key<Bool>("removeFormattingByDefault", default: false, suite: preferencesSuite)
   static let searchMode = Key<Search.Mode>("searchMode", default: .exact, suite: preferencesSuite)

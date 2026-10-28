@@ -173,13 +173,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
       _ = try? Storage.shared.removeUnpersistableContents()
     }
 
-    ensureMigration(key: "2026-10-28-preview-opening") {
-      // Previews that weren't opened automatically can now be opened with arrow keys.
-      if !Defaults[.openPreviewAutomatically] {
-        Defaults[.previewOpening] = .arrowKeys
-      }
-    }
-
     // The following defaults are not used in Maccy 2.x
     // and should be removed in 3.x.
     // - LaunchAtLogin__hasMigrated
