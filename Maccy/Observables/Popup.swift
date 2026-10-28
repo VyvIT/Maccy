@@ -286,7 +286,7 @@ class Popup {
       }
 
       if state == .cycle {
-        AppState.shared.navigator.highlightNext(allowCycle: true)
+        AppState.shared.navigator.highlightNextInCycle()
         return nil
       }
 
@@ -303,6 +303,14 @@ class Popup {
   private func handleFlagsChanged(_ event: NSEvent) -> NSEvent? {
     // If we are in cycle mode, releasing modifiers triggers a selection
     if state == .cycle && allModifiersReleased(event) {
+      // Arrow keys can still move the highlight to footer actions while cycling.
+      // Releasing the modifiers must not run them, e.g. quit the app.
+      if let item = AppState.shared.footer.selectedItem,
+         AppState.shared.footer.actionItems.contains(item) {
+        state = .toggle
+        return event
+      }
+
       let modifierFlags = NSEvent.ModifierFlags.currentModifierFlags
       DispatchQueue.main.async {
         AppState.shared.select(flags: modifierFlags)

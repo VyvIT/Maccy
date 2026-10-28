@@ -301,6 +301,27 @@ class NavigationManager { // swiftlint:disable:this type_body_length
     }
   }
 
+  // Repeated presses of the popup shortcut cycle through history only
+  // (snippet folders in snippets mode), so that releasing the modifiers
+  // never runs footer actions such as Clear or Quit.
+  func highlightNextInCycle() {
+    if AppState.shared.popup.mode == .snippets {
+      let items = footer.items.filter(\.isVisible)
+      guard !items.isEmpty else { return }
+
+      let index = footer.selectedItem.flatMap { items.firstIndex(of: $0) } ?? -1
+      selectFromKeyboardNavigation(footerItem: items[(index + 1) % items.count])
+      return
+    }
+
+    if let lead = leadHistoryItem,
+       let nextItem = history.visibleItem(after: lead) {
+      selectFromKeyboardNavigation(item: nextItem)
+    } else {
+      highlightFirst()
+    }
+  }
+
   func highlightLast() {
     guard let lead = leadSelection else { return }
 
