@@ -11,6 +11,14 @@ struct HeaderView: View {
     return controller.placement
   }
 
+  // A plain list while the preview is open, otherwise the side the preview opens on.
+  private var previewIcon: String {
+    if controller.state.isOpen {
+      return "list.bullet.rectangle"
+    }
+    return previewPlacement == .right ? "sidebar.left" : "sidebar.right"
+  }
+
   var body: some View {
     HStack(alignment: .top, spacing: 0) {
       HStack(alignment: .center, spacing: 0) {
@@ -23,10 +31,7 @@ struct HeaderView: View {
         ToolbarButton {
           controller.togglePreview()
         } label: {
-          Image(
-            systemName: previewPlacement == .right
-              ? "sidebar.left" : "sidebar.right"
-          )
+          Image(systemName: previewIcon)
         }
         .shortcutKeyHelp(
           name: .togglePreview,
