@@ -144,6 +144,22 @@ class SlideoutController {
     return newSize
   }
 
+  // Picks the side to open on before the window starts to grow.
+  private func updatePlacementBeforeOpening() {
+    guard !state.isOpen, let window = nswindow else { return }
+
+    var size = window.frame.size
+    size.width = contentWidth
+    let newPlacement = computePlacement(window: window, for: computeSizeWithPreview(size, state: .open))
+    guard newPlacement != placement else { return }
+
+    var transaction = Transaction()
+    transaction.disablesAnimations = true
+    withTransaction(transaction) {
+      placement = newPlacement
+    }
+  }
+
   func togglePreview(trigger: SlideoutToggleTrigger = .manual) {
     if !state.isOpen {
       let navigator = AppState.shared.navigator
@@ -159,15 +175,18 @@ class SlideoutController {
     }
 
     cancelAutoOpen()
-    withAnimation(.easeInOut(duration: Self.animationDuration), completionCriteria: .removed) {
+    updatePlacementBeforeOpening()
+    // The window frame animation drives the layout: the content keeps its width and
+    // the slideout takes the rest, so all views move along with the window. A SwiftUI
+    // animation on top moves SwiftUI views out of step with AppKit ones such as text fields.
+    var transaction = Transaction()
+    transaction.disablesAnimations = true
+    withTransaction(transaction) {
       if let window = nswindow {
         togglePreviewStateWithAnimation(windowFrame: window.frame)
         var newSize = window.frame.size
         newSize.width = contentWidth
         newSize = computeSizeWithPreview(newSize, state: self.state)
-        if state.isOpen {
-          placement = computePlacement(window: window, for: newSize)
-        }
 
         let expectedAnimationState = state
         NSAnimationContext.runAnimationGroup { (context) in
@@ -196,7 +215,6 @@ class SlideoutController {
           )
         }
       }
-    } completion: {
     }
   }
 

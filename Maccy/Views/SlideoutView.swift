@@ -133,17 +133,19 @@ where Content: View, Slideout: View {
       }
       .environment(\.layoutDirection, .leftToRight)
       .fixedSize(
-        horizontal: isAnimating || isContentResizing,
+        horizontal: isContentResizing,
         vertical: false
       )
       .transaction { transaction in
         transaction.animation = nil
       }
+      // While animating, the slideout takes the width the window has so far,
+      // revealing it from the side next to the content.
       .frame(
         minWidth: controller.state != .open ? 0 : nil,
-        maxWidth: controller.state == .closed ? 0 : nil,
+        maxWidth: controller.state == .closed ? 0 : (isAnimating ? .infinity : nil),
         maxHeight: .infinity,
-        alignment: .top
+        alignment: .topLeading
       )
       .clipped()
       // Prevent closed slideout from blocking hover events on content items (#1484)
