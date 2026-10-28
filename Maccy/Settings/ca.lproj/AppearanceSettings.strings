@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Mostra només el primer i l'últim caràcter del text copiat que sembli una contrasenya. Passa el punter per sobre del botó de l'ull per mostrar-la.";
 "ShowSnippets" = "Mostra els retalls";
 "ShowSnippetsTooltip" = "Mostra les carpetes de retalls i «Edita els retalls…» al peu de la finestra emergent.";
+"SectionPopup" = "Finestra";
+"SectionSearch" = "Cerca";
+"SectionItems" = "Elements de l’historial";
+"SectionPreview" = "Previsualització";
+"SectionMenuBar" = "Barra de menús";
+"VisibleItemsHint" = "Els elements fixats, el camp de cerca i el peu s’hi afegeixen. Les imatges són més altes, i en caben menys.";
+"SearchField" = "Camp de cerca:";
+"SearchFieldHidden" = "Amagat";
+"SearchVisibilityHint" = "Durant la cerca: el camp apareix quan comences a escriure.";
+"ShowTitleHint" = "Mostra «Maccy» a l’esquerra del camp de cerca.";
+"ImageHeightHint" = "Posa 16 perquè les imatges tinguin l’alçada dels elements de text.";
+"OpenPreviewHint" = "La drecera de previsualització dels ajustos generals l’obre i la tanca en tots dos casos.";
+"Milliseconds" = "ms";

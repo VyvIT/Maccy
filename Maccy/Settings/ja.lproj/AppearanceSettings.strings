@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "パスワードのように見えるコピーしたテキストは、最初と最後の文字だけを表示します。目のボタンにポインタを重ねると表示されます。";
 "ShowSnippets" = "スニペットを表示";
 "ShowSnippetsTooltip" = "スニペットフォルダと“スニペットを編集…”をポップアップのフッターに表示します。";
+"SectionPopup" = "ポップアップ";
+"SectionSearch" = "検索";
+"SectionItems" = "履歴項目";
+"SectionPreview" = "プレビュー";
+"SectionMenuBar" = "メニューバー";
+"VisibleItemsHint" = "ピン留め項目、検索フィールド、フッターは別に表示されます。画像は高さがあるため、表示できる数が減ります。";
+"SearchField" = "検索フィールド:";
+"SearchFieldHidden" = "非表示";
+"SearchVisibilityHint" = "検索中: 入力を始めるとフィールドが表示されます。";
+"ShowTitleHint" = "検索フィールドの左に「Maccy」を表示します。";
+"ImageHeightHint" = "16 にすると画像がテキスト項目と同じ高さになります。";
+"OpenPreviewHint" = "一般設定のプレビューのショートカットは、どちらの場合も開閉できます。";
+"Milliseconds" = "ミリ秒";

@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Afișează doar primul și ultimul caracter al textului copiat care pare a fi o parolă. Treci cu cursorul peste butonul cu ochi pentru a o afișa.";
 "ShowSnippets" = "Afișează fragmentele";
 "ShowSnippetsTooltip" = "Afișează dosarele de fragmente și „Editează fragmentele…” în subsolul popup-ului.";
+"SectionPopup" = "Fereastră";
+"SectionSearch" = "Căutare";
+"SectionItems" = "Elemente din istoric";
+"SectionPreview" = "Previzualizare";
+"SectionMenuBar" = "Bara de meniu";
+"VisibleItemsHint" = "Elementele fixate, câmpul de căutare și subsolul se afișează în plus. Imaginile sunt mai înalte, deci încap mai puține.";
+"SearchField" = "Câmp de căutare:";
+"SearchFieldHidden" = "Ascuns";
+"SearchVisibilityHint" = "În timpul căutării: câmpul apare când începi să tastezi.";
+"ShowTitleHint" = "Afișează „Maccy” în stânga câmpului de căutare.";
+"ImageHeightHint" = "Setează 16 ca imaginile să fie la fel de înalte ca elementele text.";
+"OpenPreviewHint" = "Scurtătura de previzualizare din setările generale o deschide și o închide în ambele cazuri.";
+"Milliseconds" = "ms";

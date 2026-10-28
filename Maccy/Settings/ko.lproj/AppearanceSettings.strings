@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "암호처럼 보이는 복사된 텍스트는 첫 글자와 마지막 글자만 표시합니다. 눈 모양 버튼에 포인터를 올리면 표시됩니다.";
 "ShowSnippets" = "스니펫 표시";
 "ShowSnippetsTooltip" = "스니펫 폴더와 ‘스니펫 편집…’을 팝업 푸터에 표시합니다.";
+"SectionPopup" = "팝업";
+"SectionSearch" = "검색";
+"SectionItems" = "기록 항목";
+"SectionPreview" = "미리보기";
+"SectionMenuBar" = "메뉴 막대";
+"VisibleItemsHint" = "고정된 항목, 검색 필드, 바닥글은 추가로 표시됩니다. 이미지는 더 높아서 더 적게 들어갑니다.";
+"SearchField" = "검색 필드:";
+"SearchFieldHidden" = "숨김";
+"SearchVisibilityHint" = "검색 중: 입력을 시작하면 필드가 나타납니다.";
+"ShowTitleHint" = "검색 필드 왼쪽에 “Maccy”를 표시합니다.";
+"ImageHeightHint" = "16으로 설정하면 이미지가 텍스트 항목과 같은 높이가 됩니다.";
+"OpenPreviewHint" = "일반 설정의 미리보기 단축키는 어느 경우든 열고 닫습니다.";
+"Milliseconds" = "ms";

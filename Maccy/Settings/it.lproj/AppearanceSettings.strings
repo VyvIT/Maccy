@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Mostra solo il primo e l’ultimo carattere del testo copiato che sembra una password. Passa il puntatore sul pulsante a forma di occhio per mostrarla.";
 "ShowSnippets" = "Mostra snippet";
 "ShowSnippetsTooltip" = "Mostra le cartelle degli snippet e “Modifica snippet…” nella parte inferiore del popup.";
+"SectionPopup" = "Popup";
+"SectionSearch" = "Ricerca";
+"SectionItems" = "Elementi della cronologia";
+"SectionPreview" = "Anteprima";
+"SectionMenuBar" = "Barra dei menu";
+"VisibleItemsHint" = "Elementi fissati, campo di ricerca e piè di pagina sono mostrati in aggiunta. Le immagini sono più alte, quindi ne entrano meno.";
+"SearchField" = "Campo di ricerca:";
+"SearchFieldHidden" = "Nascosto";
+"SearchVisibilityHint" = "Durante la ricerca: il campo appare quando inizi a scrivere.";
+"ShowTitleHint" = "Mostra «Maccy» a sinistra del campo di ricerca.";
+"ImageHeightHint" = "Imposta 16 per rendere le immagini alte come gli elementi di testo.";
+"OpenPreviewHint" = "La scorciatoia di anteprima nelle impostazioni generali la apre e la chiude in ogni caso.";
+"Milliseconds" = "ms";

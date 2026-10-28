@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Bei kopiertem Text, der wie ein Passwort aussieht, nur das erste und letzte Zeichen anzeigen. Zum Anzeigen mit dem Zeiger über die Augen-Taste fahren.";
 "ShowSnippets" = "Textbausteine anzeigen";
 "ShowSnippetsTooltip" = "Ordner mit Textbausteinen und „Textbausteine bearbeiten…“ unten im Popup anzeigen.";
+"SectionPopup" = "Popup";
+"SectionSearch" = "Suche";
+"SectionItems" = "Verlaufseinträge";
+"SectionPreview" = "Vorschau";
+"SectionMenuBar" = "Menüleiste";
+"VisibleItemsHint" = "Angeheftete Einträge, Suchfeld und Fußzeile werden zusätzlich angezeigt. Bildeinträge sind höher, daher passen weniger davon.";
+"SearchField" = "Suchfeld:";
+"SearchFieldHidden" = "Ausgeblendet";
+"SearchVisibilityHint" = "Während der Suche: Das Feld erscheint, sobald du tippst.";
+"ShowTitleHint" = "Zeigt „Maccy“ links vom Suchfeld.";
+"ImageHeightHint" = "Auf 16 setzen, damit Bilder so hoch wie Texteinträge sind.";
+"OpenPreviewHint" = "Das Vorschau-Tastenkürzel in den allgemeinen Einstellungen öffnet und schließt sie in jedem Fall.";
+"Milliseconds" = "ms";

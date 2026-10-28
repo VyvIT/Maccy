@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Parolaya benzeyen kopyalanmış metnin yalnızca ilk ve son karakterini göster. Göstermek için imleci göz düğmesinin üzerine getirin.";
 "ShowSnippets" = "Parçacıkları göster";
 "ShowSnippetsTooltip" = "Parçacık klasörlerini ve “Parçacıkları düzenle…” öğesini açılır pencerenin altbilgisinde göster.";
+"SectionPopup" = "Açılır pencere";
+"SectionSearch" = "Arama";
+"SectionItems" = "Geçmiş öğeleri";
+"SectionPreview" = "Önizleme";
+"SectionMenuBar" = "Menü çubuğu";
+"VisibleItemsHint" = "Sabitlenmiş öğeler, arama alanı ve alt bilgi ayrıca gösterilir. Görseller daha uzundur, bu yüzden daha azı sığar.";
+"SearchField" = "Arama alanı:";
+"SearchFieldHidden" = "Gizli";
+"SearchVisibilityHint" = "Arama sırasında: alan yazmaya başladığınızda görünür.";
+"ShowTitleHint" = "Arama alanının solunda “Maccy” gösterir.";
+"ImageHeightHint" = "Görsellerin metin öğeleri kadar yüksek olması için 16 yapın.";
+"OpenPreviewHint" = "Genel ayarlardaki önizleme kısayolu her iki durumda da açar ve kapatır.";
+"Milliseconds" = "ms";

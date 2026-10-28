@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Montri nur la unuan kaj lastan signojn de kopiita teksto, kiu aspektas kiel pasvorto. Ŝvebigu la musmontrilon super la okula butono por montri ĝin.";
 "ShowSnippets" = "Montri teksterojn";
 "ShowSnippetsTooltip" = "Montri teksterajn dosierujojn kaj “Redakti teksterojn…” en la piedo de la ŝprucfenestro.";
+"SectionPopup" = "Ŝprucfenestro";
+"SectionSearch" = "Serĉo";
+"SectionItems" = "Historieroj";
+"SectionPreview" = "Antaŭrigardo";
+"SectionMenuBar" = "Menubreto";
+"VisibleItemsHint" = "Fiksitaj eroj, serĉkampo kaj piedlinio montriĝas aldone. Bildoj estas pli altaj, do malpli da ili enspaciĝas.";
+"SearchField" = "Serĉkampo:";
+"SearchFieldHidden" = "Kaŝita";
+"SearchVisibilityHint" = "Dum serĉo: la kampo aperas kiam vi ektajpas.";
+"ShowTitleHint" = "Montras “Maccy” maldekstre de la serĉkampo.";
+"ImageHeightHint" = "Agordu 16, por ke bildoj estu same altaj kiel tekstaj eroj.";
+"OpenPreviewHint" = "La antaŭrigarda klavkombino en la ĝeneralaj agordoj malfermas kaj fermas ĝin ĉiuokaze.";
+"Milliseconds" = "ms";

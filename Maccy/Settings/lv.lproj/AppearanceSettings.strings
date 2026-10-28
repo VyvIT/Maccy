@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Kopētam tekstam, kas izskatās pēc paroles, rādīt tikai pirmo un pēdējo rakstzīmi. Lai to parādītu, novietojiet kursoru uz acs pogas.";
 "ShowSnippets" = "Rādīt fragmentus";
 "ShowSnippetsTooltip" = "Rādīt fragmentu mapes un “Rediģēt fragmentus…” uznirstošā loga kājenē.";
+"SectionPopup" = "Logs";
+"SectionSearch" = "Meklēšana";
+"SectionItems" = "Vēstures vienumi";
+"SectionPreview" = "Priekšskatījums";
+"SectionMenuBar" = "Izvēļņu josla";
+"VisibleItemsHint" = "Piespraustie vienumi, meklēšanas lauks un kājene tiek rādīti papildus. Attēli ir augstāki, tāpēc to ietilpst mazāk.";
+"SearchField" = "Meklēšanas lauks:";
+"SearchFieldHidden" = "Paslēpts";
+"SearchVisibilityHint" = "Meklēšanas laikā: lauks parādās, kad sākat rakstīt.";
+"ShowTitleHint" = "Rāda “Maccy” pa kreisi no meklēšanas lauka.";
+"ImageHeightHint" = "Iestatiet 16, lai attēli būtu tikpat augsti kā teksta vienumi.";
+"OpenPreviewHint" = "Priekšskatījuma īsinājumtaustiņš vispārīgajos iestatījumos to atver un aizver abos gadījumos.";
+"Milliseconds" = "ms";

@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Pri kopiranem besedilu, ki je videti kot geslo, prikaži le prvi in zadnji znak. Za prikaz pomaknite kazalec nad gumb z očesom.";
 "ShowSnippets" = "Prikaži izrezke";
 "ShowSnippetsTooltip" = "Prikaži mape izrezkov in »Uredi izrezke…« v nogi pojavnega okna.";
+"SectionPopup" = "Okno";
+"SectionSearch" = "Iskanje";
+"SectionItems" = "Elementi zgodovine";
+"SectionPreview" = "Predogled";
+"SectionMenuBar" = "Menijska vrstica";
+"VisibleItemsHint" = "Pripeti elementi, iskalno polje in noga so prikazani dodatno. Slike so višje, zato jih gre manj.";
+"SearchField" = "Iskalno polje:";
+"SearchFieldHidden" = "Skrito";
+"SearchVisibilityHint" = "Med iskanjem: polje se prikaže, ko začnete tipkati.";
+"ShowTitleHint" = "Prikaže »Maccy« levo od iskalnega polja.";
+"ImageHeightHint" = "Nastavite na 16, da so slike visoke kot besedilni elementi.";
+"OpenPreviewHint" = "Bližnjica za predogled v splošnih nastavitvah ga v obeh primerih odpre in zapre.";
+"Milliseconds" = "ms";

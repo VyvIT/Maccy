@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Pokazuj tylko pierwszy i ostatni znak skopiowanego tekstu, który wygląda jak hasło. Najedź kursorem na przycisk z okiem, aby je pokazać.";
 "ShowSnippets" = "Pokazuj fragmenty";
 "ShowSnippetsTooltip" = "Pokazuj foldery fragmentów i „Edytuj fragmenty…” w stopce wyskakującego okienka.";
+"SectionPopup" = "Okno";
+"SectionSearch" = "Wyszukiwanie";
+"SectionItems" = "Elementy historii";
+"SectionPreview" = "Podgląd";
+"SectionMenuBar" = "Pasek menu";
+"VisibleItemsHint" = "Przypięte elementy, pole wyszukiwania i stopka są pokazywane dodatkowo. Obrazy są wyższe, więc mieści się ich mniej.";
+"SearchField" = "Pole wyszukiwania:";
+"SearchFieldHidden" = "Ukryte";
+"SearchVisibilityHint" = "Podczas wyszukiwania: pole pojawia się, gdy zaczniesz pisać.";
+"ShowTitleHint" = "Pokazuje „Maccy” po lewej stronie pola wyszukiwania.";
+"ImageHeightHint" = "Ustaw 16, aby obrazy miały wysokość elementów tekstowych.";
+"OpenPreviewHint" = "Skrót podglądu w ustawieniach ogólnych otwiera i zamyka go w obu przypadkach.";
+"Milliseconds" = "ms";

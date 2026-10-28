@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Visa bara första och sista tecknet i kopierad text som ser ut som ett lösenord. Håll pekaren över ögonknappen för att visa det.";
 "ShowSnippets" = "Visa textklipp";
 "ShowSnippetsTooltip" = "Visa textklippsmappar och ”Redigera textklipp…” längst ned i popupfönstret.";
+"SectionPopup" = "Popup";
+"SectionSearch" = "Sök";
+"SectionItems" = "Historikobjekt";
+"SectionPreview" = "Förhandsvisning";
+"SectionMenuBar" = "Menyrad";
+"VisibleItemsHint" = "Fästa objekt, sökfältet och sidfoten visas utöver detta. Bilder är högre, så färre får plats.";
+"SearchField" = "Sökfält:";
+"SearchFieldHidden" = "Dolt";
+"SearchVisibilityHint" = "Under sökning: fältet visas när du börjar skriva.";
+"ShowTitleHint" = "Visar ”Maccy” till vänster om sökfältet.";
+"ImageHeightHint" = "Ställ in 16 så blir bilder lika höga som textobjekt.";
+"OpenPreviewHint" = "Kortkommandot för förhandsvisning i Allmänt öppnar och stänger den i båda fallen.";
+"Milliseconds" = "ms";

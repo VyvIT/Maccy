@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "A jelszónak tűnő másolt szövegből csak az első és az utolsó karakter jelenjen meg. A megjelenítéshez vidd a mutatót a szem gomb fölé.";
 "ShowSnippets" = "Szövegrészletek megjelenítése";
 "ShowSnippetsTooltip" = "Szövegrészlet-mappák és a „Szövegrészletek szerkesztése…” megjelenítése a felugró ablak láblécében.";
+"SectionPopup" = "Felugró ablak";
+"SectionSearch" = "Keresés";
+"SectionItems" = "Előzményelemek";
+"SectionPreview" = "Előnézet";
+"SectionMenuBar" = "Menüsor";
+"VisibleItemsHint" = "A kitűzött elemek, a keresőmező és a lábléc ezen felül jelennek meg. A képek magasabbak, így kevesebb fér el belőlük.";
+"SearchField" = "Keresőmező:";
+"SearchFieldHidden" = "Rejtett";
+"SearchVisibilityHint" = "Keresés közben: a mező gépeléskor jelenik meg.";
+"ShowTitleHint" = "„Maccy” feliratot mutat a keresőmezőtől balra.";
+"ImageHeightHint" = "Állítsd 16-ra, hogy a képek olyan magasak legyenek, mint a szöveges elemek.";
+"OpenPreviewHint" = "Az általános beállítások előnézeti billentyűparancsa mindkét esetben nyitja és zárja.";
+"Milliseconds" = "ms";

@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Parolga o‘xshash nusxalangan matnning faqat birinchi va oxirgi belgilarini ko‘rsatish. Ko‘rish uchun kursorni ko‘z tugmasi ustiga olib boring.";
 "ShowSnippets" = "Parchalarni ko‘rsatish";
 "ShowSnippetsTooltip" = "Parcha jildlari va “Parchalarni tahrirlash…” bandini qalqib chiquvchi oynaning pastki qismida ko‘rsatish.";
+"SectionPopup" = "Oyna";
+"SectionSearch" = "Qidiruv";
+"SectionItems" = "Tarix elementlari";
+"SectionPreview" = "Oldindan ko‘rish";
+"SectionMenuBar" = "Menyu paneli";
+"VisibleItemsHint" = "Qadalgan elementlar, qidiruv maydoni va pastki panel qo‘shimcha ko‘rsatiladi. Rasmlar balandroq, shuning uchun kamroq sig‘adi.";
+"SearchField" = "Qidiruv maydoni:";
+"SearchFieldHidden" = "Yashirin";
+"SearchVisibilityHint" = "Qidiruv paytida: yozishni boshlaganingizda maydon paydo bo‘ladi.";
+"ShowTitleHint" = "Qidiruv maydonining chap tomonida “Maccy” ko‘rsatadi.";
+"ImageHeightHint" = "Rasmlar matn elementlari balandligida bo‘lishi uchun 16 qo‘ying.";
+"OpenPreviewHint" = "Umumiy sozlamalardagi oldindan ko‘rish tugmasi uni ikkala holatda ham ochadi va yopadi.";
+"Milliseconds" = "ms";

@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "对看起来像密码的拷贝文本，仅显示首尾字符。将指针悬停在眼睛按钮上以显示。";
 "ShowSnippets" = "显示片段";
 "ShowSnippetsTooltip" = "在弹窗底部显示片段文件夹和“编辑片段…”。";
+"SectionPopup" = "弹出窗口";
+"SectionSearch" = "搜索";
+"SectionItems" = "历史记录项目";
+"SectionPreview" = "预览";
+"SectionMenuBar" = "菜单栏";
+"VisibleItemsHint" = "置顶项目、搜索栏和底栏另外显示。图片项目更高，因此显示得更少。";
+"SearchField" = "搜索栏：";
+"SearchFieldHidden" = "隐藏";
+"SearchVisibilityHint" = "搜索时：开始输入后显示搜索栏。";
+"ShowTitleHint" = "在搜索栏左侧显示“Maccy”。";
+"ImageHeightHint" = "设为 16 可让图片与文本项目同高。";
+"OpenPreviewHint" = "“通用”设置中的预览快捷键在两种情况下都能打开和关闭预览。";
+"Milliseconds" = "毫秒";

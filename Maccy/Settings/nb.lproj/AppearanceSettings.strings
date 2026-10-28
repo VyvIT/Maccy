@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Vis bare første og siste tegn i kopiert tekst som ser ut som et passord. Hold pekeren over øyeknappen for å vise det.";
 "ShowSnippets" = "Vis tekstbiter";
 "ShowSnippetsTooltip" = "Vis tekstbitmapper og «Rediger tekstbiter…» i bunnteksten i popupen.";
+"SectionPopup" = "Vindu";
+"SectionSearch" = "Søk";
+"SectionItems" = "Historikkelementer";
+"SectionPreview" = "Forhåndsvisning";
+"SectionMenuBar" = "Menylinje";
+"VisibleItemsHint" = "Festede elementer, søkefeltet og bunnteksten vises i tillegg. Bilder er høyere, så færre får plass.";
+"SearchField" = "Søkefelt:";
+"SearchFieldHidden" = "Skjult";
+"SearchVisibilityHint" = "Under søk: feltet vises når du begynner å skrive.";
+"ShowTitleHint" = "Viser «Maccy» til venstre for søkefeltet.";
+"ImageHeightHint" = "Sett til 16 for å gjøre bilder like høye som tekstelementer.";
+"OpenPreviewHint" = "Hurtigtasten for forhåndsvisning i Generelt åpner og lukker den uansett.";
+"Milliseconds" = "ms";

@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Tampilkan hanya karakter pertama dan terakhir dari teks salinan yang tampak seperti kata sandi. Arahkan penunjuk ke tombol mata untuk menampilkannya.";
 "ShowSnippets" = "Tampilkan cuplikan";
 "ShowSnippetsTooltip" = "Tampilkan folder cuplikan dan “Edit Cuplikan…” di footer popup.";
+"SectionPopup" = "Popup";
+"SectionSearch" = "Pencarian";
+"SectionItems" = "Item riwayat";
+"SectionPreview" = "Pratinjau";
+"SectionMenuBar" = "Bar menu";
+"VisibleItemsHint" = "Item yang disematkan, kolom pencarian, dan footer ditampilkan sebagai tambahan. Gambar lebih tinggi, jadi lebih sedikit yang muat.";
+"SearchField" = "Kolom pencarian:";
+"SearchFieldHidden" = "Tersembunyi";
+"SearchVisibilityHint" = "Saat mencari: kolom muncul begitu Anda mulai mengetik.";
+"ShowTitleHint" = "Menampilkan “Maccy” di kiri kolom pencarian.";
+"ImageHeightHint" = "Atur ke 16 agar gambar setinggi item teks.";
+"OpenPreviewHint" = "Pintasan pratinjau di pengaturan Umum membuka dan menutupnya dalam kedua kasus.";
+"Milliseconds" = "md";

@@ -51,3 +51,16 @@
 "ShowSnippets" = "Show snippets";
 "ShowSnippetsTooltip" = "Show snippet folders and Edit Snippets… in the popup footer.";
 "OpenPreferencesWarning" = "⚠️ Press ⌘, (command+comma) to open preferences when footer is hidden.";
+"SectionPopup" = "Popup";
+"SectionSearch" = "Search";
+"SectionItems" = "History items";
+"SectionPreview" = "Preview";
+"SectionMenuBar" = "Menu bar";
+"VisibleItemsHint" = "Pinned items, the search field and the footer are shown in addition. Image items are taller, so fewer of them fit.";
+"SearchField" = "Search field:";
+"SearchFieldHidden" = "Hidden";
+"SearchVisibilityHint" = "During search: the field appears once you start typing.";
+"ShowTitleHint" = "Shows “Maccy” to the left of the search field.";
+"ImageHeightHint" = "Set to 16 to make images as tall as text items.";
+"OpenPreviewHint" = "The Show preview shortcut in General settings opens and closes it either way.";
+"Milliseconds" = "ms";

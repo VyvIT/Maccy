@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Nukopijuotame tekste, panašiame į slaptažodį, rodyti tik pirmą ir paskutinį simbolį. Užveskite žymeklį ant akies mygtuko, kad jį pamatytumėte.";
 "ShowSnippets" = "Rodyti fragmentus";
 "ShowSnippetsTooltip" = "Rodyti fragmentų aplankus ir „Redaguoti fragmentus…“ iššokančio lango apačioje.";
+"SectionPopup" = "Iškylantysis langas";
+"SectionSearch" = "Paieška";
+"SectionItems" = "Istorijos įrašai";
+"SectionPreview" = "Peržiūra";
+"SectionMenuBar" = "Meniu juosta";
+"VisibleItemsHint" = "Prisegti įrašai, paieškos laukas ir poraštė rodomi papildomai. Paveikslėlių įrašai aukštesni, todėl jų telpa mažiau.";
+"SearchField" = "Paieškos laukas:";
+"SearchFieldHidden" = "Paslėptas";
+"SearchVisibilityHint" = "Paieškos metu: laukas atsiranda, kai pradedate rašyti.";
+"ShowTitleHint" = "Rodo „Maccy“ kairėje nuo paieškos lauko.";
+"ImageHeightHint" = "Nustatykite 16, kad paveikslėliai būtų tokio pat aukščio kaip tekstiniai įrašai.";
+"OpenPreviewHint" = "Bendruosiuose nustatymuose esantis peržiūros spartusis klavišas ją atidaro ir uždaro bet kuriuo atveju.";
+"Milliseconds" = "ms";

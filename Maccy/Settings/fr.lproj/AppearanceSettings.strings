@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "N’afficher que le premier et le dernier caractère d’un texte copié qui ressemble à un mot de passe. Survolez le bouton en forme d’œil pour l’afficher.";
 "ShowSnippets" = "Afficher les extraits";
 "ShowSnippetsTooltip" = "Afficher les dossiers d’extraits et « Modifier les extraits… » en bas du popup.";
+"SectionPopup" = "Fenêtre";
+"SectionSearch" = "Recherche";
+"SectionItems" = "Éléments de l’historique";
+"SectionPreview" = "Aperçu";
+"SectionMenuBar" = "Barre des menus";
+"VisibleItemsHint" = "Les éléments épinglés, le champ de recherche et le pied de page s’ajoutent. Les images sont plus hautes, donc moins d’éléments tiennent.";
+"SearchField" = "Champ de recherche :";
+"SearchFieldHidden" = "Masqué";
+"SearchVisibilityHint" = "Pendant la recherche : le champ apparaît dès que vous tapez.";
+"ShowTitleHint" = "Affiche « Maccy » à gauche du champ de recherche.";
+"ImageHeightHint" = "Réglez sur 16 pour que les images aient la hauteur des éléments texte.";
+"OpenPreviewHint" = "Le raccourci d’aperçu des réglages généraux l’ouvre et le ferme dans tous les cas.";
+"Milliseconds" = "ms";

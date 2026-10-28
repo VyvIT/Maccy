@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Chỉ hiện ký tự đầu và cuối của văn bản đã sao chép trông giống mật khẩu. Di chuột lên nút hình con mắt để hiện mật khẩu.";
 "ShowSnippets" = "Hiện đoạn mẫu";
 "ShowSnippetsTooltip" = "Hiện các thư mục đoạn mẫu và “Sửa đoạn mẫu…” ở phần chân trang của cửa sổ popup.";
+"SectionPopup" = "Cửa sổ";
+"SectionSearch" = "Tìm kiếm";
+"SectionItems" = "Mục lịch sử";
+"SectionPreview" = "Xem trước";
+"SectionMenuBar" = "Thanh menu";
+"VisibleItemsHint" = "Các mục đã ghim, ô tìm kiếm và chân trang được hiển thị thêm. Hình ảnh cao hơn nên vừa ít mục hơn.";
+"SearchField" = "Ô tìm kiếm:";
+"SearchFieldHidden" = "Ẩn";
+"SearchVisibilityHint" = "Khi tìm kiếm: ô xuất hiện khi bạn bắt đầu gõ.";
+"ShowTitleHint" = "Hiển thị “Maccy” bên trái ô tìm kiếm.";
+"ImageHeightHint" = "Đặt 16 để hình ảnh cao bằng mục văn bản.";
+"OpenPreviewHint" = "Phím tắt xem trước trong cài đặt Chung mở và đóng nó trong cả hai trường hợp.";
+"Milliseconds" = "ms";

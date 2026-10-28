@@ -24,6 +24,7 @@ struct AppearanceSettingsPane: View {
   @Default(.maskPasswords) private var maskPasswords
 
   @State private var screens = NSScreen.screens
+  @State private var tab: AppearanceTab = .popup
 
   private let imageHeightFormatter: NumberFormatter = {
     let formatter = NumberFormatter()
@@ -68,6 +69,32 @@ struct AppearanceSettingsPane: View {
   }()
 
   var body: some View {
+    VStack(spacing: 0) {
+      Picker("", selection: $tab) {
+        ForEach(AppearanceTab.allCases) { tab in
+          Text(tab.title, tableName: "AppearanceSettings").tag(tab)
+        }
+      }
+      .pickerStyle(.segmented)
+      .labelsHidden()
+      .fixedSize()
+      .padding(.top, 20)
+      .accessibilityLabel(Text("Title", tableName: "AppearanceSettings"))
+
+      switch tab {
+      case .popup: popupSettings
+      case .search: searchSettings
+      case .items: itemsSettings
+      case .preview: previewSettings
+      case .menuBar: menuBarSettings
+      }
+    }
+    .onReceive(NotificationCenter.default.publisher(for: NSApplication.didChangeScreenParametersNotification)) { _ in
+      screens = NSScreen.screens
+    }
+  }
+
+  private var popupSettings: some View {
     Settings.Container(contentWidth: 650) {
       Settings.Section(label: { Text("PopupAt", tableName: "AppearanceSettings") }) {
         HStack {
@@ -133,60 +160,53 @@ struct AppearanceSettingsPane: View {
             .labelsHidden()
             .accessibilityLabel(Text("VisibleItemsHistoryOnly", tableName: "AppearanceSettings"))
         }
+        hint("VisibleItemsHint")
       }
 
-      Settings.Section(label: { Text("ImageHeight", tableName: "AppearanceSettings") }) {
-        HStack {
-          TextField("", value: $imageHeight, formatter: imageHeightFormatter)
-            .frame(width: 120)
-            .help(Text("ImageHeightTooltip", tableName: "AppearanceSettings"))
-            .accessibilityLabel(Text("ImageHeight", tableName: "AppearanceSettings"))
-          Stepper("", value: $imageHeight, in: 1...200)
-            .labelsHidden()
-            .accessibilityLabel(Text("ImageHeight", tableName: "AppearanceSettings"))
+      Settings.Section(title: "") {
+        Defaults.Toggle(key: .showFooter) {
+          Text("ShowFooter", tableName: "AppearanceSettings")
+        }
+        Defaults.Toggle(key: .showSnippets) {
+          Text("ShowSnippets", tableName: "AppearanceSettings")
+        }
+        .help(Text("ShowSnippetsTooltip", tableName: "AppearanceSettings"))
+        .disabled(!showFooter)
+        .padding(.leading, 20)
+        hint("ShowSnippetsTooltip", level: 2)
+        if !showFooter {
+          hint("OpenPreferencesWarning")
         }
       }
+    }
+  }
 
-      Settings.Section(label: { Text("OpenPreview", tableName: "AppearanceSettings") }) {
-        Picker("", selection: $previewOpening) {
-          ForEach(PreviewOpening.allCases) { opening in
-            Text(opening.description)
+  private var searchSettings: some View {
+    Settings.Container(contentWidth: 650) {
+      Settings.Section(label: { Text("SearchField", tableName: "AppearanceSettings") }) {
+        Picker("", selection: searchField) {
+          Text("SearchFieldHidden", tableName: "AppearanceSettings")
+            .tag(SearchVisibility?.none)
+          ForEach(SearchVisibility.allCases) { visibility in
+            Text(visibility.description)
+              .tag(SearchVisibility?.some(visibility))
           }
         }
         .labelsHidden()
-        .fixedSize()
-        .help(Text("OpenPreviewTooltip", tableName: "AppearanceSettings"))
-        .accessibilityLabel(Text("OpenPreview", tableName: "AppearanceSettings"))
+        .frame(width: 141, alignment: .leading)
+        .accessibilityLabel(Text("SearchField", tableName: "AppearanceSettings"))
+        hint("SearchVisibilityHint")
       }
 
-      Settings.Section(label: { Text("PreviewDelay", tableName: "AppearanceSettings") }) {
-        HStack {
-          TextField("", value: $previewDelay, formatter: previewDelayFormatter)
-            .frame(width: 120)
-            .help(Text("PreviewDelayTooltip", tableName: "AppearanceSettings"))
-            .accessibilityLabel(Text("PreviewDelay", tableName: "AppearanceSettings"))
-          Stepper("", value: $previewDelay, in: 200...100_000)
-            .labelsHidden()
-            .accessibilityLabel(Text("PreviewDelay", tableName: "AppearanceSettings"))
+      Settings.Section(title: "") {
+        Defaults.Toggle(key: .showTitle) {
+          Text("ShowTitleBeforeSearchField", tableName: "AppearanceSettings")
         }
-        .disabled(previewOpening != .delay)
-      }
-
-      Settings.Section(label: { Text("SnippetPreviewDelay", tableName: "AppearanceSettings") }) {
-        HStack {
-          TextField("", value: $snippetPreviewDelay, formatter: snippetPreviewDelayFormatter)
-            .frame(width: 120)
-            .help(Text("SnippetPreviewDelayTooltip", tableName: "AppearanceSettings"))
-            .accessibilityLabel(Text("SnippetPreviewDelay", tableName: "AppearanceSettings"))
-          Stepper("", value: $snippetPreviewDelay, in: 0...100_000, step: 100)
-            .labelsHidden()
-            .accessibilityLabel(Text("SnippetPreviewDelay", tableName: "AppearanceSettings"))
-        }
-        .disabled(previewOpening != .delay)
+        .disabled(!showSearch)
+        hint("ShowTitleHint", level: 1)
       }
 
       Settings.Section(
-        bottomDivider: true,
         label: { Text("HighlightMatches", tableName: "AppearanceSettings") }
       ) {
         Picker("", selection: $highlightMatch) {
@@ -199,13 +219,123 @@ struct AppearanceSettingsPane: View {
         .help(Text("HighlightMatchesTooltip", tableName: "AppearanceSettings"))
         .accessibilityLabel(Text("HighlightMatches", tableName: "AppearanceSettings"))
       }
+    }
+  }
+
+  private var itemsSettings: some View {
+    Settings.Container(contentWidth: 650) {
+      Settings.Section(label: { Text("ImageHeight", tableName: "AppearanceSettings") }) {
+        HStack {
+          TextField("", value: $imageHeight, formatter: imageHeightFormatter)
+            .frame(width: 120)
+            .help(Text("ImageHeightTooltip", tableName: "AppearanceSettings"))
+            .accessibilityLabel(Text("ImageHeight", tableName: "AppearanceSettings"))
+          Stepper("", value: $imageHeight, in: 1...200)
+            .labelsHidden()
+            .accessibilityLabel(Text("ImageHeight", tableName: "AppearanceSettings"))
+        }
+        hint("ImageHeightHint")
+      }
 
       Settings.Section(title: "") {
+        Defaults.Toggle(key: .showApplicationIcons) {
+          Text("ShowApplicationIcons", tableName: "AppearanceSettings")
+        }
         Defaults.Toggle(key: .showSpecialSymbols) {
           Text("ShowSpecialSymbols", tableName: "AppearanceSettings")
         }
         .help(Text("ShowSpecialSymbolsTooltip", tableName: "AppearanceSettings"))
+        hint("ShowSpecialSymbolsTooltip", level: 1)
+        Defaults.Toggle(key: .showHexColorSwatch) {
+          Text("ShowHexColorSwatch", tableName: "AppearanceSettings")
+        }
+        .help(Text("ShowHexColorSwatchTooltip", tableName: "AppearanceSettings"))
+        hint("ShowHexColorSwatchTooltip", level: 1)
+        Defaults.Toggle(key: .maskPasswords) {
+          Text("MaskPasswords", tableName: "AppearanceSettings")
+        }
+        .help(Text("MaskPasswordsTooltip", tableName: "AppearanceSettings"))
+        hint("MaskPasswordsTooltip", level: 1)
+        Defaults.Toggle(key: .maskPasswordsShowLength) {
+          Text("MaskPasswordsShowLength", tableName: "AppearanceSettings")
+        }
+        .help(Text("MaskPasswordsShowLengthTooltip", tableName: "AppearanceSettings"))
+        .disabled(!maskPasswords)
+        .padding(.leading, 20)
+        hint("MaskPasswordsShowLengthTooltip", level: 2)
+      }
+    }
+  }
 
+  // Delays matter only when previews open automatically.
+  @ViewBuilder
+  private var previewSettings: some View {
+    if previewOpening == .delay {
+      Settings.Container(contentWidth: 650) {
+        Settings.Section(label: { Text("OpenPreview", tableName: "AppearanceSettings") }) {
+          openPreviewPicker
+        }
+        Settings.Section(label: { Text("PreviewDelay", tableName: "AppearanceSettings") }) {
+          previewDelayField
+        }
+        Settings.Section(label: { Text("SnippetPreviewDelay", tableName: "AppearanceSettings") }) {
+          snippetPreviewDelayField
+        }
+      }
+    } else {
+      Settings.Container(contentWidth: 650) {
+        Settings.Section(label: { Text("OpenPreview", tableName: "AppearanceSettings") }) {
+          openPreviewPicker
+        }
+      }
+    }
+  }
+
+  @ViewBuilder
+  private var openPreviewPicker: some View {
+    Picker("", selection: $previewOpening) {
+      ForEach(PreviewOpening.allCases) { opening in
+        Text(opening.description)
+      }
+    }
+    .labelsHidden()
+    .fixedSize()
+    .help(Text("OpenPreviewTooltip", tableName: "AppearanceSettings"))
+    .accessibilityLabel(Text("OpenPreview", tableName: "AppearanceSettings"))
+    hint("OpenPreviewHint")
+  }
+
+  private var previewDelayField: some View {
+    HStack {
+      TextField("", value: $previewDelay, formatter: previewDelayFormatter)
+        .frame(width: 120)
+        .help(Text("PreviewDelayTooltip", tableName: "AppearanceSettings"))
+        .accessibilityLabel(Text("PreviewDelay", tableName: "AppearanceSettings"))
+      Stepper("", value: $previewDelay, in: 200...100_000)
+        .labelsHidden()
+        .accessibilityLabel(Text("PreviewDelay", tableName: "AppearanceSettings"))
+      Text("Milliseconds", tableName: "AppearanceSettings")
+        .foregroundStyle(.secondary)
+    }
+  }
+
+  private var snippetPreviewDelayField: some View {
+    HStack {
+      TextField("", value: $snippetPreviewDelay, formatter: snippetPreviewDelayFormatter)
+        .frame(width: 120)
+        .help(Text("SnippetPreviewDelayTooltip", tableName: "AppearanceSettings"))
+        .accessibilityLabel(Text("SnippetPreviewDelay", tableName: "AppearanceSettings"))
+      Stepper("", value: $snippetPreviewDelay, in: 0...100_000, step: 100)
+        .labelsHidden()
+        .accessibilityLabel(Text("SnippetPreviewDelay", tableName: "AppearanceSettings"))
+      Text("Milliseconds", tableName: "AppearanceSettings")
+        .foregroundStyle(.secondary)
+    }
+  }
+
+  private var menuBarSettings: some View {
+    Settings.Container(contentWidth: 650) {
+      Settings.Section(title: "") {
         HStack {
           Defaults.Toggle(key: .showInStatusBar) {
             Text("ShowMenuIcon", tableName: "AppearanceSettings")
@@ -226,64 +356,33 @@ struct AppearanceSettingsPane: View {
         Defaults.Toggle(key: .showRecentCopyInMenuBar) {
           Text("ShowRecentCopyInMenuBar", tableName: "AppearanceSettings")
         }
-        HStack {
-          Defaults.Toggle(key: .showSearch) {
-            Text("ShowSearchField", tableName: "AppearanceSettings")
-          }
-
-          Picker("", selection: $searchVisibility) {
-            ForEach(SearchVisibility.allCases) { type in
-              Text(type.description)
-            }
-          }
-          .labelsHidden()
-          .scaledToFit()
-          .disabled(!showSearch)
-          .controlSize(.small)
-          .accessibilityLabel(Text("ShowSearchField", tableName: "AppearanceSettings"))
-        }
-        Defaults.Toggle(key: .showTitle) {
-          Text("ShowTitleBeforeSearchField", tableName: "AppearanceSettings")
-        }
-        Defaults.Toggle(key: .showApplicationIcons) {
-          Text("ShowApplicationIcons", tableName: "AppearanceSettings")
-        }
-        Defaults.Toggle(key: .maskPasswords) {
-          Text("MaskPasswords", tableName: "AppearanceSettings")
-        }
-        .help(Text("MaskPasswordsTooltip", tableName: "AppearanceSettings"))
-        Defaults.Toggle(key: .maskPasswordsShowLength) {
-          Text("MaskPasswordsShowLength", tableName: "AppearanceSettings")
-        }
-        .help(Text("MaskPasswordsShowLengthTooltip", tableName: "AppearanceSettings"))
-        .disabled(!maskPasswords)
-        .padding(.leading, 20)
-        Defaults.Toggle(key: .showHexColorSwatch) {
-          Text("ShowHexColorSwatch", tableName: "AppearanceSettings")
-        }
-        .help(Text("ShowHexColorSwatchTooltip", tableName: "AppearanceSettings"))
-
-        Defaults.Toggle(key: .showFooter) {
-          Text("ShowFooter", tableName: "AppearanceSettings")
-        }
-        Defaults.Toggle(key: .showSnippets) {
-          Text("ShowSnippets", tableName: "AppearanceSettings")
-        }
-        .help(Text("ShowSnippetsTooltip", tableName: "AppearanceSettings"))
-        .disabled(!showFooter)
-        // Settings.Section offers its content the full container width even though the content
-        // starts after the label column, so cap the width to make long translations wrap.
-        Text("OpenPreferencesWarning", tableName: "AppearanceSettings")
-          .fixedSize(horizontal: false, vertical: true)
-          .frame(maxWidth: 380, alignment: .leading)
-          .opacity(showFooter ? 0 : 1)
-          .controlSize(.small)
-          .foregroundStyle(.gray)
       }
     }
-    .onReceive(NotificationCenter.default.publisher(for: NSApplication.didChangeScreenParametersNotification)) { _ in
-      screens = NSScreen.screens
+  }
+
+  // Search field is either hidden or shown with one of the visibility options.
+  private var searchField: Binding<SearchVisibility?> {
+    Binding {
+      showSearch ? searchVisibility : nil
+    } set: { visibility in
+      showSearch = visibility != nil
+      if let visibility {
+        searchVisibility = visibility
+      }
     }
+  }
+
+  // Explains an option below it. Settings.Section offers its content the full container width
+  // even though the content starts after the label column, so cap the width to make text wrap.
+  // Hints below checkboxes are indented by one level to line up with their text.
+  private func hint(_ key: LocalizedStringKey, level: CGFloat = 0) -> some View {
+    Text(key, tableName: "AppearanceSettings")
+      .fixedSize(horizontal: false, vertical: true)
+      .frame(maxWidth: 380, alignment: .leading)
+      .controlSize(.small)
+      .font(.callout)
+      .foregroundStyle(.secondary)
+      .padding(.leading, level * 20)
   }
 
   @ViewBuilder
@@ -325,4 +424,25 @@ struct AppearanceSettingsPane: View {
 #Preview {
   AppearanceSettingsPane()
     .environment(\.locale, .init(identifier: "en"))
+}
+
+// Groups of appearance settings, each shown on its own tab.
+private enum AppearanceTab: CaseIterable, Identifiable {
+  case popup
+  case search
+  case items
+  case preview
+  case menuBar
+
+  var id: Self { self }
+
+  var title: LocalizedStringKey {
+    switch self {
+    case .popup: return "SectionPopup"
+    case .search: return "SectionSearch"
+    case .items: return "SectionItems"
+    case .preview: return "SectionPreview"
+    case .menuBar: return "SectionMenuBar"
+    }
+  }
 }

@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "U zkopírovaného textu, který vypadá jako heslo, zobrazovat jen první a poslední znak. Najetím ukazatelem na tlačítko s okem ho zobrazíte.";
 "ShowSnippets" = "Zobrazovat úryvky";
 "ShowSnippetsTooltip" = "Zobrazovat složky úryvků a „Upravit úryvky…“ v patičce vyskakovacího okna.";
+"SectionPopup" = "Okno";
+"SectionSearch" = "Hledání";
+"SectionItems" = "Položky historie";
+"SectionPreview" = "Náhled";
+"SectionMenuBar" = "Řádek nabídek";
+"VisibleItemsHint" = "Připnuté položky, pole hledání a zápatí se zobrazují navíc. Obrázky jsou vyšší, takže se jich vejde méně.";
+"SearchField" = "Pole hledání:";
+"SearchFieldHidden" = "Skryté";
+"SearchVisibilityHint" = "Během hledání: pole se objeví, když začnete psát.";
+"ShowTitleHint" = "Zobrazí „Maccy“ vlevo od pole hledání.";
+"ImageHeightHint" = "Nastavte 16, aby obrázky byly vysoké jako textové položky.";
+"OpenPreviewHint" = "Zkratka náhledu v obecném nastavení ho otevře i zavře v obou případech.";
+"Milliseconds" = "ms";

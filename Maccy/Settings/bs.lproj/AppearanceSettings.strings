@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Za kopirani tekst koji izgleda kao lozinka prikaži samo prvi i posljednji znak. Postavite pokazivač iznad dugmeta s okom da je prikažete.";
 "ShowSnippets" = "Prikaži isječke";
 "ShowSnippetsTooltip" = "Prikaži foldere isječaka i „Uredi isječke…“ u podnožju priručnog prozora.";
+"SectionPopup" = "Prozor";
+"SectionSearch" = "Pretraga";
+"SectionItems" = "Stavke historije";
+"SectionPreview" = "Pregled";
+"SectionMenuBar" = "Traka menija";
+"VisibleItemsHint" = "Prikačene stavke, polje za pretragu i podnožje prikazuju se dodatno. Slike su više pa ih stane manje.";
+"SearchField" = "Polje za pretragu:";
+"SearchFieldHidden" = "Skriveno";
+"SearchVisibilityHint" = "Tokom pretrage: polje se pojavi kad počnete kucati.";
+"ShowTitleHint" = "Prikazuje „Maccy” lijevo od polja za pretragu.";
+"ImageHeightHint" = "Postavite na 16 da slike budu visoke kao tekstualne stavke.";
+"OpenPreviewHint" = "Prečica za pregled u općim postavkama otvara ga i zatvara u oba slučaja.";
+"Milliseconds" = "ms";

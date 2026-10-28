@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Mostrar solo el primer y el último carácter del texto copiado que parezca una contraseña. Pasa el cursor sobre el botón del ojo para mostrarla.";
 "ShowSnippets" = "Mostrar fragmentos";
 "ShowSnippetsTooltip" = "Mostrar las carpetas de fragmentos y «Editar fragmentos…» en la parte inferior de la ventana emergente.";
+"SectionPopup" = "Ventana";
+"SectionSearch" = "Búsqueda";
+"SectionItems" = "Elementos del historial";
+"SectionPreview" = "Vista previa";
+"SectionMenuBar" = "Barra de menús";
+"VisibleItemsHint" = "Los elementos fijados, el campo de búsqueda y el pie se muestran además. Las imágenes son más altas, así que caben menos.";
+"SearchField" = "Campo de búsqueda:";
+"SearchFieldHidden" = "Oculto";
+"SearchVisibilityHint" = "Durante la búsqueda: el campo aparece al empezar a escribir.";
+"ShowTitleHint" = "Muestra «Maccy» a la izquierda del campo de búsqueda.";
+"ImageHeightHint" = "Pon 16 para que las imágenes tengan la altura de los elementos de texto.";
+"OpenPreviewHint" = "El atajo de vista previa de los ajustes generales la abre y cierra en cualquier caso.";
+"Milliseconds" = "ms";

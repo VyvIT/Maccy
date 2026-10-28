@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "對看起來像密碼的拷貝文字，只顯示第一個和最後一個字元。將指標停留在眼睛按鈕上即可顯示。";
 "ShowSnippets" = "顯示片段";
 "ShowSnippetsTooltip" = "在彈窗底部顯示片段檔案夾和「編輯片段…」。";
+"SectionPopup" = "彈出視窗";
+"SectionSearch" = "搜尋";
+"SectionItems" = "歷史記錄項目";
+"SectionPreview" = "預覽";
+"SectionMenuBar" = "選單列";
+"VisibleItemsHint" = "釘選項目、搜尋欄和底欄另外顯示。圖片項目較高，因此顯示得較少。";
+"SearchField" = "搜尋欄：";
+"SearchFieldHidden" = "隱藏";
+"SearchVisibilityHint" = "搜尋時：開始輸入後顯示搜尋欄。";
+"ShowTitleHint" = "在搜尋欄左側顯示「Maccy」。";
+"ImageHeightHint" = "設為 16 可讓圖片與文字項目同高。";
+"OpenPreviewHint" = "「一般」設定中的預覽快速鍵在兩種情況下都能開啟和關閉預覽。";
+"Milliseconds" = "毫秒";

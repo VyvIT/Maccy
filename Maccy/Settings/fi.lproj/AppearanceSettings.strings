@@ -49,3 +49,16 @@
 "OpenPreviewTooltip" = "Miten valitun historiakohteen esikatselu avautuu: esikatseluviiveen jälkeen tai näppäimellä →, ja se suljetaan näppäimellä ←.";
 "OpenPreviewDelay" = "Automaattisesti viiveen jälkeen";
 "OpenPreviewArrowKeys" = "Näppäimillä → ja ←";
+"SectionPopup" = "Ikkuna";
+"SectionSearch" = "Haku";
+"SectionItems" = "Historiakohteet";
+"SectionPreview" = "Esikatselu";
+"SectionMenuBar" = "Valikkorivi";
+"VisibleItemsHint" = "Kiinnitetyt kohteet, hakukenttä ja alatunniste näytetään lisäksi. Kuvat ovat korkeampia, joten niitä mahtuu vähemmän.";
+"SearchField" = "Hakukenttä:";
+"SearchFieldHidden" = "Piilotettu";
+"SearchVisibilityHint" = "Haun aikana: kenttä tulee näkyviin, kun alat kirjoittaa.";
+"ShowTitleHint" = "Näyttää ”Maccy” hakukentän vasemmalla puolella.";
+"ImageHeightHint" = "Aseta 16, jotta kuvat ovat yhtä korkeita kuin tekstikohteet.";
+"OpenPreviewHint" = "Esikatselun pikanäppäin yleisissä asetuksissa avaa ja sulkee sen kummassakin tapauksessa.";
+"Milliseconds" = "ms";

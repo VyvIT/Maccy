@@ -51,3 +51,16 @@
 "MaskPasswordsTooltip" = "Toon alleen het eerste en laatste teken van gekopieerde tekst die op een wachtwoord lijkt. Houd de aanwijzer boven de oogknop om het te tonen.";
 "ShowSnippets" = "Toon fragmenten";
 "ShowSnippetsTooltip" = "Toon fragmentmappen en ‘Fragmenten bewerken…’ onderaan de pop-up.";
+"SectionPopup" = "Venster";
+"SectionSearch" = "Zoeken";
+"SectionItems" = "Geschiedenisitems";
+"SectionPreview" = "Voorvertoning";
+"SectionMenuBar" = "Menubalk";
+"VisibleItemsHint" = "Vastgezette items, zoekveld en voettekst komen daar bovenop. Afbeeldingen zijn hoger, dus er passen er minder.";
+"SearchField" = "Zoekveld:";
+"SearchFieldHidden" = "Verborgen";
+"SearchVisibilityHint" = "Tijdens zoeken: het veld verschijnt zodra je typt.";
+"ShowTitleHint" = "Toont ‘Maccy’ links van het zoekveld.";
+"ImageHeightHint" = "Zet op 16 om afbeeldingen even hoog te maken als tekstitems.";
+"OpenPreviewHint" = "De voorvertoningstoets in de algemene instellingen opent en sluit hem in beide gevallen.";
+"Milliseconds" = "ms";
