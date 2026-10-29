@@ -97,11 +97,11 @@ where Content: View, Slideout: View {
       .environment(\.layoutDirection, .leftToRight)
       .frame(
         minWidth: controller.minimumContentWidth,
-        idealWidth: !isContentResizing ? controller.contentWidth.rounded() : nil,
+        idealWidth: !isContentResizing ? controller.displayedContentWidth : nil,
         alignment: .leading
       )
       .frame(
-        width: !isContentResizing ? controller.contentWidth.rounded() : nil
+        width: !isContentResizing ? controller.displayedContentWidth : nil
       )
       .fixedSize(
         horizontal: isAnimating || isSlideoutResizing,

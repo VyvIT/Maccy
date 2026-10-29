@@ -85,7 +85,7 @@ class FloatingPanel<Content: View>: NSPanel, NSWindowDelegate {
   func open(height: CGFloat, at popupPosition: PopupPosition = Defaults[.popupPosition]) {
     let size = Defaults[.windowSize]
     let miniumHeight: CGFloat = AppState.shared.popup.minimumHeight
-    let finalWidth = min(frame.width, size.width)
+    let finalWidth = AppState.shared.preview.displayedContentWidth
     let finalHeight = max(min(height, size.height), miniumHeight)
     setContentSize(NSSize(width: finalWidth, height: finalHeight))
     setFrameOrigin(popupPosition.origin(size: frame.size, statusBarButton: statusBarButton))
@@ -103,6 +103,10 @@ class FloatingPanel<Content: View>: NSPanel, NSWindowDelegate {
   func verticallyResize(to newHeight: CGFloat, animated: Bool = true) {
     var newSize = frame.size
     newSize.height = newHeight
+    // Snippets mode is narrower, so switching modes changes the width as well.
+    if !AppState.shared.preview.state.isOpen {
+      newSize.width = AppState.shared.preview.displayedContentWidth
+    }
     var newOrigin = frame.origin
     newOrigin.y += (frame.height - newSize.height)
 
@@ -127,7 +131,7 @@ class FloatingPanel<Content: View>: NSPanel, NSWindowDelegate {
   func saveWindowPosition() {
     if let screenFrame = screen?.visibleFrame {
       // Only store the size of the window without the preview
-      let width = AppState.shared.preview.contentWidth
+      let width = AppState.shared.preview.displayedContentWidth
 
       let anchorX = frame.minX + width / 2 - screenFrame.minX
       let anchorY = frame.maxY - screenFrame.minY
@@ -164,7 +168,7 @@ class FloatingPanel<Content: View>: NSPanel, NSWindowDelegate {
       }
       if preview.resizingMode == .slideout {
         minPreview = preview.minimumSlideoutWidth
-        minContent = preview.contentWidth
+        minContent = preview.displayedContentWidth
       }
     }
     finalFrameSize.width = max(finalFrameSize.width, minContent + minPreview)

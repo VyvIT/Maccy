@@ -85,6 +85,20 @@ class SlideoutController {
       onContentResize(_contentWidth)
     }
   }
+  // Snippets mode shows only snippet folders, so it uses a narrower popup
+  // without changing the saved width of the other modes.
+  static let snippetsWidthRatio: CGFloat = 1 / 2
+  var displayedContentWidth: CGFloat {
+    guard AppState.shared.popup.mode == .snippets else { return contentWidth }
+    return max(minimumContentWidth, (contentWidth * Self.snippetsWidthRatio).rounded())
+  }
+
+  // Saved width for the width the visible content was resized to.
+  private func savedContentWidth(for displayedWidth: CGFloat) -> CGFloat {
+    guard AppState.shared.popup.mode == .snippets else { return displayedWidth }
+    return displayedWidth / Self.snippetsWidthRatio
+  }
+
   private var _slideoutWidth: CGFloat = 400
   var slideoutWidth: CGFloat {
     get { return _slideoutWidth }
@@ -117,7 +131,7 @@ class SlideoutController {
   private func togglePreviewStateWithAnimation(windowFrame: NSRect) {
     let newValue = state.toggleWithAnimation()
     if !state.isAnimating && newValue.isAnimating {
-      contentAnimationWidth = contentWidth
+      contentAnimationWidth = displayedContentWidth
       windowAnimationOrigin = windowFrame.origin
       windowAnimationOriginBaseState = state
     }
@@ -149,7 +163,7 @@ class SlideoutController {
     guard !state.isOpen, let window = nswindow else { return }
 
     var size = window.frame.size
-    size.width = contentWidth
+    size.width = displayedContentWidth
     let newPlacement = computePlacement(window: window, for: computeSizeWithPreview(size, state: .open))
     guard newPlacement != placement else { return }
 
@@ -185,7 +199,7 @@ class SlideoutController {
       if let window = nswindow {
         togglePreviewStateWithAnimation(windowFrame: window.frame)
         var newSize = window.frame.size
-        newSize.width = contentWidth
+        newSize.width = displayedContentWidth
         newSize = computeSizeWithPreview(newSize, state: self.state)
 
         let expectedAnimationState = state
@@ -221,7 +235,7 @@ class SlideoutController {
   func startResize(mode: ResizingMode) {
     logger.info("Starting resize with mode \(mode)")
     resizingMode = mode
-    contentWidth = contentResizeWidth
+    contentWidth = savedContentWidth(for: contentResizeWidth)
     slideoutWidth = slideoutResizeWidth
   }
 
@@ -231,7 +245,7 @@ class SlideoutController {
     case .none:
       return
     case .content:
-      contentWidth = contentResizeWidth
+      contentWidth = savedContentWidth(for: contentResizeWidth)
     case .slideout:
       slideoutWidth = slideoutResizeWidth
     }
