@@ -149,8 +149,8 @@ class SnippetsSubmenu {
   // MARK: - Layout
 
   private var isPointerInPanel: Bool {
-    guard let panel, panel.isVisible else { return false }
-    return panel.frame.contains(NSEvent.mouseLocation)
+    let location = NSEvent.mouseLocation
+    return [panel, previewPanel].contains { $0?.isVisible == true && $0?.frame.contains(location) == true }
   }
 
   private func makePanel() -> NSPanel {
@@ -242,8 +242,8 @@ class SnippetsSubmenu {
     if let previewView {
       previewView.rootView = rootView
     } else {
+      // Takes mouse events so that long snippets scroll; it never becomes key.
       let panel = SnippetsSubmenuPanel()
-      panel.ignoresMouseEvents = true
       let view = NSHostingView(rootView: rootView)
       panel.contentView = view
       previewPanel = panel
@@ -265,7 +265,7 @@ class SnippetsSubmenu {
 
     let visibleFrame = (panel.screen ?? NSScreen.main)?.visibleFrame ?? .zero
     let width = Defaults[.previewWidth]
-    let height = min(max(popup.frame.height, Popup.minimumPreviewHeight), 400)
+    let height = min(max(popup.frame.height, SnippetPreviewView.minimumHeight), 400)
 
     let rightX = panel.frame.maxX + Self.previewSpacing
     let leftX = (opensToRight ? popup.frame.minX : panel.frame.minX) - Self.previewSpacing - width

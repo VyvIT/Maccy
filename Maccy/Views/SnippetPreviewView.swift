@@ -4,6 +4,16 @@ import SwiftUI
 // styled like the history item preview.
 struct SnippetPreviewView: View {
   private static let largeTextThreshold = 1_000
+  private static let minimumVisibleLines: CGFloat = 5
+
+  // Tall enough for the title, five lines of content and the details below.
+  static var minimumHeight: CGFloat {
+    let lineHeight = NSLayoutManager().defaultLineHeight(for: .preferredFont(forTextStyle: .body))
+    let titleHeight = NSLayoutManager().defaultLineHeight(for: .preferredFont(forTextStyle: .headline))
+    let padding: CGFloat = 16
+    let details = 3 * lineHeight + 2 * padding + 1
+    return (2 * padding + titleHeight + 6 + minimumVisibleLines * lineHeight + details).rounded(.up)
+  }
 
   var snippet: Snippet
   var folderTitle: String
