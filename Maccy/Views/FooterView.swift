@@ -40,6 +40,8 @@ struct FooterView: View {
           .foregroundStyle(.secondary)
           .frame(maxWidth: .infinity, alignment: .leading)
           .padding(.horizontal, 10)
+          // Nothing is above the title when only snippets are shown.
+          .padding(.top, snippetsOnly ? Popup.verticalPadding + Popup.verticalSeparatorPadding : 0)
           .padding(.bottom, 2)
           .accessibilityAddTraits(.isHeader)
 
