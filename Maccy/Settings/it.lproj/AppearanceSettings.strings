@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Imposta 16 per rendere le immagini alte come gli elementi di testo.";
 "OpenPreviewHint" = "La scorciatoia di anteprima nelle impostazioni generali la apre e la chiude in ogni caso.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Mostra tenendo premuto:";
+"RevealPasswordsKeyTooltip" = "Le password nascoste vengono mostrate nel popup finché questo tasto è premuto.";

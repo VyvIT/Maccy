@@ -65,3 +65,5 @@
 "ImageHeightHint" = "16 にすると画像がテキスト項目と同じ高さになります。";
 "OpenPreviewHint" = "一般設定のプレビューのショートカットは、どちらの場合も開閉できます。";
 "Milliseconds" = "ミリ秒";
+"RevealPasswordsKey" = "押している間に表示:";
+"RevealPasswordsKeyTooltip" = "このキーを押している間、ポップアップで隠されたパスワードが表示されます。";

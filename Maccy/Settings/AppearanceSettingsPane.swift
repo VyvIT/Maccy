@@ -22,6 +22,7 @@ struct AppearanceSettingsPane: View {
   @Default(.windowPosition) private var windowPosition
   @Default(.showApplicationIcons) private var showApplicationIcons
   @Default(.maskPasswords) private var maskPasswords
+  @Default(.passwordRevealKey) private var passwordRevealKey
 
   @State private var screens = NSScreen.screens
   @State private var tab: AppearanceTab = .popup
@@ -264,6 +265,16 @@ struct AppearanceSettingsPane: View {
         .disabled(!maskPasswords)
         .padding(.leading, 20)
         hint("MaskPasswordsShowLengthTooltip", level: 2)
+        HStack {
+          Text("RevealPasswordsKey", tableName: "AppearanceSettings")
+          ModifierKeyRecorder(key: $passwordRevealKey)
+            .fixedSize()
+            .accessibilityLabel(Text("RevealPasswordsKey", tableName: "AppearanceSettings"))
+        }
+        .help(Text("RevealPasswordsKeyTooltip", tableName: "AppearanceSettings"))
+        .disabled(!maskPasswords)
+        .padding(.leading, 20)
+        hint("RevealPasswordsKeyTooltip", level: 2)
       }
     }
   }

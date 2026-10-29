@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Nastavte 16, aby obrázky byly vysoké jako textové položky.";
 "OpenPreviewHint" = "Zkratka náhledu v obecném nastavení ho otevře i zavře v obou případech.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Zobrazit při podržení:";
+"RevealPasswordsKeyTooltip" = "Skrytá hesla se v okně zobrazí, dokud je tato klávesa podržena.";

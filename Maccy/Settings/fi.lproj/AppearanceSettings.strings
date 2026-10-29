@@ -63,3 +63,5 @@
 "OpenPreviewHint" = "Esikatselun pikanäppäin yleisissä asetuksissa avaa ja sulkee sen kummassakin tapauksessa.";
 "Milliseconds" = "ms";
 "ShowHexColorSwatchHint" = "Napsauta värimallia säätääksesi väriä värivalitsimessa. ”Kopioi” lisää tuloksen uutena kohteena.";
+"RevealPasswordsKey" = "Näytä pidettäessä:";
+"RevealPasswordsKeyTooltip" = "Piilotetut salasanat näkyvät ponnahdusikkunassa, kun tätä näppäintä pidetään painettuna.";

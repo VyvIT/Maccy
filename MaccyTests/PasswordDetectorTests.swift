@@ -1,3 +1,4 @@
+import AppKit
 import Testing
 @testable import Maccy
 
@@ -45,5 +46,14 @@ struct PasswordDetectorTests {
   func masksWithRealLength() {
     #expect(PasswordDetector.masked("Tr0ub4dor&3", showLength: true) == "T•••••••••3")
     #expect(PasswordDetector.masked("hunter2!x", showLength: true) == "h•••••••x")
+  }
+
+  @Test("Reveal key is held while its modifier is down")
+  @MainActor
+  func revealKeyIsHeld() {
+    #expect(PasswordRevealKey.function.isHeld(in: [.function]))
+    #expect(PasswordRevealKey.function.isHeld(in: [.function, .shift]))
+    #expect(!PasswordRevealKey.function.isHeld(in: [.option]))
+    #expect(!PasswordRevealKey.none.isHeld(in: [.function, .option, .command]))
   }
 }

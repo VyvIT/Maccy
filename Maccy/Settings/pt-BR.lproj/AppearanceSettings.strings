@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Use 16 para as imagens terem a altura dos itens de texto.";
 "OpenPreviewHint" = "O atalho de pré-visualização nos ajustes gerais abre e fecha em qualquer caso.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Mostrar ao segurar:";
+"RevealPasswordsKeyTooltip" = "Senhas ocultas são mostradas no popup enquanto esta tecla estiver pressionada.";

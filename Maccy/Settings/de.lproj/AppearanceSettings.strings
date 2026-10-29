@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Auf 16 setzen, damit Bilder so hoch wie Texteinträge sind.";
 "OpenPreviewHint" = "Das Vorschau-Tastenkürzel in den allgemeinen Einstellungen öffnet und schließt sie in jedem Fall.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Beim Halten anzeigen:";
+"RevealPasswordsKeyTooltip" = "Ausgeblendete Passwörter werden im Popup angezeigt, solange diese Taste gehalten wird.";

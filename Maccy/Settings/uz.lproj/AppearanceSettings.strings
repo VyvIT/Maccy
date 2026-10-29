@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Rasmlar matn elementlari balandligida bo‘lishi uchun 16 qo‘ying.";
 "OpenPreviewHint" = "Umumiy sozlamalardagi oldindan ko‘rish tugmasi uni ikkala holatda ham ochadi va yopadi.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Bosib turganda ko‘rsatish:";
+"RevealPasswordsKeyTooltip" = "Ushbu tugma bosib turilganda yashirin parollar qalqib chiquvchi oynada ko‘rsatiladi.";

@@ -65,3 +65,5 @@
 "ImageHeightHint" = "设为 16 可让图片与文本项目同高。";
 "OpenPreviewHint" = "“通用”设置中的预览快捷键在两种情况下都能打开和关闭预览。";
 "Milliseconds" = "毫秒";
+"RevealPasswordsKey" = "按住时显示：";
+"RevealPasswordsKeyTooltip" = "按住此键时，弹出窗口中会显示隐藏的密码。";

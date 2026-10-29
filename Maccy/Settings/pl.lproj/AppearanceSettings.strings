@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Ustaw 16, aby obrazy miały wysokość elementów tekstowych.";
 "OpenPreviewHint" = "Skrót podglądu w ustawieniach ogólnych otwiera i zamyka go w obu przypadkach.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Pokaż przy przytrzymaniu:";
+"RevealPasswordsKeyTooltip" = "Ukryte hasła są widoczne w oknie, dopóki ten klawisz jest przytrzymany.";

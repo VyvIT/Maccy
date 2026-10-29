@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Postavite na 16 da slike budu visoke kao tekstne stavke.";
 "OpenPreviewHint" = "Prečac za pregled u općim postavkama otvara ga i zatvara u oba slučaja.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Prikaži dok se drži:";
+"RevealPasswordsKeyTooltip" = "Skrivene lozinke prikazuju se u skočnom prozoru dok se drži ova tipka.";

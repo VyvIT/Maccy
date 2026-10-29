@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Sett til 16 for å gjøre bilder like høye som tekstelementer.";
 "OpenPreviewHint" = "Hurtigtasten for forhåndsvisning i Generelt åpner og lukker den uansett.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Vis mens du holder:";
+"RevealPasswordsKeyTooltip" = "Skjulte passord vises i vinduet mens denne tasten holdes inne.";

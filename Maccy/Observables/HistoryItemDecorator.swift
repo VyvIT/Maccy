@@ -20,11 +20,11 @@ class HistoryItemDecorator: Identifiable, Hashable, HasVisibility {
   var title: String = ""
   var attributedTitle: AttributedString?
 
-  // Passwords are hidden unless revealed with the eye button.
+  // Passwords are hidden unless revealed with the eye button or the reveal key.
   private(set) var isPassword = false
   var isRevealed = false
   var isMasked: Bool {
-    isPassword && !isRevealed && Defaults[.maskPasswords]
+    isPassword && !isRevealed && !AppState.shared.isPasswordRevealKeyHeld && Defaults[.maskPasswords]
   }
   // Title safe to show outside the list, e.g. in the menu bar or notifications.
   var safeTitle: String {

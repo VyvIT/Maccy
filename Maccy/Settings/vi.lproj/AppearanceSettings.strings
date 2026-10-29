@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Đặt 16 để hình ảnh cao bằng mục văn bản.";
 "OpenPreviewHint" = "Phím tắt xem trước trong cài đặt Chung mở và đóng nó trong cả hai trường hợp.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Hiện khi giữ:";
+"RevealPasswordsKeyTooltip" = "Mật khẩu bị ẩn sẽ hiện trong cửa sổ bật lên khi giữ phím này.";

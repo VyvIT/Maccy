@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Zet op 16 om afbeeldingen even hoog te maken als tekstitems.";
 "OpenPreviewHint" = "De voorvertoningstoets in de algemene instellingen opent en sluit hem in beide gevallen.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Tonen tijdens vasthouden:";
+"RevealPasswordsKeyTooltip" = "Verborgen wachtwoorden worden in de pop-up getoond zolang deze toets wordt ingedrukt.";

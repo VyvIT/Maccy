@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Ställ in 16 så blir bilder lika höga som textobjekt.";
 "OpenPreviewHint" = "Kortkommandot för förhandsvisning i Allmänt öppnar och stänger den i båda fallen.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Visa medan du håller:";
+"RevealPasswordsKeyTooltip" = "Dolda lösenord visas i popupfönstret medan den här tangenten hålls ned.";

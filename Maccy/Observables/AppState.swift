@@ -18,6 +18,10 @@ class AppState: Sendable {
   var preview: SlideoutController
 
   var isEditingItem: Bool = false
+  // Hidden passwords show while the reveal key is held in the popup.
+  var isPasswordRevealKeyHeld = false
+  @ObservationIgnored private var passwordRevealMonitor: Any?
+  @ObservationIgnored private var passwordRevealReleaseTimer: Timer?
   var suppressPopupAutoClose: Bool {
     return navigator.isDragAndDropInProgress || isEditingItem
   }
@@ -54,6 +58,49 @@ class AppState: Sendable {
       })
     preview.contentWidth = Defaults[.windowSize].width
     preview.slideoutWidth = Defaults[.previewWidth]
+    passwordRevealMonitor = NSEvent.addLocalMonitorForEvents(matching: .flagsChanged) { [weak self] event in
+      self?.updatePasswordReveal(AppState.currentModifierFlags)
+      return event
+    }
+  }
+
+  // Keys physically held down. The session state can keep fn held when the system
+  // takes its release, e.g. after holding fn long enough for dictation or the emoji picker.
+  private static var currentModifierFlags: NSEvent.ModifierFlags {
+    NSEvent.ModifierFlags(rawValue: UInt(CGEventSource.flagsState(.hidSystemState).rawValue))
+  }
+
+  func updatePasswordReveal(_ modifierFlags: NSEvent.ModifierFlags) {
+    let isHeld = Defaults[.passwordRevealKey].isHeld(in: modifierFlags)
+    if isHeld != isPasswordRevealKeyHeld {
+      isPasswordRevealKeyHeld = isHeld
+    }
+    watchPasswordRevealKeyRelease()
+  }
+
+  func endPasswordReveal() {
+    passwordRevealReleaseTimer?.invalidate()
+    passwordRevealReleaseTimer = nil
+    isPasswordRevealKeyHeld = false
+  }
+
+  // Releasing fn doesn't always send an event, so the key is checked while it's held.
+  private func watchPasswordRevealKeyRelease() {
+    guard isPasswordRevealKeyHeld else {
+      passwordRevealReleaseTimer?.invalidate()
+      passwordRevealReleaseTimer = nil
+      return
+    }
+    guard passwordRevealReleaseTimer == nil else { return }
+
+    passwordRevealReleaseTimer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { [weak self] _ in
+      MainActor.assumeIsolated {
+        guard let self else { return }
+        if !Defaults[.passwordRevealKey].isHeld(in: Self.currentModifierFlags) {
+          self.endPasswordReveal()
+        }
+      }
+    }
   }
 
   @MainActor

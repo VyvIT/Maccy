@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Iestatiet 16, lai attēli būtu tikpat augsti kā teksta vienumi.";
 "OpenPreviewHint" = "Priekšskatījuma īsinājumtaustiņš vispārīgajos iestatījumos to atver un aizver abos gadījumos.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Rādīt, turot:";
+"RevealPasswordsKeyTooltip" = "Slēptās paroles tiek rādītas uznirstošajā logā, kamēr šis taustiņš tiek turēts.";

@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Nastavite na 16, da so slike visoke kot besedilni elementi.";
 "OpenPreviewHint" = "Bližnjica za predogled v splošnih nastavitvah ga v obeh primerih odpre in zapre.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Prikaži med držanjem:";
+"RevealPasswordsKeyTooltip" = "Skrita gesla so prikazana v pojavnem oknu, dokler je ta tipka pritisnjena.";

@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Atur ke 16 agar gambar setinggi item teks.";
 "OpenPreviewHint" = "Pintasan pratinjau di pengaturan Umum membuka dan menutupnya dalam kedua kasus.";
 "Milliseconds" = "md";
+"RevealPasswordsKey" = "Tampilkan saat menahan:";
+"RevealPasswordsKeyTooltip" = "Kata sandi tersembunyi ditampilkan di popup selama tombol ini ditahan.";

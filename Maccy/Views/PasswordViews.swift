@@ -24,6 +24,7 @@ struct MaskedPasswordView: View {
 struct PasswordRevealButton: View {
   @Binding var isRevealed: Bool
 
+  @State private var appState = AppState.shared
   @State private var isHovered = false
   @State private var isPinnedOpen = false
 
@@ -32,7 +33,7 @@ struct PasswordRevealButton: View {
       isPinnedOpen.toggle()
       isRevealed = isPinnedOpen || isHovered
     } label: {
-      Image(systemName: isRevealed ? "eye" : "eye.slash")
+      Image(systemName: isRevealed || appState.isPasswordRevealKeyHeld ? "eye" : "eye.slash")
         .frame(width: 16, height: 16)
         .contentShape(Rectangle())
     }

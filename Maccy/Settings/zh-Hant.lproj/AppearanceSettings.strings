@@ -65,3 +65,5 @@
 "ImageHeightHint" = "設為 16 可讓圖片與文字項目同高。";
 "OpenPreviewHint" = "「一般」設定中的預覽快速鍵在兩種情況下都能開啟和關閉預覽。";
 "Milliseconds" = "毫秒";
+"RevealPasswordsKey" = "按住時顯示：";
+"RevealPasswordsKeyTooltip" = "按住此鍵時，彈出視窗中會顯示隱藏的密碼。";

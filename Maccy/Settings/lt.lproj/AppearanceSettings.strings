@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Nustatykite 16, kad paveikslėliai būtų tokio pat aukščio kaip tekstiniai įrašai.";
 "OpenPreviewHint" = "Bendruosiuose nustatymuose esantis peržiūros spartusis klavišas ją atidaro ir uždaro bet kuriuo atveju.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Rodyti laikant:";
+"RevealPasswordsKeyTooltip" = "Paslėpti slaptažodžiai rodomi iššokančiame lange, kol laikomas šis klavišas.";

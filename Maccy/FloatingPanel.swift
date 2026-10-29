@@ -230,6 +230,8 @@ class FloatingPanel<Content: View>: NSPanel, NSWindowDelegate {
     SnippetsSubmenu.shared.close()
     appState.preview.state = .closed
     appState.isEditingItem = false
+    // The key may be released while the popup is closed.
+    appState.endPasswordReveal()
     appState.navigator.isDragAndDropInProgress = false
     appState.navigator.isManualMultiSelect = false
     isPresented = false

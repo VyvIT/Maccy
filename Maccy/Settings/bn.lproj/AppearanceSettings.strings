@@ -65,3 +65,5 @@
 "ImageHeightHint" = "ছবিকে টেক্সট আইটেমের সমান উঁচু করতে 16 দিন।";
 "OpenPreviewHint" = "সাধারণ সেটিংসের প্রিভিউ শর্টকাট দুই ক্ষেত্রেই এটি খোলে ও বন্ধ করে।";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "ধরে রাখলে দেখান:";
+"RevealPasswordsKeyTooltip" = "এই কী ধরে রাখলে পপআপে লুকানো পাসওয়ার্ড দেখা যায়।";

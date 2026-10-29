@@ -55,7 +55,7 @@ struct PreviewItemView: View {
         }
       } else if item.isPassword && Defaults[.maskPasswords] {
         HStack(alignment: .firstTextBaseline) {
-          if item.isRevealed {
+          if !item.isMasked {
             Text(item.previewText.string)
               .font(.body)
               .textSelection(.enabled)

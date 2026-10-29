@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Görsellerin metin öğeleri kadar yüksek olması için 16 yapın.";
 "OpenPreviewHint" = "Genel ayarlardaki önizleme kısayolu her iki durumda da açar ve kapatır.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Basılı tutunca göster:";
+"RevealPasswordsKeyTooltip" = "Bu tuş basılı tutulduğu sürece gizli parolalar açılır pencerede gösterilir.";

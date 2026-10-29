@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Set to 16 to make images as tall as text items.";
 "OpenPreviewHint" = "The Show preview shortcut in General settings opens and closes it either way.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Reveal while holding:";
+"RevealPasswordsKeyTooltip" = "Hidden passwords show in the popup while this key is held.";

@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Agordu 16, por ke bildoj estu same altaj kiel tekstaj eroj.";
 "OpenPreviewHint" = "La antaŭrigarda klavkombino en la ĝeneralaj agordoj malfermas kaj fermas ĝin ĉiuokaze.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Montri dum tenado de:";
+"RevealPasswordsKeyTooltip" = "Kaŝitaj pasvortoj montriĝas en la ŝprucfenestro dum ĉi tiu klavo estas tenata.";

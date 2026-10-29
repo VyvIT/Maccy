@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Setează 16 ca imaginile să fie la fel de înalte ca elementele text.";
 "OpenPreviewHint" = "Scurtătura de previzualizare din setările generale o deschide și o închide în ambele cazuri.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Afișează la apăsarea:";
+"RevealPasswordsKeyTooltip" = "Parolele ascunse se afișează în fereastră cât timp această tastă este ținută apăsată.";

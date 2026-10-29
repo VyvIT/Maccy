@@ -65,3 +65,5 @@
 "ImageHeightHint" = "16으로 설정하면 이미지가 텍스트 항목과 같은 높이가 됩니다.";
 "OpenPreviewHint" = "일반 설정의 미리보기 단축키는 어느 경우든 열고 닫습니다.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "누르고 있는 동안 표시:";
+"RevealPasswordsKeyTooltip" = "이 키를 누르고 있는 동안 팝업에서 가려진 암호가 표시됩니다.";

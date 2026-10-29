@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Állítsd 16-ra, hogy a képek olyan magasak legyenek, mint a szöveges elemek.";
 "OpenPreviewHint" = "Az általános beállítások előnézeti billentyűparancsa mindkét esetben nyitja és zárja.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Megjelenítés nyomva tartáskor:";
+"RevealPasswordsKeyTooltip" = "A rejtett jelszavak megjelennek a felugró ablakban, amíg ez a billentyű nyomva van.";

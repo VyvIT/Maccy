@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Réglez sur 16 pour que les images aient la hauteur des éléments texte.";
 "OpenPreviewHint" = "Le raccourci d’aperçu des réglages généraux l’ouvre et le ferme dans tous les cas.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Afficher en maintenant :";
+"RevealPasswordsKeyTooltip" = "Les mots de passe masqués s’affichent dans la fenêtre tant que cette touche est maintenue.";

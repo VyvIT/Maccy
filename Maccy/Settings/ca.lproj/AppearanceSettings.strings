@@ -65,3 +65,5 @@
 "ImageHeightHint" = "Posa 16 perquè les imatges tinguin l’alçada dels elements de text.";
 "OpenPreviewHint" = "La drecera de previsualització dels ajustos generals l’obre i la tanca en tots dos casos.";
 "Milliseconds" = "ms";
+"RevealPasswordsKey" = "Mostra mentre es manté:";
+"RevealPasswordsKeyTooltip" = "Les contrasenyes ocultes es mostren a la finestra emergent mentre es manté premuda aquesta tecla.";
