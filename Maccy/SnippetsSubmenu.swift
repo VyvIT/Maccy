@@ -294,7 +294,7 @@ class SnippetsSubmenu {
 }
 
 // Floats above the popup without taking the keyboard from it.
-private class SnippetsSubmenuPanel: NSPanel {
+private class SnippetsSubmenuPanel: WindowManagerProofPanel {
   override var canBecomeKey: Bool { false }
   override var canBecomeMain: Bool { false }
 
